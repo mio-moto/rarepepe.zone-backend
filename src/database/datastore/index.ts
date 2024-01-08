@@ -22,6 +22,7 @@ export const buildDataStore = async (config: Config) => {
 
     return {
         phrasing: phraseStore,
-        potdStore: potdStore
+        potdStore: potdStore,
+        database: db
     }
 }

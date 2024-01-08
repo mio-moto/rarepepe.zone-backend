@@ -35,7 +35,8 @@
       "#contracts/*": ["./src/contracts/*"],
       "#database/*": ["./src/database/*"],
       "#/*": ["./src/*"],
-      "#utils/*": ["./src/utils/*"]
+      "#utils/*": ["./src/utils/*"],
+      "#logging/*": ["./src/logging/*"]
     },                                      
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */

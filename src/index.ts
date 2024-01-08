@@ -1,6 +1,7 @@
 import { Elysia, t } from "elysia";
 import { swagger } from '@elysiajs/swagger'
 import directory from "#api/directory";
+import discordWebhooks from "#api/webhooks/discord";
 import { readConfig } from "#/config";
 import randomizer from "#api/randomizer";
 import hasher from "#api/hasher";
@@ -10,6 +11,18 @@ import { buildDataStore } from "#database/datastore";
 import { buildHasher } from "./features/hasher";
 import potd from "#api/potd";
 import { buildUrlRenderer } from "#features/url-renderer";
+import { loggerFactory } from "#logging/index";
+import axios from "axios";
+
+
+/*
+ * Quirks
+ * 06. Jan 2024
+ * Accept-Encoding: gzip
+ * see: https://github.com/oven-sh/bun/issues/267
+ * currently bun does not support brotli encoding
+ */
+axios.defaults.headers.common["Accept-Encoding"] = "gzip";
 
 
 export type Environment = Awaited<ReturnType<typeof buildEnvironment>>;
@@ -20,13 +33,16 @@ const buildEnvironment = async () => {
   const lister = await buildLister(config);
   const randomizer = buildRandomizer(lister);
   const hasher = buildHasher(lister);
+  const logger = loggerFactory("SYS");
+
   
   return {
     config,
     dataStore,
     lister,
     randomizer,
-    hasher
+    hasher,
+    logger
   };
 }
 
@@ -62,6 +78,8 @@ const buildEnvironment = async () => {
     .use(await randomizer({ prefix: "/random" }, environment))
     .use(await hasher({ prefix: "/hash" }, environment))
     .use(await potd({ prefix: "/potd" }, environment))
+    .use(await discordWebhooks({ prefix: "/webhooks/discord"}, environment))
+
     
     .get("/", ({ headers }) => {
       headers["Content-Type"] = "application/json"
@@ -84,7 +102,8 @@ const buildEnvironment = async () => {
   app.listen(3000);
 
   const time = new Date(Date.now());
-  console.log(
+
+  environment.logger.info(
     `[${time.getUTCHours().toString().padStart(2, "0")}:${time.getUTCMinutes().toString().padStart(2, "0")}] 🐸 rarepepe.zone is running at ${app.server?.hostname}:${app.server?.port}`
   );
 })()
