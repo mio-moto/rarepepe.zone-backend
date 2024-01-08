@@ -11,10 +11,7 @@ export const shuffle = <T>(array: Array<T>) => {
     currentIndex--;
 
     // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
-    ];
+    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
   }
 
   return array;
@@ -29,13 +26,11 @@ const shuffleGetter = <T>(entries: T[]) => {
     }
     const result = stack.pop();
     if (!result) {
-      throw new Error('Exhausted stack, nothing returned, is the source collection empty?');
+      throw new Error("Exhausted stack, nothing returned, is the source collection empty?");
     }
     return result;
   };
 };
-
-
 
 export const buildRandomizer = (lister: Lister) => {
   return {

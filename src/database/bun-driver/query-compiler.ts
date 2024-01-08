@@ -2,18 +2,18 @@ import { DefaultQueryCompiler } from "kysely";
 
 export class BunSqliteQueryCompiler extends DefaultQueryCompiler {
   protected override getCurrentParameterPlaceholder() {
-    return '?'
+    return "?";
   }
 
   protected override getLeftIdentifierWrapper(): string {
-    return '"'
+    return '"';
   }
 
   protected override getRightIdentifierWrapper(): string {
-    return '"'
+    return '"';
   }
 
   protected override getAutoIncrement() {
-    return 'autoincrement'
+    return "autoincrement";
   }
 }

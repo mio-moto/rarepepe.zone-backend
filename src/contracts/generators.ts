@@ -1,22 +1,20 @@
-
-
 interface Result {
-    type: string
-    filename: string,
-    path: string,
-    url: string
+  type: string;
+  filename: string;
+  path: string;
+  url: string;
 }
 
 export interface SimpleResult extends Result {
-    type: "simple"
+  type: "simple";
 }
 
 export interface RareResult extends Result {
-    type: "rare"
+  type: "rare";
 }
 
 export interface UltraResult extends Result {
-    type: "ultra"
+  type: "ultra";
 }
 
-export type PepeResult = SimpleResult | RareResult | UltraResult
+export type PepeResult = SimpleResult | RareResult | UltraResult;
