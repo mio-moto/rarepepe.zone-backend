@@ -28,82 +28,82 @@ import { WidgetUserDiscriminator } from "./widget-user-discriminator";
  * @interface WidgetMember
  */
 export interface WidgetMember {
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  username: any;
-  /**
-   *
-   * @type {WidgetUserDiscriminator}
-   * @memberof WidgetMember
-   */
-  discriminator: WidgetUserDiscriminator;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  avatar?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  status: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  avatar_url: any;
-  /**
-   *
-   * @type {WidgetMemberActivity}
-   * @memberof WidgetMember
-   */
-  activity?: WidgetMemberActivity;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  deaf?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  mute?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  self_deaf?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  self_mute?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetMember
-   */
-  suppress?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof WidgetMember
-   */
-  channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    username: any;
+    /**
+     *
+     * @type {WidgetUserDiscriminator}
+     * @memberof WidgetMember
+     */
+    discriminator: WidgetUserDiscriminator;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    avatar?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    status: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    avatar_url: any;
+    /**
+     *
+     * @type {WidgetMemberActivity}
+     * @memberof WidgetMember
+     */
+    activity?: WidgetMemberActivity;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    deaf?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    mute?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    self_deaf?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    self_mute?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetMember
+     */
+    suppress?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof WidgetMember
+     */
+    channel_id?: BasicMessageResponseApplicationId;
 }

@@ -25,70 +25,70 @@ import { AutomodTriggerType } from "./automod-trigger-type";
  * @interface MLSpamRuleResponse
  */
 export interface MLSpamRuleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  creator_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof MLSpamRuleResponse
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  actions: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof MLSpamRuleResponse
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamRuleResponse
-   */
-  trigger_metadata: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    creator_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof MLSpamRuleResponse
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    actions: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof MLSpamRuleResponse
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamRuleResponse
+     */
+    trigger_metadata: any;
 }

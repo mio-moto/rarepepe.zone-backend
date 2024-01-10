@@ -18,16 +18,16 @@
  * @interface GuildProductPurchaseResponse
  */
 export interface GuildProductPurchaseResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildProductPurchaseResponse
-   */
-  listing_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildProductPurchaseResponse
-   */
-  product_name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildProductPurchaseResponse
+     */
+    listing_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildProductPurchaseResponse
+     */
+    product_name: any;
 }

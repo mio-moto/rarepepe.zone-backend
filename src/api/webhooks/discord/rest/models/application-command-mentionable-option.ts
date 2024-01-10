@@ -22,40 +22,40 @@ import { ApplicationCommandOptionType } from "./application-command-option-type"
  * @interface ApplicationCommandMentionableOption
  */
 export interface ApplicationCommandMentionableOption {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandMentionableOption
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandMentionableOption
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandMentionableOption
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandMentionableOption
-   */
-  description: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandMentionableOption
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandMentionableOption
-   */
-  required?: boolean | null;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandMentionableOption
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandMentionableOption
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandMentionableOption
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandMentionableOption
+     */
+    description: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandMentionableOption
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandMentionableOption
+     */
+    required?: boolean | null;
 }

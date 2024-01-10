@@ -25,16 +25,16 @@ import { UserCommunicationDisabledActionMetadata } from "./user-communication-di
  * @interface UserCommunicationDisabledAction
  */
 export interface UserCommunicationDisabledAction {
-  /**
-   *
-   * @type {AutomodActionType}
-   * @memberof UserCommunicationDisabledAction
-   */
-  type: AutomodActionType;
-  /**
-   *
-   * @type {UserCommunicationDisabledActionMetadata}
-   * @memberof UserCommunicationDisabledAction
-   */
-  metadata: UserCommunicationDisabledActionMetadata;
+    /**
+     *
+     * @type {AutomodActionType}
+     * @memberof UserCommunicationDisabledAction
+     */
+    type: AutomodActionType;
+    /**
+     *
+     * @type {UserCommunicationDisabledActionMetadata}
+     * @memberof UserCommunicationDisabledAction
+     */
+    metadata: UserCommunicationDisabledActionMetadata;
 }

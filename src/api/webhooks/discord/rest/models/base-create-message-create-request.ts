@@ -22,46 +22,46 @@ import { BaseCreateMessageCreateRequestAllowedMentions } from "./base-create-mes
  * @interface BaseCreateMessageCreateRequest
  */
 export interface BaseCreateMessageCreateRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  sticker_ids?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BaseCreateMessageCreateRequest
-   */
-  attachments?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    sticker_ids?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BaseCreateMessageCreateRequest
+     */
+    attachments?: any;
 }

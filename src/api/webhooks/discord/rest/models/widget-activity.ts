@@ -18,10 +18,10 @@
  * @interface WidgetActivity
  */
 export interface WidgetActivity {
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetActivity
-   */
-  name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetActivity
+     */
+    name: any;
 }

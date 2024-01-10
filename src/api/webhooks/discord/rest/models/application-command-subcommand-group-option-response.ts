@@ -25,58 +25,58 @@ import { ApplicationCommandSubcommandOptionResponse } from "./application-comman
  * @interface ApplicationCommandSubcommandGroupOptionResponse
  */
 export interface ApplicationCommandSubcommandGroupOptionResponse {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  description_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  required?: boolean | null;
-  /**
-   *
-   * @type {Array<ApplicationCommandSubcommandOptionResponse>}
-   * @memberof ApplicationCommandSubcommandGroupOptionResponse
-   */
-  options?: Array<ApplicationCommandSubcommandOptionResponse>;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    description_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    required?: boolean | null;
+    /**
+     *
+     * @type {Array<ApplicationCommandSubcommandOptionResponse>}
+     * @memberof ApplicationCommandSubcommandGroupOptionResponse
+     */
+    options?: Array<ApplicationCommandSubcommandOptionResponse>;
 }

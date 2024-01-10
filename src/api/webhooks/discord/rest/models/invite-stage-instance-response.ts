@@ -18,28 +18,28 @@
  * @interface InviteStageInstanceResponse
  */
 export interface InviteStageInstanceResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof InviteStageInstanceResponse
-   */
-  topic: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteStageInstanceResponse
-   */
-  participant_count?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteStageInstanceResponse
-   */
-  speaker_count?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteStageInstanceResponse
-   */
-  members?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteStageInstanceResponse
+     */
+    topic: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteStageInstanceResponse
+     */
+    participant_count?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteStageInstanceResponse
+     */
+    speaker_count?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteStageInstanceResponse
+     */
+    members?: any;
 }

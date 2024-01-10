@@ -22,10 +22,10 @@ import { GuildMFALevel } from "./guild-mfalevel";
  * @interface SetGuildMfaLevelRequest
  */
 export interface SetGuildMfaLevelRequest {
-  /**
-   *
-   * @type {GuildMFALevel}
-   * @memberof SetGuildMfaLevelRequest
-   */
-  level: GuildMFALevel;
+    /**
+     *
+     * @type {GuildMFALevel}
+     * @memberof SetGuildMfaLevelRequest
+     */
+    level: GuildMFALevel;
 }

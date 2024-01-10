@@ -25,46 +25,46 @@ import { AuditLogObjectChangeResponse } from "./audit-log-object-change-response
  * @interface AuditLogEntryResponse
  */
 export interface AuditLogEntryResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof AuditLogEntryResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {AuditLogActionTypes}
-   * @memberof AuditLogEntryResponse
-   */
-  action_type: AuditLogActionTypes | null;
-  /**
-   *
-   * @type {any}
-   * @memberof AuditLogEntryResponse
-   */
-  user_id?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof AuditLogEntryResponse
-   */
-  target_id?: any;
-  /**
-   *
-   * @type {Array<AuditLogObjectChangeResponse>}
-   * @memberof AuditLogEntryResponse
-   */
-  changes?: Array<AuditLogObjectChangeResponse>;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof AuditLogEntryResponse
-   */
-  options?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof AuditLogEntryResponse
-   */
-  reason?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof AuditLogEntryResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {AuditLogActionTypes}
+     * @memberof AuditLogEntryResponse
+     */
+    action_type: AuditLogActionTypes | null;
+    /**
+     *
+     * @type {any}
+     * @memberof AuditLogEntryResponse
+     */
+    user_id?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof AuditLogEntryResponse
+     */
+    target_id?: any;
+    /**
+     *
+     * @type {Array<AuditLogObjectChangeResponse>}
+     * @memberof AuditLogEntryResponse
+     */
+    changes?: Array<AuditLogObjectChangeResponse>;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof AuditLogEntryResponse
+     */
+    options?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof AuditLogEntryResponse
+     */
+    reason?: string | null;
 }

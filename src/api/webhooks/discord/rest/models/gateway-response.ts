@@ -18,10 +18,10 @@
  * @interface GatewayResponse
  */
 export interface GatewayResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayResponse
-   */
-  url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayResponse
+     */
+    url: any;
 }

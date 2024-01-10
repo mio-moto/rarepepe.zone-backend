@@ -22,16 +22,16 @@ import { StageInstancesPrivacyLevels } from "./stage-instances-privacy-levels";
  * @interface UpdateStageInstanceRequest
  */
 export interface UpdateStageInstanceRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateStageInstanceRequest
-   */
-  topic?: string;
-  /**
-   *
-   * @type {StageInstancesPrivacyLevels}
-   * @memberof UpdateStageInstanceRequest
-   */
-  privacy_level?: StageInstancesPrivacyLevels;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateStageInstanceRequest
+     */
+    topic?: string;
+    /**
+     *
+     * @type {StageInstancesPrivacyLevels}
+     * @memberof UpdateStageInstanceRequest
+     */
+    privacy_level?: StageInstancesPrivacyLevels;
 }

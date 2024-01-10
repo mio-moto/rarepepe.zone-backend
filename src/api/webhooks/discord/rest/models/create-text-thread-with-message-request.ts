@@ -22,22 +22,22 @@ import { CreateForumThreadRequestAutoArchiveDuration } from "./create-forum-thre
  * @interface CreateTextThreadWithMessageRequest
  */
 export interface CreateTextThreadWithMessageRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateTextThreadWithMessageRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof CreateTextThreadWithMessageRequest
-   */
-  auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateTextThreadWithMessageRequest
-   */
-  rate_limit_per_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateTextThreadWithMessageRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof CreateTextThreadWithMessageRequest
+     */
+    auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateTextThreadWithMessageRequest
+     */
+    rate_limit_per_user?: any;
 }

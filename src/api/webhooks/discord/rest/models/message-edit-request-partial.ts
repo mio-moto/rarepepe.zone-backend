@@ -22,46 +22,46 @@ import { BaseCreateMessageCreateRequestAllowedMentions } from "./base-create-mes
  * @interface MessageEditRequestPartial
  */
 export interface MessageEditRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEditRequestPartial
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEditRequestPartial
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEditRequestPartial
-   */
-  flags?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof MessageEditRequestPartial
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEditRequestPartial
-   */
-  sticker_ids?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEditRequestPartial
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEditRequestPartial
-   */
-  attachments?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEditRequestPartial
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEditRequestPartial
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEditRequestPartial
+     */
+    flags?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof MessageEditRequestPartial
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEditRequestPartial
+     */
+    sticker_ids?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEditRequestPartial
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEditRequestPartial
+     */
+    attachments?: any;
 }

@@ -25,34 +25,34 @@ import { IntegrationTypes } from "./integration-types";
  * @interface GuildSubscriptionIntegrationResponse
  */
 export interface GuildSubscriptionIntegrationResponse {
-  /**
-   *
-   * @type {IntegrationTypes}
-   * @memberof GuildSubscriptionIntegrationResponse
-   */
-  type: IntegrationTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildSubscriptionIntegrationResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {DiscordIntegrationResponseAccount}
-   * @memberof GuildSubscriptionIntegrationResponse
-   */
-  account?: DiscordIntegrationResponseAccount;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildSubscriptionIntegrationResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildSubscriptionIntegrationResponse
-   */
-  id: any;
+    /**
+     *
+     * @type {IntegrationTypes}
+     * @memberof GuildSubscriptionIntegrationResponse
+     */
+    type: IntegrationTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildSubscriptionIntegrationResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {DiscordIntegrationResponseAccount}
+     * @memberof GuildSubscriptionIntegrationResponse
+     */
+    account?: DiscordIntegrationResponseAccount;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildSubscriptionIntegrationResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildSubscriptionIntegrationResponse
+     */
+    id: any;
 }

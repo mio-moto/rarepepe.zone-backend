@@ -25,64 +25,64 @@ import { ConnectedAccountVisibility } from "./connected-account-visibility";
  * @interface ConnectedAccountResponse
  */
 export interface ConnectedAccountResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {ConnectedAccountProviders}
-   * @memberof ConnectedAccountResponse
-   */
-  type: ConnectedAccountProviders;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  friend_sync: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  integrations?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  show_activity: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  two_way_link: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  verified: any;
-  /**
-   *
-   * @type {ConnectedAccountVisibility}
-   * @memberof ConnectedAccountResponse
-   */
-  visibility: ConnectedAccountVisibility;
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountResponse
-   */
-  revoked?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {ConnectedAccountProviders}
+     * @memberof ConnectedAccountResponse
+     */
+    type: ConnectedAccountProviders;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    friend_sync: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    integrations?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    show_activity: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    two_way_link: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    verified: any;
+    /**
+     *
+     * @type {ConnectedAccountVisibility}
+     * @memberof ConnectedAccountResponse
+     */
+    visibility: ConnectedAccountVisibility;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountResponse
+     */
+    revoked?: any;
 }

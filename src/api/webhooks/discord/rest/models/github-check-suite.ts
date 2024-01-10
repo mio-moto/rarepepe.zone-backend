@@ -22,34 +22,34 @@ import { GithubCheckApp } from "./github-check-app";
  * @interface GithubCheckSuite
  */
 export interface GithubCheckSuite {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckSuite
-   */
-  conclusion?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckSuite
-   */
-  head_branch?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckSuite
-   */
-  head_sha: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckSuite
-   */
-  pull_requests?: any;
-  /**
-   *
-   * @type {GithubCheckApp}
-   * @memberof GithubCheckSuite
-   */
-  app: GithubCheckApp;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckSuite
+     */
+    conclusion?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckSuite
+     */
+    head_branch?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckSuite
+     */
+    head_sha: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckSuite
+     */
+    pull_requests?: any;
+    /**
+     *
+     * @type {GithubCheckApp}
+     * @memberof GithubCheckSuite
+     */
+    app: GithubCheckApp;
 }

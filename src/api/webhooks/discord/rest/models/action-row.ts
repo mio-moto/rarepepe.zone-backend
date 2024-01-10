@@ -25,16 +25,16 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface ActionRow
  */
 export interface ActionRow {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof ActionRow
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {Array<ActionRowComponentsInner>}
-   * @memberof ActionRow
-   */
-  components: Array<ActionRowComponentsInner>;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof ActionRow
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {Array<ActionRowComponentsInner>}
+     * @memberof ActionRow
+     */
+    components: Array<ActionRowComponentsInner>;
 }

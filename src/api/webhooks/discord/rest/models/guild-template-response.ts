@@ -25,70 +25,70 @@ import { GuildTemplateSnapshotResponse } from "./guild-template-snapshot-respons
  * @interface GuildTemplateResponse
  */
 export interface GuildTemplateResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  code: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  usage_count: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  creator_id: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof GuildTemplateResponse
-   */
-  creator?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  created_at: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  updated_at: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  source_guild_id: any;
-  /**
-   *
-   * @type {GuildTemplateSnapshotResponse}
-   * @memberof GuildTemplateResponse
-   */
-  serialized_source_guild: GuildTemplateSnapshotResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateResponse
-   */
-  is_dirty?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    code: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    usage_count: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    creator_id: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof GuildTemplateResponse
+     */
+    creator?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    created_at: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    updated_at: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    source_guild_id: any;
+    /**
+     *
+     * @type {GuildTemplateSnapshotResponse}
+     * @memberof GuildTemplateResponse
+     */
+    serialized_source_guild: GuildTemplateSnapshotResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateResponse
+     */
+    is_dirty?: any;
 }

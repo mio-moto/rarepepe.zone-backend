@@ -39,8 +39,8 @@ import { SpamLinkRuleResponse } from "./spam-link-rule-response";
  * @export
  */
 export type ListAutoModerationRules200ResponseInner =
-  | DefaultKeywordRuleResponse
-  | KeywordRuleResponse
-  | MLSpamRuleResponse
-  | MentionSpamRuleResponse
-  | SpamLinkRuleResponse;
+    | DefaultKeywordRuleResponse
+    | KeywordRuleResponse
+    | MLSpamRuleResponse
+    | MentionSpamRuleResponse
+    | SpamLinkRuleResponse;

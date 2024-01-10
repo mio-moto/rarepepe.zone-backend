@@ -18,16 +18,16 @@
  * @interface MentionSpamTriggerMetadata
  */
 export interface MentionSpamTriggerMetadata {
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamTriggerMetadata
-   */
-  mention_total_limit: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamTriggerMetadata
-   */
-  mention_raid_protection_enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamTriggerMetadata
+     */
+    mention_total_limit: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamTriggerMetadata
+     */
+    mention_raid_protection_enabled?: any;
 }

@@ -40,16 +40,16 @@ import { UpdateMessageInteractionCallbackRequestData } from "./update-message-in
  * @interface CreateInteractionResponseRequest
  */
 export interface CreateInteractionResponseRequest {
-  /**
-   *
-   * @type {InteractionCallbackTypes}
-   * @memberof CreateInteractionResponseRequest
-   */
-  type: InteractionCallbackTypes;
-  /**
-   *
-   * @type {UpdateMessageInteractionCallbackRequestData}
-   * @memberof CreateInteractionResponseRequest
-   */
-  data: UpdateMessageInteractionCallbackRequestData;
+    /**
+     *
+     * @type {InteractionCallbackTypes}
+     * @memberof CreateInteractionResponseRequest
+     */
+    type: InteractionCallbackTypes;
+    /**
+     *
+     * @type {UpdateMessageInteractionCallbackRequestData}
+     * @memberof CreateInteractionResponseRequest
+     */
+    data: UpdateMessageInteractionCallbackRequestData;
 }

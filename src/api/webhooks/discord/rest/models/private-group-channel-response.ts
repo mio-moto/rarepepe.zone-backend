@@ -25,70 +25,70 @@ import { ChannelTypes } from "./channel-types";
  * @interface PrivateGroupChannelResponse
  */
 export interface PrivateGroupChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelTypes}
-   * @memberof PrivateGroupChannelResponse
-   */
-  type: ChannelTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof PrivateGroupChannelResponse
-   */
-  last_message_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  last_pin_timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  recipients: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof PrivateGroupChannelResponse
-   */
-  owner_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateGroupChannelResponse
-   */
-  managed?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof PrivateGroupChannelResponse
-   */
-  application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelTypes}
+     * @memberof PrivateGroupChannelResponse
+     */
+    type: ChannelTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof PrivateGroupChannelResponse
+     */
+    last_message_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    last_pin_timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    recipients: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof PrivateGroupChannelResponse
+     */
+    owner_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateGroupChannelResponse
+     */
+    managed?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof PrivateGroupChannelResponse
+     */
+    application_id?: BasicMessageResponseApplicationId;
 }

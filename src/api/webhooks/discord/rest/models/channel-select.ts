@@ -22,52 +22,52 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface ChannelSelect
  */
 export interface ChannelSelect {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof ChannelSelect
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  default_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelect
-   */
-  channel_types?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof ChannelSelect
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    default_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelect
+     */
+    channel_types?: any;
 }

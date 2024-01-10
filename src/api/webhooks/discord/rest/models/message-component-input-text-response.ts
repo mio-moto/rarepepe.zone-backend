@@ -25,58 +25,58 @@ import { TextStyleTypes } from "./text-style-types";
  * @interface MessageComponentInputTextResponse
  */
 export interface MessageComponentInputTextResponse {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MessageComponentInputTextResponse
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {TextStyleTypes}
-   * @memberof MessageComponentInputTextResponse
-   */
-  style: TextStyleTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  label?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  value?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  required?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  min_length?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentInputTextResponse
-   */
-  max_length?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MessageComponentInputTextResponse
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {TextStyleTypes}
+     * @memberof MessageComponentInputTextResponse
+     */
+    style: TextStyleTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    label?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    value?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    required?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    min_length?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentInputTextResponse
+     */
+    max_length?: any;
 }

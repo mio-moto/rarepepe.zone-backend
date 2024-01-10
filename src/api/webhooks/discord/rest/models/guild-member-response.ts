@@ -22,70 +22,70 @@ import { UserResponse } from "./user-response";
  * @interface GuildMemberResponse
  */
 export interface GuildMemberResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  avatar?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  communication_disabled_until?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  joined_at: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  nick?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  pending: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  premium_since?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  roles: any;
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof GuildMemberResponse
-   */
-  user: UserResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  mute: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildMemberResponse
-   */
-  deaf: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    avatar?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    communication_disabled_until?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    joined_at: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    nick?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    pending: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    premium_since?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    roles: any;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof GuildMemberResponse
+     */
+    user: UserResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    mute: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildMemberResponse
+     */
+    deaf: any;
 }

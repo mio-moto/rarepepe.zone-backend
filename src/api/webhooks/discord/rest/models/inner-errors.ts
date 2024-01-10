@@ -18,10 +18,10 @@
  * @interface InnerErrors
  */
 export interface InnerErrors {
-  /**
-   * The list of errors for this field
-   * @type {any}
-   * @memberof InnerErrors
-   */
-  _errors: any;
+    /**
+     * The list of errors for this field
+     * @type {any}
+     * @memberof InnerErrors
+     */
+    _errors: any;
 }

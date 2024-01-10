@@ -25,28 +25,28 @@ import { ChannelFollowerWebhookResponseUser } from "./channel-follower-webhook-r
  * @interface OAuth2GetAuthorizationResponse
  */
 export interface OAuth2GetAuthorizationResponse {
-  /**
-   *
-   * @type {ApplicationResponse}
-   * @memberof OAuth2GetAuthorizationResponse
-   */
-  application: ApplicationResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof OAuth2GetAuthorizationResponse
-   */
-  expires: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OAuth2GetAuthorizationResponse
-   */
-  scopes: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof OAuth2GetAuthorizationResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {ApplicationResponse}
+     * @memberof OAuth2GetAuthorizationResponse
+     */
+    application: ApplicationResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof OAuth2GetAuthorizationResponse
+     */
+    expires: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OAuth2GetAuthorizationResponse
+     */
+    scopes: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof OAuth2GetAuthorizationResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
 }

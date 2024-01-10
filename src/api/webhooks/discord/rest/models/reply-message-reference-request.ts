@@ -22,28 +22,28 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface ReplyMessageReferenceRequest
  */
 export interface ReplyMessageReferenceRequest {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ReplyMessageReferenceRequest
-   */
-  guild_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ReplyMessageReferenceRequest
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ReplyMessageReferenceRequest
-   */
-  message_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ReplyMessageReferenceRequest
-   */
-  fail_if_not_exists?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ReplyMessageReferenceRequest
+     */
+    guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ReplyMessageReferenceRequest
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ReplyMessageReferenceRequest
+     */
+    message_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ReplyMessageReferenceRequest
+     */
+    fail_if_not_exists?: any;
 }

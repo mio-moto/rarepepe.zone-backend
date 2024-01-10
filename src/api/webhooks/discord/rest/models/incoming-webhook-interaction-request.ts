@@ -22,46 +22,46 @@ import { BaseCreateMessageCreateRequestAllowedMentions } from "./base-create-mes
  * @interface IncomingWebhookInteractionRequest
  */
 export interface IncomingWebhookInteractionRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  attachments?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  tts?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookInteractionRequest
-   */
-  flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    attachments?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    tts?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookInteractionRequest
+     */
+    flags?: any;
 }

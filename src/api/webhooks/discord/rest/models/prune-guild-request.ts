@@ -18,22 +18,22 @@
  * @interface PruneGuildRequest
  */
 export interface PruneGuildRequest {
-  /**
-   *
-   * @type {number}
-   * @memberof PruneGuildRequest
-   */
-  days?: number | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof PruneGuildRequest
-   */
-  compute_prune_count?: boolean | null;
-  /**
-   *
-   * @type {string}
-   * @memberof PruneGuildRequest
-   */
-  include_roles?: string | null;
+    /**
+     *
+     * @type {number}
+     * @memberof PruneGuildRequest
+     */
+    days?: number | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof PruneGuildRequest
+     */
+    compute_prune_count?: boolean | null;
+    /**
+     *
+     * @type {string}
+     * @memberof PruneGuildRequest
+     */
+    include_roles?: string | null;
 }

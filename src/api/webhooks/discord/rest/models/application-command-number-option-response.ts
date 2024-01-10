@@ -25,76 +25,76 @@ import { ApplicationCommandOptionType } from "./application-command-option-type"
  * @interface ApplicationCommandNumberOptionResponse
  */
 export interface ApplicationCommandNumberOptionResponse {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  description_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  required?: boolean | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  autocomplete?: boolean | null;
-  /**
-   *
-   * @type {Array<ApplicationCommandOptionNumberChoiceResponse>}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  choices?: Array<ApplicationCommandOptionNumberChoiceResponse>;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  min_value?: number | null;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandNumberOptionResponse
-   */
-  max_value?: number | null;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    description_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    required?: boolean | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    autocomplete?: boolean | null;
+    /**
+     *
+     * @type {Array<ApplicationCommandOptionNumberChoiceResponse>}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    choices?: Array<ApplicationCommandOptionNumberChoiceResponse>;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    min_value?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandNumberOptionResponse
+     */
+    max_value?: number | null;
 }

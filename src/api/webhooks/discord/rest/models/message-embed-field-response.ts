@@ -18,22 +18,22 @@
  * @interface MessageEmbedFieldResponse
  */
 export interface MessageEmbedFieldResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedFieldResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedFieldResponse
-   */
-  value: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedFieldResponse
-   */
-  inline: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedFieldResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedFieldResponse
+     */
+    value: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedFieldResponse
+     */
+    inline: any;
 }

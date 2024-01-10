@@ -22,22 +22,22 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface MessageComponentEmojiResponse
  */
 export interface MessageComponentEmojiResponse {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof MessageComponentEmojiResponse
-   */
-  id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentEmojiResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentEmojiResponse
-   */
-  animated?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof MessageComponentEmojiResponse
+     */
+    id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentEmojiResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentEmojiResponse
+     */
+    animated?: any;
 }

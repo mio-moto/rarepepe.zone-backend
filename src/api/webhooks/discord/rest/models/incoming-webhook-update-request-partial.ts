@@ -22,40 +22,40 @@ import { BaseCreateMessageCreateRequestAllowedMentions } from "./base-create-mes
  * @interface IncomingWebhookUpdateRequestPartial
  */
 export interface IncomingWebhookUpdateRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateRequestPartial
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateRequestPartial
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof IncomingWebhookUpdateRequestPartial
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateRequestPartial
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateRequestPartial
-   */
-  attachments?: any;
-  /**
-   *
-   * @type {number}
-   * @memberof IncomingWebhookUpdateRequestPartial
-   */
-  flags?: number | null;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateRequestPartial
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateRequestPartial
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof IncomingWebhookUpdateRequestPartial
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateRequestPartial
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateRequestPartial
+     */
+    attachments?: any;
+    /**
+     *
+     * @type {number}
+     * @memberof IncomingWebhookUpdateRequestPartial
+     */
+    flags?: number | null;
 }

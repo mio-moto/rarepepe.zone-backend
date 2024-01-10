@@ -22,22 +22,22 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface UpdateWebhookRequest
  */
 export interface UpdateWebhookRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateWebhookRequest
-   */
-  name?: string;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateWebhookRequest
-   */
-  avatar?: string | null;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof UpdateWebhookRequest
-   */
-  channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateWebhookRequest
+     */
+    name?: string;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateWebhookRequest
+     */
+    avatar?: string | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof UpdateWebhookRequest
+     */
+    channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
 }

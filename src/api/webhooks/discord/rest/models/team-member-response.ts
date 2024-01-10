@@ -25,22 +25,22 @@ import { UserResponse } from "./user-response";
  * @interface TeamMemberResponse
  */
 export interface TeamMemberResponse {
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof TeamMemberResponse
-   */
-  user: UserResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof TeamMemberResponse
-   */
-  team_id: any;
-  /**
-   *
-   * @type {TeamMembershipStates}
-   * @memberof TeamMemberResponse
-   */
-  membership_state: TeamMembershipStates;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof TeamMemberResponse
+     */
+    user: UserResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof TeamMemberResponse
+     */
+    team_id: any;
+    /**
+     *
+     * @type {TeamMembershipStates}
+     * @memberof TeamMemberResponse
+     */
+    membership_state: TeamMembershipStates;
 }

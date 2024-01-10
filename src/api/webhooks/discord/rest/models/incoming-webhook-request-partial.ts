@@ -22,70 +22,70 @@ import { BaseCreateMessageCreateRequestAllowedMentions } from "./base-create-mes
  * @interface IncomingWebhookRequestPartial
  */
 export interface IncomingWebhookRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  attachments?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  tts?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  username?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  avatar_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  thread_name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookRequestPartial
-   */
-  applied_tags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    attachments?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    tts?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    username?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    avatar_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    thread_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookRequestPartial
+     */
+    applied_tags?: any;
 }

@@ -25,52 +25,52 @@ import { ApplicationCommandType } from "./application-command-type";
  * @interface ApplicationCommandCreateRequest
  */
 export interface ApplicationCommandCreateRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  description?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {Array<ApplicationCommandCreateRequestOptionsInner>}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  options?: Array<ApplicationCommandCreateRequestOptionsInner>;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  default_member_permissions?: number | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  dm_permission?: boolean | null;
-  /**
-   *
-   * @type {ApplicationCommandType}
-   * @memberof ApplicationCommandCreateRequest
-   */
-  type?: ApplicationCommandType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    description?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {Array<ApplicationCommandCreateRequestOptionsInner>}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    options?: Array<ApplicationCommandCreateRequestOptionsInner>;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    default_member_permissions?: number | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    dm_permission?: boolean | null;
+    /**
+     *
+     * @type {ApplicationCommandType}
+     * @memberof ApplicationCommandCreateRequest
+     */
+    type?: ApplicationCommandType | null;
 }

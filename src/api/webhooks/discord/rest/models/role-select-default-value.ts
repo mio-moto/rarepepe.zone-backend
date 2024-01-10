@@ -18,16 +18,16 @@
  * @interface RoleSelectDefaultValue
  */
 export interface RoleSelectDefaultValue {
-  /**
-   *
-   * @type {string}
-   * @memberof RoleSelectDefaultValue
-   */
-  type: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelectDefaultValue
-   */
-  id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof RoleSelectDefaultValue
+     */
+    type: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelectDefaultValue
+     */
+    id: any;
 }

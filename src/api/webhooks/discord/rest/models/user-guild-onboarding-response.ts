@@ -18,28 +18,28 @@
  * @interface UserGuildOnboardingResponse
  */
 export interface UserGuildOnboardingResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof UserGuildOnboardingResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserGuildOnboardingResponse
-   */
-  prompts: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserGuildOnboardingResponse
-   */
-  default_channel_ids: any;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UserGuildOnboardingResponse
-   */
-  enabled: boolean;
+    /**
+     *
+     * @type {any}
+     * @memberof UserGuildOnboardingResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserGuildOnboardingResponse
+     */
+    prompts: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserGuildOnboardingResponse
+     */
+    default_channel_ids: any;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UserGuildOnboardingResponse
+     */
+    enabled: boolean;
 }

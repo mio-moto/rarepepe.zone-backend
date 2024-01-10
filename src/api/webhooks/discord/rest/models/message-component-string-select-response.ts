@@ -22,46 +22,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface MessageComponentStringSelectResponse
  */
 export interface MessageComponentStringSelectResponse {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentStringSelectResponse
-   */
-  options?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentStringSelectResponse
+     */
+    options?: any;
 }

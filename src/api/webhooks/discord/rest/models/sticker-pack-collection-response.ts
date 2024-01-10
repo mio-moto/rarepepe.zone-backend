@@ -18,10 +18,10 @@
  * @interface StickerPackCollectionResponse
  */
 export interface StickerPackCollectionResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof StickerPackCollectionResponse
-   */
-  sticker_packs: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StickerPackCollectionResponse
+     */
+    sticker_packs: any;
 }

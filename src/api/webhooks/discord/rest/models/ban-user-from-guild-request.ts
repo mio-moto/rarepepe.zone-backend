@@ -18,16 +18,16 @@
  * @interface BanUserFromGuildRequest
  */
 export interface BanUserFromGuildRequest {
-  /**
-   *
-   * @type {number}
-   * @memberof BanUserFromGuildRequest
-   */
-  delete_message_seconds?: number | null;
-  /**
-   *
-   * @type {number}
-   * @memberof BanUserFromGuildRequest
-   */
-  delete_message_days?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof BanUserFromGuildRequest
+     */
+    delete_message_seconds?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof BanUserFromGuildRequest
+     */
+    delete_message_days?: number | null;
 }

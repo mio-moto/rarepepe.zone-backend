@@ -28,10 +28,10 @@ import { InteractionApplicationCommandAutocompleteCallbackStringData } from "./i
  * @interface ApplicationCommandAutocompleteCallbackRequestData
  */
 export interface ApplicationCommandAutocompleteCallbackRequestData {
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandAutocompleteCallbackRequestData
-   */
-  choices?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandAutocompleteCallbackRequestData
+     */
+    choices?: any;
 }

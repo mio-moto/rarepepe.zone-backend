@@ -22,22 +22,22 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface CreatePrivateChannelRequest
  */
 export interface CreatePrivateChannelRequest {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof CreatePrivateChannelRequest
-   */
-  recipient_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof CreatePrivateChannelRequest
-   */
-  access_tokens?: any;
-  /**
-   *
-   * @type {{ [key: string]: any; }}
-   * @memberof CreatePrivateChannelRequest
-   */
-  nicks?: { [key: string]: any };
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof CreatePrivateChannelRequest
+     */
+    recipient_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof CreatePrivateChannelRequest
+     */
+    access_tokens?: any;
+    /**
+     *
+     * @type {{ [key: string]: any; }}
+     * @memberof CreatePrivateChannelRequest
+     */
+    nicks?: { [key: string]: any };
 }

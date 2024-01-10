@@ -39,7 +39,7 @@ import { MentionSpamUpsertRequestTriggerMetadata } from "./mention-spam-upsert-r
  * @export
  */
 export type CreateAutoModerationRuleRequest =
-  | DefaultKeywordListUpsertRequest
-  | KeywordUpsertRequest
-  | MLSpamUpsertRequest
-  | MentionSpamUpsertRequest;
+    | DefaultKeywordListUpsertRequest
+    | KeywordUpsertRequest
+    | MLSpamUpsertRequest
+    | MentionSpamUpsertRequest;

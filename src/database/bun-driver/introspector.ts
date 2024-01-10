@@ -1,91 +1,93 @@
 import {
-  DatabaseIntrospector,
-  DatabaseMetadata,
-  DatabaseMetadataOptions,
-  SchemaMetadata,
-  TableMetadata,
-  Kysely,
-  DEFAULT_MIGRATION_LOCK_TABLE,
-  DEFAULT_MIGRATION_TABLE,
-  sql,
+    DatabaseIntrospector,
+    DatabaseMetadata,
+    DatabaseMetadataOptions,
+    SchemaMetadata,
+    TableMetadata,
+    Kysely,
+    DEFAULT_MIGRATION_LOCK_TABLE,
+    DEFAULT_MIGRATION_TABLE,
+    sql,
 } from "kysely";
 
 export class BunSqliteIntrospector implements DatabaseIntrospector {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  readonly #db: Kysely<any>;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    readonly #db: Kysely<any>;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  constructor(db: Kysely<any>) {
-    this.#db = db;
-  }
-
-  async getSchemas(): Promise<SchemaMetadata[]> {
-    // Sqlite doesn't support schemas.
-    return [];
-  }
-
-  async getTables(options: DatabaseMetadataOptions = { withInternalKyselyTables: false }): Promise<TableMetadata[]> {
-    let query = this.#db
-      .selectFrom("sqlite_schema")
-      .where("type", "=", "table")
-      .where("name", "not like", "sqlite_%")
-      .select("name")
-      .$castTo<{ name: string }>();
-
-    if (!options.withInternalKyselyTables) {
-      query = query.where("name", "!=", DEFAULT_MIGRATION_TABLE).where("name", "!=", DEFAULT_MIGRATION_LOCK_TABLE);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    constructor(db: Kysely<any>) {
+        this.#db = db;
     }
 
-    const tables = await query.execute();
-    return Promise.all(tables.map(({ name }) => this.#getTableMetadata(name)));
-  }
+    async getSchemas(): Promise<SchemaMetadata[]> {
+        // Sqlite doesn't support schemas.
+        return [];
+    }
 
-  async getMetadata(options?: DatabaseMetadataOptions): Promise<DatabaseMetadata> {
-    return {
-      tables: await this.getTables(options),
-    };
-  }
+    async getTables(options: DatabaseMetadataOptions = { withInternalKyselyTables: false }): Promise<TableMetadata[]> {
+        let query = this.#db
+            .selectFrom("sqlite_schema")
+            .where("type", "=", "table")
+            .where("name", "not like", "sqlite_%")
+            .select("name")
+            .$castTo<{ name: string }>();
 
-  async #getTableMetadata(table: string): Promise<TableMetadata> {
-    const db = this.#db;
+        if (!options.withInternalKyselyTables) {
+            query = query
+                .where("name", "!=", DEFAULT_MIGRATION_TABLE)
+                .where("name", "!=", DEFAULT_MIGRATION_LOCK_TABLE);
+        }
 
-    // Get the SQL that was used to create the table.
-    const createSql = await db
-      .selectFrom("sqlite_master")
-      .where("name", "=", table)
-      .select("sql")
-      .$castTo<{ sql: string | undefined }>()
-      .execute();
+        const tables = await query.execute();
+        return Promise.all(tables.map(({ name }) => this.#getTableMetadata(name)));
+    }
 
-    // Try to find the name of the column that has `autoincrement` 🤦
-    const autoIncrementCol = createSql[0]?.sql
-      ?.split(/[(),]/)
-      ?.find(it => it.toLowerCase().includes("autoincrement"))
-      ?.split(/\s+/)?.[0]
-      ?.replace(/["`]/g, "");
+    async getMetadata(options?: DatabaseMetadataOptions): Promise<DatabaseMetadata> {
+        return {
+            tables: await this.getTables(options),
+        };
+    }
 
-    const columns = await db
-      .selectFrom(
-        sql<{
-          name: string;
-          type: string;
-          notnull: 0 | 1;
-          dflt_value: unknown;
-        }>`pragma_table_info(${table})`.as("table_info"),
-      )
-      .select(["name", "type", "notnull", "dflt_value"])
-      .execute();
+    async #getTableMetadata(table: string): Promise<TableMetadata> {
+        const db = this.#db;
 
-    return {
-      isView: false,
-      name: table,
-      columns: columns.map(col => ({
-        name: col.name,
-        dataType: col.type,
-        isNullable: !col.notnull,
-        isAutoIncrementing: col.name === autoIncrementCol,
-        hasDefaultValue: col.dflt_value != null,
-      })),
-    };
-  }
+        // Get the SQL that was used to create the table.
+        const createSql = await db
+            .selectFrom("sqlite_master")
+            .where("name", "=", table)
+            .select("sql")
+            .$castTo<{ sql: string | undefined }>()
+            .execute();
+
+        // Try to find the name of the column that has `autoincrement` 🤦
+        const autoIncrementCol = createSql[0]?.sql
+            ?.split(/[(),]/)
+            ?.find(it => it.toLowerCase().includes("autoincrement"))
+            ?.split(/\s+/)?.[0]
+            ?.replace(/["`]/g, "");
+
+        const columns = await db
+            .selectFrom(
+                sql<{
+                    name: string;
+                    type: string;
+                    notnull: 0 | 1;
+                    dflt_value: unknown;
+                }>`pragma_table_info(${table})`.as("table_info"),
+            )
+            .select(["name", "type", "notnull", "dflt_value"])
+            .execute();
+
+        return {
+            isView: false,
+            name: table,
+            columns: columns.map(col => ({
+                name: col.name,
+                dataType: col.type,
+                isNullable: !col.notnull,
+                isAutoIncrementing: col.name === autoIncrementCol,
+                hasDefaultValue: col.dflt_value != null,
+            })),
+        };
+    }
 }

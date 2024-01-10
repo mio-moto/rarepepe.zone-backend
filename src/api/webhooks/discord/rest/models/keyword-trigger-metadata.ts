@@ -18,22 +18,22 @@
  * @interface KeywordTriggerMetadata
  */
 export interface KeywordTriggerMetadata {
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordTriggerMetadata
-   */
-  keyword_filter?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordTriggerMetadata
-   */
-  regex_patterns?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordTriggerMetadata
-   */
-  allow_list?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordTriggerMetadata
+     */
+    keyword_filter?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordTriggerMetadata
+     */
+    regex_patterns?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordTriggerMetadata
+     */
+    allow_list?: any;
 }

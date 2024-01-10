@@ -18,22 +18,22 @@
  * @interface ModalInteractionCallbackData
  */
 export interface ModalInteractionCallbackData {
-  /**
-   *
-   * @type {any}
-   * @memberof ModalInteractionCallbackData
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ModalInteractionCallbackData
-   */
-  title: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ModalInteractionCallbackData
-   */
-  components: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ModalInteractionCallbackData
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ModalInteractionCallbackData
+     */
+    title: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ModalInteractionCallbackData
+     */
+    components: any;
 }

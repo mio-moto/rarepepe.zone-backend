@@ -18,16 +18,16 @@
  * @interface MessageEmbedProviderResponse
  */
 export interface MessageEmbedProviderResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedProviderResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedProviderResponse
-   */
-  url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedProviderResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedProviderResponse
+     */
+    url?: any;
 }

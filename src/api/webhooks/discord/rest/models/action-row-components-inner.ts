@@ -48,10 +48,10 @@ import { UserSelect } from "./user-select";
  * @export
  */
 export type ActionRowComponentsInner =
-  | Button
-  | ChannelSelect
-  | InputText
-  | MentionableSelect
-  | RoleSelect
-  | StringSelect
-  | UserSelect;
+    | Button
+    | ChannelSelect
+    | InputText
+    | MentionableSelect
+    | RoleSelect
+    | StringSelect
+    | UserSelect;

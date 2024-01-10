@@ -18,28 +18,28 @@
  * @interface ApplicationCommandOptionNumberChoiceResponse
  */
 export interface ApplicationCommandOptionNumberChoiceResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionNumberChoiceResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionNumberChoiceResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandOptionNumberChoiceResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandOptionNumberChoiceResponse
-   */
-  value: number;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionNumberChoiceResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionNumberChoiceResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandOptionNumberChoiceResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandOptionNumberChoiceResponse
+     */
+    value: number;
 }

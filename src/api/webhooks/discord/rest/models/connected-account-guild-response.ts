@@ -18,22 +18,22 @@
  * @interface ConnectedAccountGuildResponse
  */
 export interface ConnectedAccountGuildResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountGuildResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {string}
-   * @memberof ConnectedAccountGuildResponse
-   */
-  name: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ConnectedAccountGuildResponse
-   */
-  icon?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountGuildResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ConnectedAccountGuildResponse
+     */
+    name: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ConnectedAccountGuildResponse
+     */
+    icon?: string | null;
 }

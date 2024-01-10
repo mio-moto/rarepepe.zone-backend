@@ -18,10 +18,10 @@
  * @interface FollowChannelRequest
  */
 export interface FollowChannelRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof FollowChannelRequest
-   */
-  webhook_channel_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FollowChannelRequest
+     */
+    webhook_channel_id: any;
 }

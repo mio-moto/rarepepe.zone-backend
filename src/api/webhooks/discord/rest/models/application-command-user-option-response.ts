@@ -22,52 +22,52 @@ import { ApplicationCommandOptionType } from "./application-command-option-type"
  * @interface ApplicationCommandUserOptionResponse
  */
 export interface ApplicationCommandUserOptionResponse {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  description_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandUserOptionResponse
-   */
-  required?: boolean | null;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    description_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandUserOptionResponse
+     */
+    required?: boolean | null;
 }

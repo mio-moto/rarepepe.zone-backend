@@ -22,16 +22,16 @@ import { OAuth2Scopes } from "./oauth2-scopes";
  * @interface ApplicationOAuth2ParamsResponse
  */
 export interface ApplicationOAuth2ParamsResponse {
-  /**
-   *
-   * @type {Array<OAuth2Scopes>}
-   * @memberof ApplicationOAuth2ParamsResponse
-   */
-  scopes: Array<OAuth2Scopes>;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationOAuth2ParamsResponse
-   */
-  permissions: string;
+    /**
+     *
+     * @type {Array<OAuth2Scopes>}
+     * @memberof ApplicationOAuth2ParamsResponse
+     */
+    scopes: Array<OAuth2Scopes>;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationOAuth2ParamsResponse
+     */
+    permissions: string;
 }

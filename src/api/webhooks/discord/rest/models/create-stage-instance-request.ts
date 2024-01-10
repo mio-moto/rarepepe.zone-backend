@@ -22,34 +22,34 @@ import { StageInstancesPrivacyLevels } from "./stage-instances-privacy-levels";
  * @interface CreateStageInstanceRequest
  */
 export interface CreateStageInstanceRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof CreateStageInstanceRequest
-   */
-  topic: string;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateStageInstanceRequest
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {StageInstancesPrivacyLevels}
-   * @memberof CreateStageInstanceRequest
-   */
-  privacy_level?: StageInstancesPrivacyLevels | null;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateStageInstanceRequest
-   */
-  guild_scheduled_event_id?: any;
-  /**
-   *
-   * @type {boolean}
-   * @memberof CreateStageInstanceRequest
-   */
-  send_start_notification?: boolean | null;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateStageInstanceRequest
+     */
+    topic: string;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateStageInstanceRequest
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {StageInstancesPrivacyLevels}
+     * @memberof CreateStageInstanceRequest
+     */
+    privacy_level?: StageInstancesPrivacyLevels | null;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateStageInstanceRequest
+     */
+    guild_scheduled_event_id?: any;
+    /**
+     *
+     * @type {boolean}
+     * @memberof CreateStageInstanceRequest
+     */
+    send_start_notification?: boolean | null;
 }

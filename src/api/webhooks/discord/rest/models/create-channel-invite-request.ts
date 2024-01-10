@@ -31,46 +31,46 @@ import { CreateGuildInviteRequestTargetType } from "./create-guild-invite-reques
  * @interface CreateChannelInviteRequest
  */
 export interface CreateChannelInviteRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateChannelInviteRequest
-   */
-  max_age?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateChannelInviteRequest
-   */
-  temporary?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateChannelInviteRequest
-   */
-  max_uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateChannelInviteRequest
-   */
-  unique?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof CreateChannelInviteRequest
-   */
-  target_user_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof CreateChannelInviteRequest
-   */
-  target_application_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {CreateGuildInviteRequestTargetType}
-   * @memberof CreateChannelInviteRequest
-   */
-  target_type?: CreateGuildInviteRequestTargetType;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateChannelInviteRequest
+     */
+    max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateChannelInviteRequest
+     */
+    temporary?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateChannelInviteRequest
+     */
+    max_uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateChannelInviteRequest
+     */
+    unique?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof CreateChannelInviteRequest
+     */
+    target_user_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof CreateChannelInviteRequest
+     */
+    target_application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {CreateGuildInviteRequestTargetType}
+     * @memberof CreateChannelInviteRequest
+     */
+    target_type?: CreateGuildInviteRequestTargetType;
 }

@@ -18,22 +18,22 @@
  * @interface WebhookSourceGuildResponse
  */
 export interface WebhookSourceGuildResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSourceGuildResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {string}
-   * @memberof WebhookSourceGuildResponse
-   */
-  name: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof WebhookSourceGuildResponse
-   */
-  icon?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSourceGuildResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof WebhookSourceGuildResponse
+     */
+    name: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof WebhookSourceGuildResponse
+     */
+    icon?: string | null;
 }

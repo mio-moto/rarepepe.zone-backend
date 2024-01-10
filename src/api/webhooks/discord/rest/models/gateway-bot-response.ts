@@ -22,22 +22,22 @@ import { GatewayBotSessionStartLimitResponse } from "./gateway-bot-session-start
  * @interface GatewayBotResponse
  */
 export interface GatewayBotResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayBotResponse
-   */
-  url: any;
-  /**
-   *
-   * @type {GatewayBotSessionStartLimitResponse}
-   * @memberof GatewayBotResponse
-   */
-  session_start_limit: GatewayBotSessionStartLimitResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayBotResponse
-   */
-  shards: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayBotResponse
+     */
+    url: any;
+    /**
+     *
+     * @type {GatewayBotSessionStartLimitResponse}
+     * @memberof GatewayBotResponse
+     */
+    session_start_limit: GatewayBotSessionStartLimitResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayBotResponse
+     */
+    shards: any;
 }

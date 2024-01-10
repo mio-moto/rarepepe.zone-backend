@@ -22,52 +22,52 @@ import { ApplicationCommandOptionType } from "./application-command-option-type"
  * @interface ApplicationCommandRoleOptionResponse
  */
 export interface ApplicationCommandRoleOptionResponse {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  description_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandRoleOptionResponse
-   */
-  required?: boolean | null;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    description_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandRoleOptionResponse
+     */
+    required?: boolean | null;
 }

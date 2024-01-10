@@ -22,22 +22,22 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface MessageReactionEmojiResponse
  */
 export interface MessageReactionEmojiResponse {
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof MessageReactionEmojiResponse
-   */
-  id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {string}
-   * @memberof MessageReactionEmojiResponse
-   */
-  name?: string | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof MessageReactionEmojiResponse
-   */
-  animated?: boolean | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof MessageReactionEmojiResponse
+     */
+    id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {string}
+     * @memberof MessageReactionEmojiResponse
+     */
+    name?: string | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof MessageReactionEmojiResponse
+     */
+    animated?: boolean | null;
 }

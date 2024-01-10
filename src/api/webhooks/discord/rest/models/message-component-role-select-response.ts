@@ -22,40 +22,40 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface MessageComponentRoleSelectResponse
  */
 export interface MessageComponentRoleSelectResponse {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MessageComponentRoleSelectResponse
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentRoleSelectResponse
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentRoleSelectResponse
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentRoleSelectResponse
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentRoleSelectResponse
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentRoleSelectResponse
-   */
-  disabled?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MessageComponentRoleSelectResponse
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentRoleSelectResponse
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentRoleSelectResponse
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentRoleSelectResponse
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentRoleSelectResponse
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentRoleSelectResponse
+     */
+    disabled?: any;
 }

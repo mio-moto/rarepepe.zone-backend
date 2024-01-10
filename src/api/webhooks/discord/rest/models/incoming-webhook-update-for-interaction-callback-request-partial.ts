@@ -22,40 +22,40 @@ import { BaseCreateMessageCreateRequestAllowedMentions } from "./base-create-mes
  * @interface IncomingWebhookUpdateForInteractionCallbackRequestPartial
  */
 export interface IncomingWebhookUpdateForInteractionCallbackRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
-   */
-  attachments?: any;
-  /**
-   *
-   * @type {number}
-   * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
-   */
-  flags?: number | null;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
+     */
+    attachments?: any;
+    /**
+     *
+     * @type {number}
+     * @memberof IncomingWebhookUpdateForInteractionCallbackRequestPartial
+     */
+    flags?: number | null;
 }

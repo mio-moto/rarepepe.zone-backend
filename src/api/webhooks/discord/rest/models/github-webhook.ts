@@ -52,124 +52,124 @@ import { GithubWebhookReview } from "./github-webhook-review";
  * @interface GithubWebhook
  */
 export interface GithubWebhook {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubWebhook
-   */
-  action?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubWebhook
-   */
-  ref?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubWebhook
-   */
-  ref_type?: any;
-  /**
-   *
-   * @type {GithubWebhookComment}
-   * @memberof GithubWebhook
-   */
-  comment?: GithubWebhookComment;
-  /**
-   *
-   * @type {GithubWebhookIssue}
-   * @memberof GithubWebhook
-   */
-  issue?: GithubWebhookIssue;
-  /**
-   *
-   * @type {GithubWebhookIssue}
-   * @memberof GithubWebhook
-   */
-  pull_request?: GithubWebhookIssue;
-  /**
-   *
-   * @type {GithubWebhookRepository}
-   * @memberof GithubWebhook
-   */
-  repository?: GithubWebhookRepository;
-  /**
-   *
-   * @type {GithubWebhookRepository}
-   * @memberof GithubWebhook
-   */
-  forkee?: GithubWebhookRepository;
-  /**
-   *
-   * @type {GithubUser}
-   * @memberof GithubWebhook
-   */
-  sender: GithubUser;
-  /**
-   *
-   * @type {GithubWebhookMember}
-   * @memberof GithubWebhook
-   */
-  member?: GithubWebhookMember;
-  /**
-   *
-   * @type {GithubWebhookRelease}
-   * @memberof GithubWebhook
-   */
-  release?: GithubWebhookRelease;
-  /**
-   *
-   * @type {GithubWebhookHeadCommit}
-   * @memberof GithubWebhook
-   */
-  head_commit?: GithubWebhookHeadCommit;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubWebhook
-   */
-  commits?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubWebhook
-   */
-  forced?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubWebhook
-   */
-  compare?: any;
-  /**
-   *
-   * @type {GithubWebhookReview}
-   * @memberof GithubWebhook
-   */
-  review?: GithubWebhookReview;
-  /**
-   *
-   * @type {GithubWebhookCheckRun}
-   * @memberof GithubWebhook
-   */
-  check_run?: GithubWebhookCheckRun;
-  /**
-   *
-   * @type {GithubWebhookCheckSuite}
-   * @memberof GithubWebhook
-   */
-  check_suite?: GithubWebhookCheckSuite;
-  /**
-   *
-   * @type {GithubWebhookDiscussion}
-   * @memberof GithubWebhook
-   */
-  discussion?: GithubWebhookDiscussion;
-  /**
-   *
-   * @type {GithubWebhookComment}
-   * @memberof GithubWebhook
-   */
-  answer?: GithubWebhookComment;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubWebhook
+     */
+    action?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubWebhook
+     */
+    ref?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubWebhook
+     */
+    ref_type?: any;
+    /**
+     *
+     * @type {GithubWebhookComment}
+     * @memberof GithubWebhook
+     */
+    comment?: GithubWebhookComment;
+    /**
+     *
+     * @type {GithubWebhookIssue}
+     * @memberof GithubWebhook
+     */
+    issue?: GithubWebhookIssue;
+    /**
+     *
+     * @type {GithubWebhookIssue}
+     * @memberof GithubWebhook
+     */
+    pull_request?: GithubWebhookIssue;
+    /**
+     *
+     * @type {GithubWebhookRepository}
+     * @memberof GithubWebhook
+     */
+    repository?: GithubWebhookRepository;
+    /**
+     *
+     * @type {GithubWebhookRepository}
+     * @memberof GithubWebhook
+     */
+    forkee?: GithubWebhookRepository;
+    /**
+     *
+     * @type {GithubUser}
+     * @memberof GithubWebhook
+     */
+    sender: GithubUser;
+    /**
+     *
+     * @type {GithubWebhookMember}
+     * @memberof GithubWebhook
+     */
+    member?: GithubWebhookMember;
+    /**
+     *
+     * @type {GithubWebhookRelease}
+     * @memberof GithubWebhook
+     */
+    release?: GithubWebhookRelease;
+    /**
+     *
+     * @type {GithubWebhookHeadCommit}
+     * @memberof GithubWebhook
+     */
+    head_commit?: GithubWebhookHeadCommit;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubWebhook
+     */
+    commits?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubWebhook
+     */
+    forced?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubWebhook
+     */
+    compare?: any;
+    /**
+     *
+     * @type {GithubWebhookReview}
+     * @memberof GithubWebhook
+     */
+    review?: GithubWebhookReview;
+    /**
+     *
+     * @type {GithubWebhookCheckRun}
+     * @memberof GithubWebhook
+     */
+    check_run?: GithubWebhookCheckRun;
+    /**
+     *
+     * @type {GithubWebhookCheckSuite}
+     * @memberof GithubWebhook
+     */
+    check_suite?: GithubWebhookCheckSuite;
+    /**
+     *
+     * @type {GithubWebhookDiscussion}
+     * @memberof GithubWebhook
+     */
+    discussion?: GithubWebhookDiscussion;
+    /**
+     *
+     * @type {GithubWebhookComment}
+     * @memberof GithubWebhook
+     */
+    answer?: GithubWebhookComment;
 }

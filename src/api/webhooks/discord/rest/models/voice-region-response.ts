@@ -18,34 +18,34 @@
  * @interface VoiceRegionResponse
  */
 export interface VoiceRegionResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceRegionResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceRegionResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceRegionResponse
-   */
-  custom: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceRegionResponse
-   */
-  deprecated: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceRegionResponse
-   */
-  optimal: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceRegionResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceRegionResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceRegionResponse
+     */
+    custom: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceRegionResponse
+     */
+    deprecated: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceRegionResponse
+     */
+    optimal: any;
 }

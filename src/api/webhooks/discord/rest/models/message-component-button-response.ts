@@ -28,46 +28,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface MessageComponentButtonResponse
  */
 export interface MessageComponentButtonResponse {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MessageComponentButtonResponse
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentButtonResponse
-   */
-  custom_id?: any;
-  /**
-   *
-   * @type {ButtonStyleTypes}
-   * @memberof MessageComponentButtonResponse
-   */
-  style: ButtonStyleTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentButtonResponse
-   */
-  label?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentButtonResponse
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {MessageComponentButtonResponseEmoji}
-   * @memberof MessageComponentButtonResponse
-   */
-  emoji?: MessageComponentButtonResponseEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentButtonResponse
-   */
-  url?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MessageComponentButtonResponse
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentButtonResponse
+     */
+    custom_id?: any;
+    /**
+     *
+     * @type {ButtonStyleTypes}
+     * @memberof MessageComponentButtonResponse
+     */
+    style: ButtonStyleTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentButtonResponse
+     */
+    label?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentButtonResponse
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {MessageComponentButtonResponseEmoji}
+     * @memberof MessageComponentButtonResponse
+     */
+    emoji?: MessageComponentButtonResponseEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentButtonResponse
+     */
+    url?: any;
 }

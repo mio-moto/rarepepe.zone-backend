@@ -28,46 +28,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface Button
  */
 export interface Button {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof Button
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof Button
-   */
-  custom_id?: any;
-  /**
-   *
-   * @type {ButtonStyleTypes}
-   * @memberof Button
-   */
-  style: ButtonStyleTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof Button
-   */
-  label?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof Button
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {ButtonEmoji}
-   * @memberof Button
-   */
-  emoji?: ButtonEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof Button
-   */
-  url?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof Button
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof Button
+     */
+    custom_id?: any;
+    /**
+     *
+     * @type {ButtonStyleTypes}
+     * @memberof Button
+     */
+    style: ButtonStyleTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof Button
+     */
+    label?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof Button
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {ButtonEmoji}
+     * @memberof Button
+     */
+    emoji?: ButtonEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof Button
+     */
+    url?: any;
 }

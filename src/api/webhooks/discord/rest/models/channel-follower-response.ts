@@ -18,16 +18,16 @@
  * @interface ChannelFollowerResponse
  */
 export interface ChannelFollowerResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelFollowerResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelFollowerResponse
-   */
-  webhook_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelFollowerResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelFollowerResponse
+     */
+    webhook_id: any;
 }

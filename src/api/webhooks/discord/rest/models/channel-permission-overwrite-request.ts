@@ -22,28 +22,28 @@ import { ChannelPermissionOverwriteRequestType } from "./channel-permission-over
  * @interface ChannelPermissionOverwriteRequest
  */
 export interface ChannelPermissionOverwriteRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelPermissionOverwriteRequest
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelPermissionOverwriteRequestType}
-   * @memberof ChannelPermissionOverwriteRequest
-   */
-  type?: ChannelPermissionOverwriteRequestType;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelPermissionOverwriteRequest
-   */
-  allow?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelPermissionOverwriteRequest
-   */
-  deny?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelPermissionOverwriteRequest
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelPermissionOverwriteRequestType}
+     * @memberof ChannelPermissionOverwriteRequest
+     */
+    type?: ChannelPermissionOverwriteRequestType;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelPermissionOverwriteRequest
+     */
+    allow?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelPermissionOverwriteRequest
+     */
+    deny?: any;
 }

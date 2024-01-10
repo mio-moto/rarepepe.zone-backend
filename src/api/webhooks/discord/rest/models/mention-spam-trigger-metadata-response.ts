@@ -18,10 +18,10 @@
  * @interface MentionSpamTriggerMetadataResponse
  */
 export interface MentionSpamTriggerMetadataResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamTriggerMetadataResponse
-   */
-  mention_total_limit: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamTriggerMetadataResponse
+     */
+    mention_total_limit: any;
 }

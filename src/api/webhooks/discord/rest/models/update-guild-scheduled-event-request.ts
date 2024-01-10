@@ -43,64 +43,64 @@ import { VoiceScheduledEventPatchRequestPartialEntityType } from "./voice-schedu
  * @interface UpdateGuildScheduledEventRequest
  */
 export interface UpdateGuildScheduledEventRequest {
-  /**
-   *
-   * @type {ExternalScheduledEventPatchRequestPartialStatus}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  status?: ExternalScheduledEventPatchRequestPartialStatus;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  scheduled_start_time?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {VoiceScheduledEventPatchRequestPartialEntityType}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  entity_type?: VoiceScheduledEventPatchRequestPartialEntityType;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  privacy_level?: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {VoiceScheduledEventCreateRequestEntityMetadata}
-   * @memberof UpdateGuildScheduledEventRequest
-   */
-  entity_metadata?: VoiceScheduledEventCreateRequestEntityMetadata;
+    /**
+     *
+     * @type {ExternalScheduledEventPatchRequestPartialStatus}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    status?: ExternalScheduledEventPatchRequestPartialStatus;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    scheduled_start_time?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {VoiceScheduledEventPatchRequestPartialEntityType}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    entity_type?: VoiceScheduledEventPatchRequestPartialEntityType;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    privacy_level?: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {VoiceScheduledEventCreateRequestEntityMetadata}
+     * @memberof UpdateGuildScheduledEventRequest
+     */
+    entity_metadata?: VoiceScheduledEventCreateRequestEntityMetadata;
 }

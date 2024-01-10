@@ -18,28 +18,28 @@
  * @interface MessageAllowedMentionsRequest
  */
 export interface MessageAllowedMentionsRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAllowedMentionsRequest
-   */
-  parse?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAllowedMentionsRequest
-   */
-  users?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAllowedMentionsRequest
-   */
-  roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAllowedMentionsRequest
-   */
-  replied_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAllowedMentionsRequest
+     */
+    parse?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAllowedMentionsRequest
+     */
+    users?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAllowedMentionsRequest
+     */
+    roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAllowedMentionsRequest
+     */
+    replied_user?: any;
 }

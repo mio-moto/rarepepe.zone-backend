@@ -18,46 +18,46 @@
  * @interface UpdateGuildRoleRequest
  */
 export interface UpdateGuildRoleRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildRoleRequest
-   */
-  name?: string | null;
-  /**
-   *
-   * @type {number}
-   * @memberof UpdateGuildRoleRequest
-   */
-  permissions?: number | null;
-  /**
-   *
-   * @type {number}
-   * @memberof UpdateGuildRoleRequest
-   */
-  color?: number | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UpdateGuildRoleRequest
-   */
-  hoist?: boolean | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UpdateGuildRoleRequest
-   */
-  mentionable?: boolean | null;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildRoleRequest
-   */
-  icon?: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildRoleRequest
-   */
-  unicode_emoji?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildRoleRequest
+     */
+    name?: string | null;
+    /**
+     *
+     * @type {number}
+     * @memberof UpdateGuildRoleRequest
+     */
+    permissions?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof UpdateGuildRoleRequest
+     */
+    color?: number | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UpdateGuildRoleRequest
+     */
+    hoist?: boolean | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UpdateGuildRoleRequest
+     */
+    mentionable?: boolean | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildRoleRequest
+     */
+    icon?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildRoleRequest
+     */
+    unicode_emoji?: string | null;
 }

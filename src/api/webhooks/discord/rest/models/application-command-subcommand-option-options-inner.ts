@@ -48,12 +48,12 @@ import { ApplicationCommandUserOption } from "./application-command-user-option"
  * @export
  */
 export type ApplicationCommandSubcommandOptionOptionsInner =
-  | ApplicationCommandAttachmentOption
-  | ApplicationCommandBooleanOption
-  | ApplicationCommandChannelOption
-  | ApplicationCommandIntegerOption
-  | ApplicationCommandMentionableOption
-  | ApplicationCommandNumberOption
-  | ApplicationCommandRoleOption
-  | ApplicationCommandStringOption
-  | ApplicationCommandUserOption;
+    | ApplicationCommandAttachmentOption
+    | ApplicationCommandBooleanOption
+    | ApplicationCommandChannelOption
+    | ApplicationCommandIntegerOption
+    | ApplicationCommandMentionableOption
+    | ApplicationCommandNumberOption
+    | ApplicationCommandRoleOption
+    | ApplicationCommandStringOption
+    | ApplicationCommandUserOption;

@@ -22,16 +22,16 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface UpdateGuildWidgetSettingsRequest
  */
 export interface UpdateGuildWidgetSettingsRequest {
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof UpdateGuildWidgetSettingsRequest
-   */
-  channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UpdateGuildWidgetSettingsRequest
-   */
-  enabled?: boolean | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof UpdateGuildWidgetSettingsRequest
+     */
+    channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UpdateGuildWidgetSettingsRequest
+     */
+    enabled?: boolean | null;
 }

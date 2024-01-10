@@ -25,16 +25,16 @@ import { FlagToChannelActionMetadataResponse } from "./flag-to-channel-action-me
  * @interface FlagToChannelActionResponse
  */
 export interface FlagToChannelActionResponse {
-  /**
-   *
-   * @type {AutomodActionType}
-   * @memberof FlagToChannelActionResponse
-   */
-  type: AutomodActionType;
-  /**
-   *
-   * @type {FlagToChannelActionMetadataResponse}
-   * @memberof FlagToChannelActionResponse
-   */
-  metadata: FlagToChannelActionMetadataResponse;
+    /**
+     *
+     * @type {AutomodActionType}
+     * @memberof FlagToChannelActionResponse
+     */
+    type: AutomodActionType;
+    /**
+     *
+     * @type {FlagToChannelActionMetadataResponse}
+     * @memberof FlagToChannelActionResponse
+     */
+    metadata: FlagToChannelActionMetadataResponse;
 }

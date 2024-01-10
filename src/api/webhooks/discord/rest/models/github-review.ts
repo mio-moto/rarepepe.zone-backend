@@ -22,28 +22,28 @@ import { GithubUser } from "./github-user";
  * @interface GithubReview
  */
 export interface GithubReview {
-  /**
-   *
-   * @type {GithubUser}
-   * @memberof GithubReview
-   */
-  user: GithubUser;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubReview
-   */
-  body?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubReview
-   */
-  html_url: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubReview
-   */
-  state: any;
+    /**
+     *
+     * @type {GithubUser}
+     * @memberof GithubReview
+     */
+    user: GithubUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubReview
+     */
+    body?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubReview
+     */
+    html_url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubReview
+     */
+    state: any;
 }

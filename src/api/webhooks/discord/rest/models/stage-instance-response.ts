@@ -25,46 +25,46 @@ import { StageInstancesPrivacyLevels } from "./stage-instances-privacy-levels";
  * @interface StageInstanceResponse
  */
 export interface StageInstanceResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof StageInstanceResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageInstanceResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageInstanceResponse
-   */
-  topic: any;
-  /**
-   *
-   * @type {StageInstancesPrivacyLevels}
-   * @memberof StageInstanceResponse
-   */
-  privacy_level: StageInstancesPrivacyLevels;
-  /**
-   *
-   * @type {any}
-   * @memberof StageInstanceResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageInstanceResponse
-   */
-  discoverable_disabled?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof StageInstanceResponse
-   */
-  guild_scheduled_event_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof StageInstanceResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageInstanceResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageInstanceResponse
+     */
+    topic: any;
+    /**
+     *
+     * @type {StageInstancesPrivacyLevels}
+     * @memberof StageInstanceResponse
+     */
+    privacy_level: StageInstancesPrivacyLevels;
+    /**
+     *
+     * @type {any}
+     * @memberof StageInstanceResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageInstanceResponse
+     */
+    discoverable_disabled?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof StageInstanceResponse
+     */
+    guild_scheduled_event_id?: BasicMessageResponseApplicationId;
 }

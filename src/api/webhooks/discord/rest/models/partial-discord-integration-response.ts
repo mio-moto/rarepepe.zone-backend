@@ -25,34 +25,34 @@ import { IntegrationTypes } from "./integration-types";
  * @interface PartialDiscordIntegrationResponse
  */
 export interface PartialDiscordIntegrationResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof PartialDiscordIntegrationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {IntegrationTypes}
-   * @memberof PartialDiscordIntegrationResponse
-   */
-  type: IntegrationTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof PartialDiscordIntegrationResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {DiscordIntegrationResponseAccount}
-   * @memberof PartialDiscordIntegrationResponse
-   */
-  account?: DiscordIntegrationResponseAccount;
-  /**
-   *
-   * @type {any}
-   * @memberof PartialDiscordIntegrationResponse
-   */
-  application_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PartialDiscordIntegrationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {IntegrationTypes}
+     * @memberof PartialDiscordIntegrationResponse
+     */
+    type: IntegrationTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof PartialDiscordIntegrationResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {DiscordIntegrationResponseAccount}
+     * @memberof PartialDiscordIntegrationResponse
+     */
+    account?: DiscordIntegrationResponseAccount;
+    /**
+     *
+     * @type {any}
+     * @memberof PartialDiscordIntegrationResponse
+     */
+    application_id: any;
 }

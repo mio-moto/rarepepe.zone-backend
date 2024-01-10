@@ -18,22 +18,22 @@
  * @interface RichEmbedField
  */
 export interface RichEmbedField {
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbedField
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbedField
-   */
-  value: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbedField
-   */
-  inline?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbedField
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbedField
+     */
+    value: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbedField
+     */
+    inline?: any;
 }

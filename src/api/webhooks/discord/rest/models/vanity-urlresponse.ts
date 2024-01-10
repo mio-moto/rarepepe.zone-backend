@@ -22,22 +22,22 @@ import { VanityURLResponseError } from "./vanity-urlresponse-error";
  * @interface VanityURLResponse
  */
 export interface VanityURLResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof VanityURLResponse
-   */
-  code?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VanityURLResponse
-   */
-  uses: any;
-  /**
-   *
-   * @type {VanityURLResponseError}
-   * @memberof VanityURLResponse
-   */
-  error?: VanityURLResponseError;
+    /**
+     *
+     * @type {any}
+     * @memberof VanityURLResponse
+     */
+    code?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VanityURLResponse
+     */
+    uses: any;
+    /**
+     *
+     * @type {VanityURLResponseError}
+     * @memberof VanityURLResponse
+     */
+    error?: VanityURLResponseError;
 }

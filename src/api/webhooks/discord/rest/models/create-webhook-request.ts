@@ -18,16 +18,16 @@
  * @interface CreateWebhookRequest
  */
 export interface CreateWebhookRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof CreateWebhookRequest
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof CreateWebhookRequest
-   */
-  avatar?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateWebhookRequest
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateWebhookRequest
+     */
+    avatar?: string | null;
 }

@@ -18,16 +18,16 @@
  * @interface ApplicationFormPartialDescription
  */
 export interface ApplicationFormPartialDescription {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationFormPartialDescription
-   */
-  default: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationFormPartialDescription
-   */
-  localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationFormPartialDescription
+     */
+    default: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationFormPartialDescription
+     */
+    localizations?: { [key: string]: string };
 }

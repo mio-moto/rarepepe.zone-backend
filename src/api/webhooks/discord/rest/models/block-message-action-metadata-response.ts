@@ -18,10 +18,10 @@
  * @interface BlockMessageActionMetadataResponse
  */
 export interface BlockMessageActionMetadataResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof BlockMessageActionMetadataResponse
-   */
-  custom_message?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BlockMessageActionMetadataResponse
+     */
+    custom_message?: any;
 }

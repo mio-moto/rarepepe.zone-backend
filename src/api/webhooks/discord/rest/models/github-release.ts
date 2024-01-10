@@ -22,28 +22,28 @@ import { GithubUser } from "./github-user";
  * @interface GithubRelease
  */
 export interface GithubRelease {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRelease
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRelease
-   */
-  tag_name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRelease
-   */
-  html_url: any;
-  /**
-   *
-   * @type {GithubUser}
-   * @memberof GithubRelease
-   */
-  author: GithubUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRelease
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRelease
+     */
+    tag_name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRelease
+     */
+    html_url: any;
+    /**
+     *
+     * @type {GithubUser}
+     * @memberof GithubRelease
+     */
+    author: GithubUser;
 }

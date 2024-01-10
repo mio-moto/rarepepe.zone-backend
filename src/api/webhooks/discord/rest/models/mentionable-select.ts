@@ -22,46 +22,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface MentionableSelect
  */
 export interface MentionableSelect {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MentionableSelect
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionableSelect
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionableSelect
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionableSelect
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionableSelect
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionableSelect
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionableSelect
-   */
-  default_values?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MentionableSelect
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionableSelect
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionableSelect
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionableSelect
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionableSelect
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionableSelect
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionableSelect
+     */
+    default_values?: any;
 }

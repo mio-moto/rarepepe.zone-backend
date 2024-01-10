@@ -28,76 +28,76 @@ import { FriendInviteResponseType } from "./friend-invite-response-type";
  * @interface FriendInviteResponse
  */
 export interface FriendInviteResponse {
-  /**
-   *
-   * @type {FriendInviteResponseType}
-   * @memberof FriendInviteResponse
-   */
-  type?: FriendInviteResponseType;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  code: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof FriendInviteResponse
-   */
-  inviter?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  max_age?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  created_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  expires_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  friends_count?: any;
-  /**
-   *
-   * @type {FriendInviteResponseChannel}
-   * @memberof FriendInviteResponse
-   */
-  channel?: FriendInviteResponseChannel;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  is_contact?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  max_uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof FriendInviteResponse
-   */
-  flags?: any;
+    /**
+     *
+     * @type {FriendInviteResponseType}
+     * @memberof FriendInviteResponse
+     */
+    type?: FriendInviteResponseType;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    code: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof FriendInviteResponse
+     */
+    inviter?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    created_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    expires_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    friends_count?: any;
+    /**
+     *
+     * @type {FriendInviteResponseChannel}
+     * @memberof FriendInviteResponse
+     */
+    channel?: FriendInviteResponseChannel;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    is_contact?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    max_uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FriendInviteResponse
+     */
+    flags?: any;
 }

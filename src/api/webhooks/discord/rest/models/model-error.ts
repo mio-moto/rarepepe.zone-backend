@@ -18,16 +18,16 @@
  * @interface ModelError
  */
 export interface ModelError {
-  /**
-   * Discord internal error code. See error code reference
-   * @type {any}
-   * @memberof ModelError
-   */
-  code: any;
-  /**
-   * Human-readable error message
-   * @type {any}
-   * @memberof ModelError
-   */
-  message: any;
+    /**
+     * Discord internal error code. See error code reference
+     * @type {any}
+     * @memberof ModelError
+     */
+    code: any;
+    /**
+     * Human-readable error message
+     * @type {any}
+     * @memberof ModelError
+     */
+    message: any;
 }

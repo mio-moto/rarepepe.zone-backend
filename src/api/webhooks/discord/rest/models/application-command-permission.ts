@@ -22,22 +22,22 @@ import { ApplicationCommandPermissionType } from "./application-command-permissi
  * @interface ApplicationCommandPermission
  */
 export interface ApplicationCommandPermission {
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandPermission
-   */
-  id: any;
-  /**
-   *
-   * @type {ApplicationCommandPermissionType}
-   * @memberof ApplicationCommandPermission
-   */
-  type: ApplicationCommandPermissionType | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandPermission
-   */
-  permission: boolean;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandPermission
+     */
+    id: any;
+    /**
+     *
+     * @type {ApplicationCommandPermissionType}
+     * @memberof ApplicationCommandPermission
+     */
+    type: ApplicationCommandPermissionType | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandPermission
+     */
+    permission: boolean;
 }

@@ -25,16 +25,16 @@ import { UserCommunicationDisabledActionMetadataResponse } from "./user-communic
  * @interface UserCommunicationDisabledActionResponse
  */
 export interface UserCommunicationDisabledActionResponse {
-  /**
-   *
-   * @type {AutomodActionType}
-   * @memberof UserCommunicationDisabledActionResponse
-   */
-  type: AutomodActionType;
-  /**
-   *
-   * @type {UserCommunicationDisabledActionMetadataResponse}
-   * @memberof UserCommunicationDisabledActionResponse
-   */
-  metadata: UserCommunicationDisabledActionMetadataResponse;
+    /**
+     *
+     * @type {AutomodActionType}
+     * @memberof UserCommunicationDisabledActionResponse
+     */
+    type: AutomodActionType;
+    /**
+     *
+     * @type {UserCommunicationDisabledActionMetadataResponse}
+     * @memberof UserCommunicationDisabledActionResponse
+     */
+    metadata: UserCommunicationDisabledActionMetadataResponse;
 }

@@ -18,28 +18,28 @@
  * @interface ApplicationCommandOptionStringChoiceResponse
  */
 export interface ApplicationCommandOptionStringChoiceResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionStringChoiceResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionStringChoiceResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandOptionStringChoiceResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionStringChoiceResponse
-   */
-  value: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionStringChoiceResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionStringChoiceResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandOptionStringChoiceResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionStringChoiceResponse
+     */
+    value: string;
 }

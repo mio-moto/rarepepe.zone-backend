@@ -18,88 +18,88 @@
  * @interface WebhookSlackEmbed
  */
 export interface WebhookSlackEmbed {
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  title?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  title_link?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  text?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  color?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  ts?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  pretext?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  footer?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  footer_icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  author_name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  author_link?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  author_icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  image_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  thumb_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbed
-   */
-  fields?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    title?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    title_link?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    text?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    color?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    ts?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    pretext?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    footer?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    footer_icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    author_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    author_link?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    author_icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    image_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    thumb_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbed
+     */
+    fields?: any;
 }

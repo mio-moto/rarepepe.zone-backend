@@ -37,100 +37,100 @@ import { GuildScheduledEventStatuses } from "./guild-scheduled-event-statuses";
  * @interface ScheduledEventResponse
  */
 export interface ScheduledEventResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ScheduledEventResponse
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ScheduledEventResponse
-   */
-  creator_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof ScheduledEventResponse
-   */
-  creator?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  scheduled_start_time: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {GuildScheduledEventStatuses}
-   * @memberof ScheduledEventResponse
-   */
-  status: GuildScheduledEventStatuses;
-  /**
-   *
-   * @type {GuildScheduledEventEntityTypes}
-   * @memberof ScheduledEventResponse
-   */
-  entity_type: GuildScheduledEventEntityTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ScheduledEventResponse
-   */
-  entity_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventResponse
-   */
-  user_count?: any;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof ScheduledEventResponse
-   */
-  privacy_level: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {ExternalScheduledEventResponseUserRsvp}
-   * @memberof ScheduledEventResponse
-   */
-  user_rsvp?: ExternalScheduledEventResponseUserRsvp;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ScheduledEventResponse
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ScheduledEventResponse
+     */
+    creator_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof ScheduledEventResponse
+     */
+    creator?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    scheduled_start_time: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {GuildScheduledEventStatuses}
+     * @memberof ScheduledEventResponse
+     */
+    status: GuildScheduledEventStatuses;
+    /**
+     *
+     * @type {GuildScheduledEventEntityTypes}
+     * @memberof ScheduledEventResponse
+     */
+    entity_type: GuildScheduledEventEntityTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ScheduledEventResponse
+     */
+    entity_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventResponse
+     */
+    user_count?: any;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof ScheduledEventResponse
+     */
+    privacy_level: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {ExternalScheduledEventResponseUserRsvp}
+     * @memberof ScheduledEventResponse
+     */
+    user_rsvp?: ExternalScheduledEventResponseUserRsvp;
 }

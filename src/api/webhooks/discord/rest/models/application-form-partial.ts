@@ -28,76 +28,76 @@ import { ApplicationTypes } from "./application-types";
  * @interface ApplicationFormPartial
  */
 export interface ApplicationFormPartial {
-  /**
-   *
-   * @type {ApplicationFormPartialDescription}
-   * @memberof ApplicationFormPartial
-   */
-  description?: ApplicationFormPartialDescription;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationFormPartial
-   */
-  icon?: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationFormPartial
-   */
-  cover_image?: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationFormPartial
-   */
-  team_id?: any;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationFormPartial
-   */
-  flags?: number | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationFormPartial
-   */
-  interactions_endpoint_url?: string | null;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationFormPartial
-   */
-  max_participants?: number | null;
-  /**
-   *
-   * @type {ApplicationTypes}
-   * @memberof ApplicationFormPartial
-   */
-  type?: ApplicationTypes | null;
-  /**
-   *
-   * @type {Array<string>}
-   * @memberof ApplicationFormPartial
-   */
-  tags?: Array<string>;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationFormPartial
-   */
-  custom_install_url?: string | null;
-  /**
-   *
-   * @type {ApplicationOAuth2Params}
-   * @memberof ApplicationFormPartial
-   */
-  install_params?: ApplicationOAuth2Params | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationFormPartial
-   */
-  role_connections_verification_url?: string | null;
+    /**
+     *
+     * @type {ApplicationFormPartialDescription}
+     * @memberof ApplicationFormPartial
+     */
+    description?: ApplicationFormPartialDescription;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationFormPartial
+     */
+    icon?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationFormPartial
+     */
+    cover_image?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationFormPartial
+     */
+    team_id?: any;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationFormPartial
+     */
+    flags?: number | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationFormPartial
+     */
+    interactions_endpoint_url?: string | null;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationFormPartial
+     */
+    max_participants?: number | null;
+    /**
+     *
+     * @type {ApplicationTypes}
+     * @memberof ApplicationFormPartial
+     */
+    type?: ApplicationTypes | null;
+    /**
+     *
+     * @type {Array<string>}
+     * @memberof ApplicationFormPartial
+     */
+    tags?: Array<string>;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationFormPartial
+     */
+    custom_install_url?: string | null;
+    /**
+     *
+     * @type {ApplicationOAuth2Params}
+     * @memberof ApplicationFormPartial
+     */
+    install_params?: ApplicationOAuth2Params | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationFormPartial
+     */
+    role_connections_verification_url?: string | null;
 }

@@ -18,10 +18,10 @@
  * @interface CreateGroupDMInviteRequest
  */
 export interface CreateGroupDMInviteRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGroupDMInviteRequest
-   */
-  max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGroupDMInviteRequest
+     */
+    max_age?: any;
 }

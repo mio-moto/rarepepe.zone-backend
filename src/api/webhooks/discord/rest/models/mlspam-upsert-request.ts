@@ -28,52 +28,52 @@ import { MLSpamUpsertRequestTriggerMetadata } from "./mlspam-upsert-request-trig
  * @interface MLSpamUpsertRequest
  */
 export interface MLSpamUpsertRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof MLSpamUpsertRequest
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequest
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequest
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequest
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequest
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof MLSpamUpsertRequest
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {MLSpamUpsertRequestTriggerMetadata}
-   * @memberof MLSpamUpsertRequest
-   */
-  trigger_metadata?: MLSpamUpsertRequestTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof MLSpamUpsertRequest
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequest
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequest
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequest
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequest
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof MLSpamUpsertRequest
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {MLSpamUpsertRequestTriggerMetadata}
+     * @memberof MLSpamUpsertRequest
+     */
+    trigger_metadata?: MLSpamUpsertRequestTriggerMetadata;
 }

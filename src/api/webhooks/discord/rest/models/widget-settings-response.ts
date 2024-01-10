@@ -22,16 +22,16 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface WidgetSettingsResponse
  */
 export interface WidgetSettingsResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetSettingsResponse
-   */
-  enabled: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof WidgetSettingsResponse
-   */
-  channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetSettingsResponse
+     */
+    enabled: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof WidgetSettingsResponse
+     */
+    channel_id?: BasicMessageResponseApplicationId;
 }

@@ -18,10 +18,10 @@
  * @interface GithubCheckPullRequest
  */
 export interface GithubCheckPullRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckPullRequest
-   */
-  number: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckPullRequest
+     */
+    number: any;
 }

@@ -18,22 +18,22 @@
  * @interface WebhookSlackEmbedField
  */
 export interface WebhookSlackEmbedField {
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbedField
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbedField
-   */
-  value?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSlackEmbedField
-   */
-  inline?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbedField
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbedField
+     */
+    value?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSlackEmbedField
+     */
+    inline?: any;
 }

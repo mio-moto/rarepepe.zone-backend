@@ -25,16 +25,16 @@ import { QuarantineUserActionMetadata } from "./quarantine-user-action-metadata"
  * @interface QuarantineUserAction
  */
 export interface QuarantineUserAction {
-  /**
-   *
-   * @type {AutomodActionType}
-   * @memberof QuarantineUserAction
-   */
-  type: AutomodActionType;
-  /**
-   *
-   * @type {QuarantineUserActionMetadata}
-   * @memberof QuarantineUserAction
-   */
-  metadata?: QuarantineUserActionMetadata;
+    /**
+     *
+     * @type {AutomodActionType}
+     * @memberof QuarantineUserAction
+     */
+    type: AutomodActionType;
+    /**
+     *
+     * @type {QuarantineUserActionMetadata}
+     * @memberof QuarantineUserAction
+     */
+    metadata?: QuarantineUserActionMetadata;
 }

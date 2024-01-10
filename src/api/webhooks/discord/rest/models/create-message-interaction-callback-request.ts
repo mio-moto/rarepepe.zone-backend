@@ -25,16 +25,16 @@ import { InteractionCallbackTypes } from "./interaction-callback-types";
  * @interface CreateMessageInteractionCallbackRequest
  */
 export interface CreateMessageInteractionCallbackRequest {
-  /**
-   *
-   * @type {InteractionCallbackTypes}
-   * @memberof CreateMessageInteractionCallbackRequest
-   */
-  type: InteractionCallbackTypes;
-  /**
-   *
-   * @type {CreateMessageInteractionCallbackRequestData}
-   * @memberof CreateMessageInteractionCallbackRequest
-   */
-  data?: CreateMessageInteractionCallbackRequestData;
+    /**
+     *
+     * @type {InteractionCallbackTypes}
+     * @memberof CreateMessageInteractionCallbackRequest
+     */
+    type: InteractionCallbackTypes;
+    /**
+     *
+     * @type {CreateMessageInteractionCallbackRequestData}
+     * @memberof CreateMessageInteractionCallbackRequest
+     */
+    data?: CreateMessageInteractionCallbackRequestData;
 }

@@ -22,40 +22,40 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface GuildRoleTagsResponse
  */
 export interface GuildRoleTagsResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleTagsResponse
-   */
-  premium_subscriber?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildRoleTagsResponse
-   */
-  bot_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildRoleTagsResponse
-   */
-  integration_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildRoleTagsResponse
-   */
-  subscription_listing_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleTagsResponse
-   */
-  available_for_purchase?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleTagsResponse
-   */
-  guild_connections?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleTagsResponse
+     */
+    premium_subscriber?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildRoleTagsResponse
+     */
+    bot_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildRoleTagsResponse
+     */
+    integration_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildRoleTagsResponse
+     */
+    subscription_listing_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleTagsResponse
+     */
+    available_for_purchase?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleTagsResponse
+     */
+    guild_connections?: any;
 }

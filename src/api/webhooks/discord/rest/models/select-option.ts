@@ -22,34 +22,34 @@ import { ButtonEmoji } from "./button-emoji";
  * @interface SelectOption
  */
 export interface SelectOption {
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOption
-   */
-  label: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOption
-   */
-  value: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOption
-   */
-  description?: any;
-  /**
-   *
-   * @type {ButtonEmoji}
-   * @memberof SelectOption
-   */
-  emoji?: ButtonEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOption
-   */
-  default?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOption
+     */
+    label: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOption
+     */
+    value: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOption
+     */
+    description?: any;
+    /**
+     *
+     * @type {ButtonEmoji}
+     * @memberof SelectOption
+     */
+    emoji?: ButtonEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOption
+     */
+    default?: any;
 }

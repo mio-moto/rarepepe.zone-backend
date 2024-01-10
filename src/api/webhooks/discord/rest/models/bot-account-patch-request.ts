@@ -18,16 +18,16 @@
  * @interface BotAccountPatchRequest
  */
 export interface BotAccountPatchRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof BotAccountPatchRequest
-   */
-  username: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BotAccountPatchRequest
-   */
-  avatar?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BotAccountPatchRequest
+     */
+    username: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BotAccountPatchRequest
+     */
+    avatar?: any;
 }

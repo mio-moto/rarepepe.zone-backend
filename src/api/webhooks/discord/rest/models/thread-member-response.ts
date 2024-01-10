@@ -22,34 +22,34 @@ import { ScheduledEventUserResponseMember } from "./scheduled-event-user-respons
  * @interface ThreadMemberResponse
  */
 export interface ThreadMemberResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMemberResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMemberResponse
-   */
-  user_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMemberResponse
-   */
-  join_timestamp: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMemberResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {ScheduledEventUserResponseMember}
-   * @memberof ThreadMemberResponse
-   */
-  member?: ScheduledEventUserResponseMember;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMemberResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMemberResponse
+     */
+    user_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMemberResponse
+     */
+    join_timestamp: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMemberResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {ScheduledEventUserResponseMember}
+     * @memberof ThreadMemberResponse
+     */
+    member?: ScheduledEventUserResponseMember;
 }

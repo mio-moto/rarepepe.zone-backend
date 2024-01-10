@@ -18,16 +18,16 @@
  * @interface WebhookSourceChannelResponse
  */
 export interface WebhookSourceChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSourceChannelResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WebhookSourceChannelResponse
-   */
-  name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSourceChannelResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WebhookSourceChannelResponse
+     */
+    name: any;
 }

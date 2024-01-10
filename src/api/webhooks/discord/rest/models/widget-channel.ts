@@ -18,22 +18,22 @@
  * @interface WidgetChannel
  */
 export interface WidgetChannel {
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetChannel
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetChannel
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetChannel
-   */
-  position: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetChannel
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetChannel
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetChannel
+     */
+    position: any;
 }

@@ -22,46 +22,46 @@ import { UpdateOnboardingPromptRequestType } from "./update-onboarding-prompt-re
  * @interface UpdateOnboardingPromptRequest
  */
 export interface UpdateOnboardingPromptRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  title: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  options: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  single_select?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  required?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  in_onboarding?: any;
-  /**
-   *
-   * @type {UpdateOnboardingPromptRequestType}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  type?: UpdateOnboardingPromptRequestType;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateOnboardingPromptRequest
-   */
-  id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    title: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    options: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    single_select?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    required?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    in_onboarding?: any;
+    /**
+     *
+     * @type {UpdateOnboardingPromptRequestType}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    type?: UpdateOnboardingPromptRequestType;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateOnboardingPromptRequest
+     */
+    id: any;
 }

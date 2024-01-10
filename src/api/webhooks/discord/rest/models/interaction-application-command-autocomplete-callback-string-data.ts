@@ -18,10 +18,10 @@
  * @interface InteractionApplicationCommandAutocompleteCallbackStringData
  */
 export interface InteractionApplicationCommandAutocompleteCallbackStringData {
-  /**
-   *
-   * @type {any}
-   * @memberof InteractionApplicationCommandAutocompleteCallbackStringData
-   */
-  choices?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InteractionApplicationCommandAutocompleteCallbackStringData
+     */
+    choices?: any;
 }

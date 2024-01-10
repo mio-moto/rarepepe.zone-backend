@@ -18,16 +18,16 @@
  * @interface ChannelSelectDefaultValue
  */
 export interface ChannelSelectDefaultValue {
-  /**
-   *
-   * @type {string}
-   * @memberof ChannelSelectDefaultValue
-   */
-  type: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelSelectDefaultValue
-   */
-  id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ChannelSelectDefaultValue
+     */
+    type: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelSelectDefaultValue
+     */
+    id: any;
 }

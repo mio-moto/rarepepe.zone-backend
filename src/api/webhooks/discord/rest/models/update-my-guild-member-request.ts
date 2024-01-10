@@ -18,10 +18,10 @@
  * @interface UpdateMyGuildMemberRequest
  */
 export interface UpdateMyGuildMemberRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateMyGuildMemberRequest
-   */
-  nick?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateMyGuildMemberRequest
+     */
+    nick?: string | null;
 }

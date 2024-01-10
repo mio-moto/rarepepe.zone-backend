@@ -18,10 +18,10 @@
  * @interface GuildPruneResponse
  */
 export interface GuildPruneResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPruneResponse
-   */
-  pruned?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPruneResponse
+     */
+    pruned?: any;
 }

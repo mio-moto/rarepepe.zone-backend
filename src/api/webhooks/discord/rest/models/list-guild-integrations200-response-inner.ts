@@ -48,6 +48,6 @@ import { UserResponse } from "./user-response";
  * @export
  */
 export type ListGuildIntegrations200ResponseInner =
-  | DiscordIntegrationResponse
-  | ExternalConnectionIntegrationResponse
-  | GuildSubscriptionIntegrationResponse;
+    | DiscordIntegrationResponse
+    | ExternalConnectionIntegrationResponse
+    | GuildSubscriptionIntegrationResponse;

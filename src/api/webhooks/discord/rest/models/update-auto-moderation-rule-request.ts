@@ -40,52 +40,52 @@ import { MentionSpamUpsertRequestTriggerMetadata } from "./mention-spam-upsert-r
  * @interface UpdateAutoModerationRuleRequest
  */
 export interface UpdateAutoModerationRuleRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  name?: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  event_type?: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  trigger_type?: AutomodTriggerType;
-  /**
-   *
-   * @type {MentionSpamUpsertRequestTriggerMetadata}
-   * @memberof UpdateAutoModerationRuleRequest
-   */
-  trigger_metadata?: MentionSpamUpsertRequestTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    name?: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    event_type?: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    trigger_type?: AutomodTriggerType;
+    /**
+     *
+     * @type {MentionSpamUpsertRequestTriggerMetadata}
+     * @memberof UpdateAutoModerationRuleRequest
+     */
+    trigger_metadata?: MentionSpamUpsertRequestTriggerMetadata;
 }

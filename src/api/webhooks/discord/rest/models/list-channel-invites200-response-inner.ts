@@ -55,136 +55,136 @@ import { GuildInviteResponseType } from "./guild-invite-response-type";
  * @interface ListChannelInvites200ResponseInner
  */
 export interface ListChannelInvites200ResponseInner {
-  /**
-   *
-   * @type {GuildInviteResponseType}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  type?: GuildInviteResponseType;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  code: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  inviter?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  max_age?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  created_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  expires_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  friends_count?: any;
-  /**
-   *
-   * @type {FriendInviteResponseChannel}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  channel?: FriendInviteResponseChannel;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  is_contact?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  max_uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  approximate_member_count?: any;
-  /**
-   *
-   * @type {GuildInviteResponseGuild}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  guild?: GuildInviteResponseGuild;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  guild_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {GuildInviteResponseStageInstance}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  stage_instance?: GuildInviteResponseStageInstance;
-  /**
-   *
-   * @type {GuildInviteResponseTargetType}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  target_type?: GuildInviteResponseTargetType;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  target_user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {GuildInviteResponseTargetApplication}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  target_application?: GuildInviteResponseTargetApplication;
-  /**
-   *
-   * @type {GuildInviteResponseGuildScheduledEvent}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  guild_scheduled_event?: GuildInviteResponseGuildScheduledEvent;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  temporary?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ListChannelInvites200ResponseInner
-   */
-  approximate_presence_count?: any;
+    /**
+     *
+     * @type {GuildInviteResponseType}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    type?: GuildInviteResponseType;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    code: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    inviter?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    created_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    expires_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    friends_count?: any;
+    /**
+     *
+     * @type {FriendInviteResponseChannel}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    channel?: FriendInviteResponseChannel;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    is_contact?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    max_uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    approximate_member_count?: any;
+    /**
+     *
+     * @type {GuildInviteResponseGuild}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    guild?: GuildInviteResponseGuild;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {GuildInviteResponseStageInstance}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    stage_instance?: GuildInviteResponseStageInstance;
+    /**
+     *
+     * @type {GuildInviteResponseTargetType}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    target_type?: GuildInviteResponseTargetType;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    target_user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {GuildInviteResponseTargetApplication}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    target_application?: GuildInviteResponseTargetApplication;
+    /**
+     *
+     * @type {GuildInviteResponseGuildScheduledEvent}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    guild_scheduled_event?: GuildInviteResponseGuildScheduledEvent;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    temporary?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ListChannelInvites200ResponseInner
+     */
+    approximate_presence_count?: any;
 }

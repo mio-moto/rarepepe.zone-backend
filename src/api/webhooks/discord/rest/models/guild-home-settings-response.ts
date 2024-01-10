@@ -22,34 +22,34 @@ import { GuildHomeSettingsResponseWelcomeMessage } from "./guild-home-settings-r
  * @interface GuildHomeSettingsResponse
  */
 export interface GuildHomeSettingsResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildHomeSettingsResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildHomeSettingsResponse
-   */
-  enabled: any;
-  /**
-   *
-   * @type {GuildHomeSettingsResponseWelcomeMessage}
-   * @memberof GuildHomeSettingsResponse
-   */
-  welcome_message?: GuildHomeSettingsResponseWelcomeMessage;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildHomeSettingsResponse
-   */
-  new_member_actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildHomeSettingsResponse
-   */
-  resource_channels?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildHomeSettingsResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildHomeSettingsResponse
+     */
+    enabled: any;
+    /**
+     *
+     * @type {GuildHomeSettingsResponseWelcomeMessage}
+     * @memberof GuildHomeSettingsResponse
+     */
+    welcome_message?: GuildHomeSettingsResponseWelcomeMessage;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildHomeSettingsResponse
+     */
+    new_member_actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildHomeSettingsResponse
+     */
+    resource_channels?: any;
 }

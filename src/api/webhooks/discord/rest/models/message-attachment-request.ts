@@ -18,28 +18,28 @@
  * @interface MessageAttachmentRequest
  */
 export interface MessageAttachmentRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAttachmentRequest
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAttachmentRequest
-   */
-  filename?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAttachmentRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageAttachmentRequest
-   */
-  is_remix?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAttachmentRequest
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAttachmentRequest
+     */
+    filename?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAttachmentRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageAttachmentRequest
+     */
+    is_remix?: any;
 }

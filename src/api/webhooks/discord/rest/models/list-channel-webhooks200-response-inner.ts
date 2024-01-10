@@ -42,6 +42,6 @@ import { WebhookTypes } from "./webhook-types";
  * @export
  */
 export type ListChannelWebhooks200ResponseInner =
-  | ApplicationIncomingWebhookResponse
-  | ChannelFollowerWebhookResponse
-  | GuildIncomingWebhookResponse;
+    | ApplicationIncomingWebhookResponse
+    | ChannelFollowerWebhookResponse
+    | GuildIncomingWebhookResponse;

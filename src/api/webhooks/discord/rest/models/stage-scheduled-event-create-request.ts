@@ -31,58 +31,58 @@ import { StageScheduledEventCreateRequestEntityMetadata } from "./stage-schedule
  * @interface StageScheduledEventCreateRequest
  */
 export interface StageScheduledEventCreateRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  scheduled_start_time: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  privacy_level: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {GuildScheduledEventEntityTypes}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  entity_type: GuildScheduledEventEntityTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {StageScheduledEventCreateRequestEntityMetadata}
-   * @memberof StageScheduledEventCreateRequest
-   */
-  entity_metadata?: StageScheduledEventCreateRequestEntityMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    scheduled_start_time: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    privacy_level: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {GuildScheduledEventEntityTypes}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    entity_type: GuildScheduledEventEntityTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {StageScheduledEventCreateRequestEntityMetadata}
+     * @memberof StageScheduledEventCreateRequest
+     */
+    entity_metadata?: StageScheduledEventCreateRequestEntityMetadata;
 }

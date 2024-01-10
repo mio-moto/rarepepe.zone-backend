@@ -28,70 +28,70 @@ import { DefaultKeywordListTriggerMetadataResponse } from "./default-keyword-lis
  * @interface DefaultKeywordRuleResponse
  */
 export interface DefaultKeywordRuleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  creator_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  actions: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {DefaultKeywordListTriggerMetadataResponse}
-   * @memberof DefaultKeywordRuleResponse
-   */
-  trigger_metadata: DefaultKeywordListTriggerMetadataResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    creator_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    actions: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {DefaultKeywordListTriggerMetadataResponse}
+     * @memberof DefaultKeywordRuleResponse
+     */
+    trigger_metadata: DefaultKeywordListTriggerMetadataResponse;
 }

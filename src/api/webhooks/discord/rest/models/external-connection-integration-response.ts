@@ -37,88 +37,88 @@ import { UserResponse } from "./user-response";
  * @interface ExternalConnectionIntegrationResponse
  */
 export interface ExternalConnectionIntegrationResponse {
-  /**
-   *
-   * @type {IntegrationTypes}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  type: IntegrationTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {DiscordIntegrationResponseAccount}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  account?: DiscordIntegrationResponseAccount;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  user: UserResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  revoked?: any;
-  /**
-   *
-   * @type {ExternalConnectionIntegrationResponseExpireBehavior}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  expire_behavior?: ExternalConnectionIntegrationResponseExpireBehavior;
-  /**
-   *
-   * @type {ExternalConnectionIntegrationResponseExpireGracePeriod}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  expire_grace_period?: ExternalConnectionIntegrationResponseExpireGracePeriod;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  subscriber_count?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  synced_at?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  role_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  syncing?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalConnectionIntegrationResponse
-   */
-  enable_emoticons?: any;
+    /**
+     *
+     * @type {IntegrationTypes}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    type: IntegrationTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {DiscordIntegrationResponseAccount}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    account?: DiscordIntegrationResponseAccount;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    user: UserResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    revoked?: any;
+    /**
+     *
+     * @type {ExternalConnectionIntegrationResponseExpireBehavior}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    expire_behavior?: ExternalConnectionIntegrationResponseExpireBehavior;
+    /**
+     *
+     * @type {ExternalConnectionIntegrationResponseExpireGracePeriod}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    expire_grace_period?: ExternalConnectionIntegrationResponseExpireGracePeriod;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    subscriber_count?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    synced_at?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    role_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    syncing?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalConnectionIntegrationResponse
+     */
+    enable_emoticons?: any;
 }

@@ -18,10 +18,10 @@
  * @interface FlagToChannelActionMetadataResponse
  */
 export interface FlagToChannelActionMetadataResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof FlagToChannelActionMetadataResponse
-   */
-  channel_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof FlagToChannelActionMetadataResponse
+     */
+    channel_id: any;
 }

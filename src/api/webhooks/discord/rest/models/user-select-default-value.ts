@@ -18,16 +18,16 @@
  * @interface UserSelectDefaultValue
  */
 export interface UserSelectDefaultValue {
-  /**
-   *
-   * @type {string}
-   * @memberof UserSelectDefaultValue
-   */
-  type: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelectDefaultValue
-   */
-  id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof UserSelectDefaultValue
+     */
+    type: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelectDefaultValue
+     */
+    id: any;
 }

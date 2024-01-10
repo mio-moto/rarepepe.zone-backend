@@ -28,70 +28,70 @@ import { IncomingWebhookUpdateRequestPartial } from "./incoming-webhook-update-r
  * @interface ExecuteWebhookRequest
  */
 export interface ExecuteWebhookRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof ExecuteWebhookRequest
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  attachments?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  tts?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  username?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  avatar_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  thread_name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExecuteWebhookRequest
-   */
-  applied_tags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof ExecuteWebhookRequest
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    attachments?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    tts?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    username?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    avatar_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    thread_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExecuteWebhookRequest
+     */
+    applied_tags?: any;
 }

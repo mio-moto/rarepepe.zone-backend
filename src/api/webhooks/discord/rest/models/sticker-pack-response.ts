@@ -22,46 +22,46 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface StickerPackResponse
  */
 export interface StickerPackResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof StickerPackResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StickerPackResponse
-   */
-  sku_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StickerPackResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StickerPackResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StickerPackResponse
-   */
-  stickers: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof StickerPackResponse
-   */
-  cover_sticker_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof StickerPackResponse
-   */
-  banner_asset_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof StickerPackResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StickerPackResponse
+     */
+    sku_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StickerPackResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StickerPackResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StickerPackResponse
+     */
+    stickers: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof StickerPackResponse
+     */
+    cover_sticker_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof StickerPackResponse
+     */
+    banner_asset_id?: BasicMessageResponseApplicationId;
 }

@@ -31,58 +31,58 @@ import { GuildScheduledEventPrivacyLevels } from "./guild-scheduled-event-privac
  * @interface ExternalScheduledEventCreateRequest
  */
 export interface ExternalScheduledEventCreateRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  scheduled_start_time: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  privacy_level: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {GuildScheduledEventEntityTypes}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  entity_type: GuildScheduledEventEntityTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {EntityMetadataExternal}
-   * @memberof ExternalScheduledEventCreateRequest
-   */
-  entity_metadata: EntityMetadataExternal;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    scheduled_start_time: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    privacy_level: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {GuildScheduledEventEntityTypes}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    entity_type: GuildScheduledEventEntityTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {EntityMetadataExternal}
+     * @memberof ExternalScheduledEventCreateRequest
+     */
+    entity_metadata: EntityMetadataExternal;
 }

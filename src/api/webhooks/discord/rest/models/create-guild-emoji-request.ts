@@ -22,22 +22,22 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface CreateGuildEmojiRequest
  */
 export interface CreateGuildEmojiRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof CreateGuildEmojiRequest
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof CreateGuildEmojiRequest
-   */
-  image: string;
-  /**
-   *
-   * @type {Array<UpdateSelfVoiceStateRequestChannelId>}
-   * @memberof CreateGuildEmojiRequest
-   */
-  roles?: Array<UpdateSelfVoiceStateRequestChannelId>;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateGuildEmojiRequest
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateGuildEmojiRequest
+     */
+    image: string;
+    /**
+     *
+     * @type {Array<UpdateSelfVoiceStateRequestChannelId>}
+     * @memberof CreateGuildEmojiRequest
+     */
+    roles?: Array<UpdateSelfVoiceStateRequestChannelId>;
 }

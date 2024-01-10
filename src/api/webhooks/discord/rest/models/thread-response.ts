@@ -34,130 +34,130 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface ThreadResponse
  */
 export interface ThreadResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelTypes}
-   * @memberof ThreadResponse
-   */
-  type: ChannelTypes;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof ThreadResponse
-   */
-  last_message_id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  flags: number;
-  /**
-   *
-   * @type {string}
-   * @memberof ThreadResponse
-   */
-  last_pin_timestamp?: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {string}
-   * @memberof ThreadResponse
-   */
-  name: string | null;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof ThreadResponse
-   */
-  parent_id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  rate_limit_per_user?: number | null;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  bitrate?: number | null;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  user_limit?: number | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ThreadResponse
-   */
-  rtc_region?: string | null;
-  /**
-   *
-   * @type {CreateGuildChannelRequestVideoQualityMode}
-   * @memberof ThreadResponse
-   */
-  video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
-  /**
-   *
-   * @type {string}
-   * @memberof ThreadResponse
-   */
-  permissions?: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadResponse
-   */
-  owner_id: any;
-  /**
-   *
-   * @type {CreatedThreadResponseThreadMetadata}
-   * @memberof ThreadResponse
-   */
-  thread_metadata?: CreatedThreadResponseThreadMetadata;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  message_count: number;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  member_count: number;
-  /**
-   *
-   * @type {number}
-   * @memberof ThreadResponse
-   */
-  total_message_sent: number;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadResponse
-   */
-  applied_tags?: any;
-  /**
-   *
-   * @type {CreatedThreadResponseMember}
-   * @memberof ThreadResponse
-   */
-  member?: CreatedThreadResponseMember;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelTypes}
+     * @memberof ThreadResponse
+     */
+    type: ChannelTypes;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof ThreadResponse
+     */
+    last_message_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    flags: number;
+    /**
+     *
+     * @type {string}
+     * @memberof ThreadResponse
+     */
+    last_pin_timestamp?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ThreadResponse
+     */
+    name: string | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof ThreadResponse
+     */
+    parent_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    rate_limit_per_user?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    bitrate?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    user_limit?: number | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ThreadResponse
+     */
+    rtc_region?: string | null;
+    /**
+     *
+     * @type {CreateGuildChannelRequestVideoQualityMode}
+     * @memberof ThreadResponse
+     */
+    video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
+    /**
+     *
+     * @type {string}
+     * @memberof ThreadResponse
+     */
+    permissions?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadResponse
+     */
+    owner_id: any;
+    /**
+     *
+     * @type {CreatedThreadResponseThreadMetadata}
+     * @memberof ThreadResponse
+     */
+    thread_metadata?: CreatedThreadResponseThreadMetadata;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    message_count: number;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    member_count: number;
+    /**
+     *
+     * @type {number}
+     * @memberof ThreadResponse
+     */
+    total_message_sent: number;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadResponse
+     */
+    applied_tags?: any;
+    /**
+     *
+     * @type {CreatedThreadResponseMember}
+     * @memberof ThreadResponse
+     */
+    member?: CreatedThreadResponseMember;
 }

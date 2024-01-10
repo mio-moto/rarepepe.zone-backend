@@ -34,64 +34,64 @@ import { GuildScheduledEventPrivacyLevels } from "./guild-scheduled-event-privac
  * @interface ExternalScheduledEventPatchRequestPartial
  */
 export interface ExternalScheduledEventPatchRequestPartial {
-  /**
-   *
-   * @type {ExternalScheduledEventPatchRequestPartialStatus}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  status?: ExternalScheduledEventPatchRequestPartialStatus;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  scheduled_start_time?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {ExternalScheduledEventPatchRequestPartialEntityType}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  entity_type?: ExternalScheduledEventPatchRequestPartialEntityType;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  privacy_level?: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {EntityMetadataExternal}
-   * @memberof ExternalScheduledEventPatchRequestPartial
-   */
-  entity_metadata?: EntityMetadataExternal;
+    /**
+     *
+     * @type {ExternalScheduledEventPatchRequestPartialStatus}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    status?: ExternalScheduledEventPatchRequestPartialStatus;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    scheduled_start_time?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {ExternalScheduledEventPatchRequestPartialEntityType}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    entity_type?: ExternalScheduledEventPatchRequestPartialEntityType;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    privacy_level?: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {EntityMetadataExternal}
+     * @memberof ExternalScheduledEventPatchRequestPartial
+     */
+    entity_metadata?: EntityMetadataExternal;
 }

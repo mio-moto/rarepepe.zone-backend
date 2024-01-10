@@ -28,52 +28,52 @@ import { KeywordUpsertRequestTriggerMetadata } from "./keyword-upsert-request-tr
  * @interface KeywordUpsertRequestPartial
  */
 export interface KeywordUpsertRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  event_type?: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  trigger_type?: AutomodTriggerType;
-  /**
-   *
-   * @type {KeywordUpsertRequestTriggerMetadata}
-   * @memberof KeywordUpsertRequestPartial
-   */
-  trigger_metadata?: KeywordUpsertRequestTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    event_type?: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    trigger_type?: AutomodTriggerType;
+    /**
+     *
+     * @type {KeywordUpsertRequestTriggerMetadata}
+     * @memberof KeywordUpsertRequestPartial
+     */
+    trigger_metadata?: KeywordUpsertRequestTriggerMetadata;
 }

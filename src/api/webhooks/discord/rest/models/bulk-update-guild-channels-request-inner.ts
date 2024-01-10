@@ -22,28 +22,28 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface BulkUpdateGuildChannelsRequestInner
  */
 export interface BulkUpdateGuildChannelsRequestInner {
-  /**
-   *
-   * @type {any}
-   * @memberof BulkUpdateGuildChannelsRequestInner
-   */
-  id?: any;
-  /**
-   *
-   * @type {number}
-   * @memberof BulkUpdateGuildChannelsRequestInner
-   */
-  position?: number | null;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof BulkUpdateGuildChannelsRequestInner
-   */
-  parent_id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof BulkUpdateGuildChannelsRequestInner
-   */
-  lock_permissions?: boolean | null;
+    /**
+     *
+     * @type {any}
+     * @memberof BulkUpdateGuildChannelsRequestInner
+     */
+    id?: any;
+    /**
+     *
+     * @type {number}
+     * @memberof BulkUpdateGuildChannelsRequestInner
+     */
+    position?: number | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof BulkUpdateGuildChannelsRequestInner
+     */
+    parent_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof BulkUpdateGuildChannelsRequestInner
+     */
+    lock_permissions?: boolean | null;
 }

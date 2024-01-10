@@ -18,28 +18,28 @@
  * @interface CommandPermissionsResponse
  */
 export interface CommandPermissionsResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof CommandPermissionsResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CommandPermissionsResponse
-   */
-  application_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CommandPermissionsResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CommandPermissionsResponse
-   */
-  permissions: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CommandPermissionsResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CommandPermissionsResponse
+     */
+    application_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CommandPermissionsResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CommandPermissionsResponse
+     */
+    permissions: any;
 }

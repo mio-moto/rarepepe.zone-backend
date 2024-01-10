@@ -22,40 +22,40 @@ import { ThreadAutoArchiveDuration } from "./thread-auto-archive-duration";
  * @interface ThreadMetadataResponse
  */
 export interface ThreadMetadataResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMetadataResponse
-   */
-  archived: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMetadataResponse
-   */
-  archive_timestamp?: any;
-  /**
-   *
-   * @type {ThreadAutoArchiveDuration}
-   * @memberof ThreadMetadataResponse
-   */
-  auto_archive_duration: ThreadAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMetadataResponse
-   */
-  locked: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMetadataResponse
-   */
-  create_timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadMetadataResponse
-   */
-  invitable?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMetadataResponse
+     */
+    archived: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMetadataResponse
+     */
+    archive_timestamp?: any;
+    /**
+     *
+     * @type {ThreadAutoArchiveDuration}
+     * @memberof ThreadMetadataResponse
+     */
+    auto_archive_duration: ThreadAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMetadataResponse
+     */
+    locked: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMetadataResponse
+     */
+    create_timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadMetadataResponse
+     */
+    invitable?: any;
 }

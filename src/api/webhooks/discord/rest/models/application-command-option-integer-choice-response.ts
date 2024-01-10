@@ -18,28 +18,28 @@
  * @interface ApplicationCommandOptionIntegerChoiceResponse
  */
 export interface ApplicationCommandOptionIntegerChoiceResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionIntegerChoiceResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionIntegerChoiceResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandOptionIntegerChoiceResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandOptionIntegerChoiceResponse
-   */
-  value: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionIntegerChoiceResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionIntegerChoiceResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandOptionIntegerChoiceResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandOptionIntegerChoiceResponse
+     */
+    value: any;
 }

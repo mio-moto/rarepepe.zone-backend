@@ -22,40 +22,40 @@ import { SettingsEmojiResponse } from "./settings-emoji-response";
  * @interface OnboardingPromptOptionResponse
  */
 export interface OnboardingPromptOptionResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionResponse
-   */
-  title: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionResponse
-   */
-  description: any;
-  /**
-   *
-   * @type {SettingsEmojiResponse}
-   * @memberof OnboardingPromptOptionResponse
-   */
-  emoji: SettingsEmojiResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionResponse
-   */
-  role_ids: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionResponse
-   */
-  channel_ids: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionResponse
+     */
+    title: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionResponse
+     */
+    description: any;
+    /**
+     *
+     * @type {SettingsEmojiResponse}
+     * @memberof OnboardingPromptOptionResponse
+     */
+    emoji: SettingsEmojiResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionResponse
+     */
+    role_ids: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionResponse
+     */
+    channel_ids: any;
 }

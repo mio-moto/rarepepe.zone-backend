@@ -25,46 +25,46 @@ import { CreateGuildInviteRequestTargetType } from "./create-guild-invite-reques
  * @interface CreateGuildInviteRequest
  */
 export interface CreateGuildInviteRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildInviteRequest
-   */
-  max_age?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildInviteRequest
-   */
-  temporary?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildInviteRequest
-   */
-  max_uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildInviteRequest
-   */
-  unique?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof CreateGuildInviteRequest
-   */
-  target_user_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof CreateGuildInviteRequest
-   */
-  target_application_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {CreateGuildInviteRequestTargetType}
-   * @memberof CreateGuildInviteRequest
-   */
-  target_type?: CreateGuildInviteRequestTargetType;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildInviteRequest
+     */
+    max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildInviteRequest
+     */
+    temporary?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildInviteRequest
+     */
+    max_uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildInviteRequest
+     */
+    unique?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof CreateGuildInviteRequest
+     */
+    target_user_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof CreateGuildInviteRequest
+     */
+    target_application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {CreateGuildInviteRequestTargetType}
+     * @memberof CreateGuildInviteRequest
+     */
+    target_type?: CreateGuildInviteRequestTargetType;
 }

@@ -22,46 +22,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface RoleSelect
  */
 export interface RoleSelect {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof RoleSelect
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelect
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelect
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelect
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelect
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelect
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RoleSelect
-   */
-  default_values?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof RoleSelect
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelect
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelect
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelect
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelect
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelect
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RoleSelect
+     */
+    default_values?: any;
 }

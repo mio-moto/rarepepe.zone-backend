@@ -18,22 +18,22 @@
  * @interface ApplicationUserRoleConnectionResponse
  */
 export interface ApplicationUserRoleConnectionResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationUserRoleConnectionResponse
-   */
-  platform_name?: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationUserRoleConnectionResponse
-   */
-  platform_username?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationUserRoleConnectionResponse
-   */
-  metadata?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationUserRoleConnectionResponse
+     */
+    platform_name?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationUserRoleConnectionResponse
+     */
+    platform_username?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationUserRoleConnectionResponse
+     */
+    metadata?: { [key: string]: string };
 }

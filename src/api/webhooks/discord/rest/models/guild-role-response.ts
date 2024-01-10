@@ -22,76 +22,76 @@ import { GuildRoleResponseTags } from "./guild-role-response-tags";
  * @interface GuildRoleResponse
  */
 export interface GuildRoleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  permissions: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  position: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  color: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  hoist: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  managed: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  mentionable: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildRoleResponse
-   */
-  unicode_emoji?: any;
-  /**
-   *
-   * @type {GuildRoleResponseTags}
-   * @memberof GuildRoleResponse
-   */
-  tags?: GuildRoleResponseTags;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    permissions: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    position: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    color: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    hoist: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    managed: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    mentionable: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildRoleResponse
+     */
+    unicode_emoji?: any;
+    /**
+     *
+     * @type {GuildRoleResponseTags}
+     * @memberof GuildRoleResponse
+     */
+    tags?: GuildRoleResponseTags;
 }

@@ -1,20 +1,27 @@
+export type SimplePepe = "simple";
+export type RarePepe = "rare";
+export type UltraPepe = "ultra";
+
+export type PepeRarity = SimplePepe | RarePepe | UltraPepe;
+
 interface Result {
-  type: string;
-  filename: string;
-  path: string;
-  url: string;
+    type: PepeRarity;
+    filename: string;
+    path: string;
+    url: string;
+    altUrls?: Record<"mp4" | "gif", string>;
 }
 
 export interface SimpleResult extends Result {
-  type: "simple";
+    type: SimplePepe;
 }
 
 export interface RareResult extends Result {
-  type: "rare";
+    type: RarePepe;
 }
 
 export interface UltraResult extends Result {
-  type: "ultra";
+    type: UltraPepe;
 }
 
 export type PepeResult = SimpleResult | RareResult | UltraResult;

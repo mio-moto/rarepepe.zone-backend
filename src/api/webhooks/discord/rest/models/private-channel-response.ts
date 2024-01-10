@@ -25,40 +25,40 @@ import { ChannelTypes } from "./channel-types";
  * @interface PrivateChannelResponse
  */
 export interface PrivateChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateChannelResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelTypes}
-   * @memberof PrivateChannelResponse
-   */
-  type: ChannelTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof PrivateChannelResponse
-   */
-  last_message_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateChannelResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateChannelResponse
-   */
-  last_pin_timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateChannelResponse
-   */
-  recipients: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateChannelResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelTypes}
+     * @memberof PrivateChannelResponse
+     */
+    type: ChannelTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof PrivateChannelResponse
+     */
+    last_message_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateChannelResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateChannelResponse
+     */
+    last_pin_timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateChannelResponse
+     */
+    recipients: any;
 }

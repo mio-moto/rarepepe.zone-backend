@@ -25,94 +25,94 @@ import { ApplicationCommandType } from "./application-command-type";
  * @interface ApplicationCommandResponse
  */
 export interface ApplicationCommandResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandResponse
-   */
-  application_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandResponse
-   */
-  version: any;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandResponse
-   */
-  default_member_permissions?: string | null;
-  /**
-   *
-   * @type {ApplicationCommandType}
-   * @memberof ApplicationCommandResponse
-   */
-  type: ApplicationCommandType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandResponse
-   */
-  description_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandResponse
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandResponse
-   */
-  guild_id?: any;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandResponse
-   */
-  dm_permission?: boolean | null;
-  /**
-   *
-   * @type {Array<ApplicationCommandResponseOptionsInner>}
-   * @memberof ApplicationCommandResponse
-   */
-  options?: Array<ApplicationCommandResponseOptionsInner>;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandResponse
-   */
-  nsfw?: boolean | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandResponse
+     */
+    application_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandResponse
+     */
+    version: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandResponse
+     */
+    default_member_permissions?: string | null;
+    /**
+     *
+     * @type {ApplicationCommandType}
+     * @memberof ApplicationCommandResponse
+     */
+    type: ApplicationCommandType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandResponse
+     */
+    description_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandResponse
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandResponse
+     */
+    guild_id?: any;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandResponse
+     */
+    dm_permission?: boolean | null;
+    /**
+     *
+     * @type {Array<ApplicationCommandResponseOptionsInner>}
+     * @memberof ApplicationCommandResponse
+     */
+    options?: Array<ApplicationCommandResponseOptionsInner>;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandResponse
+     */
+    nsfw?: boolean | null;
 }

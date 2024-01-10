@@ -22,28 +22,28 @@ import { ChannelTypes } from "./channel-types";
  * @interface MessageMentionChannelResponse
  */
 export interface MessageMentionChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageMentionChannelResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageMentionChannelResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {ChannelTypes}
-   * @memberof MessageMentionChannelResponse
-   */
-  type: ChannelTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageMentionChannelResponse
-   */
-  guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageMentionChannelResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageMentionChannelResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {ChannelTypes}
+     * @memberof MessageMentionChannelResponse
+     */
+    type: ChannelTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageMentionChannelResponse
+     */
+    guild_id: any;
 }

@@ -22,16 +22,16 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface MessageComponentActionRowResponse
  */
 export interface MessageComponentActionRowResponse {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MessageComponentActionRowResponse
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentActionRowResponse
-   */
-  components?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MessageComponentActionRowResponse
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentActionRowResponse
+     */
+    components?: any;
 }

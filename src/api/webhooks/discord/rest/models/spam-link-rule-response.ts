@@ -25,70 +25,70 @@ import { AutomodTriggerType } from "./automod-trigger-type";
  * @interface SpamLinkRuleResponse
  */
 export interface SpamLinkRuleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  creator_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof SpamLinkRuleResponse
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  actions: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof SpamLinkRuleResponse
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SpamLinkRuleResponse
-   */
-  trigger_metadata: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    creator_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof SpamLinkRuleResponse
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    actions: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof SpamLinkRuleResponse
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SpamLinkRuleResponse
+     */
+    trigger_metadata: any;
 }

@@ -18,28 +18,28 @@
  * @interface SlackWebhook
  */
 export interface SlackWebhook {
-  /**
-   *
-   * @type {any}
-   * @memberof SlackWebhook
-   */
-  text?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SlackWebhook
-   */
-  username?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SlackWebhook
-   */
-  icon_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SlackWebhook
-   */
-  attachments?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SlackWebhook
+     */
+    text?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SlackWebhook
+     */
+    username?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SlackWebhook
+     */
+    icon_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SlackWebhook
+     */
+    attachments?: any;
 }

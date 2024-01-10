@@ -22,34 +22,34 @@ import { ChannelTypes } from "./channel-types";
  * @interface InviteChannelResponse
  */
 export interface InviteChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof InviteChannelResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelTypes}
-   * @memberof InviteChannelResponse
-   */
-  type: ChannelTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteChannelResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteChannelResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteChannelResponse
-   */
-  recipients?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteChannelResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelTypes}
+     * @memberof InviteChannelResponse
+     */
+    type: ChannelTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteChannelResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteChannelResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteChannelResponse
+     */
+    recipients?: any;
 }

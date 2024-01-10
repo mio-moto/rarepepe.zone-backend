@@ -18,28 +18,28 @@
  * @interface MessageEmbedAuthorResponse
  */
 export interface MessageEmbedAuthorResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedAuthorResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedAuthorResponse
-   */
-  url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedAuthorResponse
-   */
-  icon_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedAuthorResponse
-   */
-  proxy_icon_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedAuthorResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedAuthorResponse
+     */
+    url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedAuthorResponse
+     */
+    icon_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedAuthorResponse
+     */
+    proxy_icon_url?: any;
 }

@@ -22,22 +22,22 @@ import { ChannelPermissionOverwrites } from "./channel-permission-overwrites";
  * @interface SetChannelPermissionOverwriteRequest
  */
 export interface SetChannelPermissionOverwriteRequest {
-  /**
-   *
-   * @type {ChannelPermissionOverwrites}
-   * @memberof SetChannelPermissionOverwriteRequest
-   */
-  type?: ChannelPermissionOverwrites | null;
-  /**
-   *
-   * @type {number}
-   * @memberof SetChannelPermissionOverwriteRequest
-   */
-  allow?: number | null;
-  /**
-   *
-   * @type {number}
-   * @memberof SetChannelPermissionOverwriteRequest
-   */
-  deny?: number | null;
+    /**
+     *
+     * @type {ChannelPermissionOverwrites}
+     * @memberof SetChannelPermissionOverwriteRequest
+     */
+    type?: ChannelPermissionOverwrites | null;
+    /**
+     *
+     * @type {number}
+     * @memberof SetChannelPermissionOverwriteRequest
+     */
+    allow?: number | null;
+    /**
+     *
+     * @type {number}
+     * @memberof SetChannelPermissionOverwriteRequest
+     */
+    deny?: number | null;
 }

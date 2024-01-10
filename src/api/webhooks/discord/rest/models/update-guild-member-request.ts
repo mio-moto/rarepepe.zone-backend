@@ -22,46 +22,46 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface UpdateGuildMemberRequest
  */
 export interface UpdateGuildMemberRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildMemberRequest
-   */
-  nick?: string | null;
-  /**
-   *
-   * @type {Array<any>}
-   * @memberof UpdateGuildMemberRequest
-   */
-  roles?: Array<any>;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UpdateGuildMemberRequest
-   */
-  mute?: boolean | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UpdateGuildMemberRequest
-   */
-  deaf?: boolean | null;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof UpdateGuildMemberRequest
-   */
-  channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildMemberRequest
-   */
-  communication_disabled_until?: string | null;
-  /**
-   *
-   * @type {number}
-   * @memberof UpdateGuildMemberRequest
-   */
-  flags?: number | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildMemberRequest
+     */
+    nick?: string | null;
+    /**
+     *
+     * @type {Array<any>}
+     * @memberof UpdateGuildMemberRequest
+     */
+    roles?: Array<any>;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UpdateGuildMemberRequest
+     */
+    mute?: boolean | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UpdateGuildMemberRequest
+     */
+    deaf?: boolean | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof UpdateGuildMemberRequest
+     */
+    channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildMemberRequest
+     */
+    communication_disabled_until?: string | null;
+    /**
+     *
+     * @type {number}
+     * @memberof UpdateGuildMemberRequest
+     */
+    flags?: number | null;
 }

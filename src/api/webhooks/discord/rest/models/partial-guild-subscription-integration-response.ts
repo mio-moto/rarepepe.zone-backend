@@ -25,28 +25,28 @@ import { IntegrationTypes } from "./integration-types";
  * @interface PartialGuildSubscriptionIntegrationResponse
  */
 export interface PartialGuildSubscriptionIntegrationResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof PartialGuildSubscriptionIntegrationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {IntegrationTypes}
-   * @memberof PartialGuildSubscriptionIntegrationResponse
-   */
-  type: IntegrationTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof PartialGuildSubscriptionIntegrationResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {DiscordIntegrationResponseAccount}
-   * @memberof PartialGuildSubscriptionIntegrationResponse
-   */
-  account?: DiscordIntegrationResponseAccount;
+    /**
+     *
+     * @type {any}
+     * @memberof PartialGuildSubscriptionIntegrationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {IntegrationTypes}
+     * @memberof PartialGuildSubscriptionIntegrationResponse
+     */
+    type: IntegrationTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof PartialGuildSubscriptionIntegrationResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {DiscordIntegrationResponseAccount}
+     * @memberof PartialGuildSubscriptionIntegrationResponse
+     */
+    account?: DiscordIntegrationResponseAccount;
 }

@@ -22,10 +22,10 @@ import { ApplicationCommandPermission } from "./application-command-permission";
  * @interface SetGuildApplicationCommandPermissionsRequest
  */
 export interface SetGuildApplicationCommandPermissionsRequest {
-  /**
-   *
-   * @type {Array<ApplicationCommandPermission>}
-   * @memberof SetGuildApplicationCommandPermissionsRequest
-   */
-  permissions?: Array<ApplicationCommandPermission>;
+    /**
+     *
+     * @type {Array<ApplicationCommandPermission>}
+     * @memberof SetGuildApplicationCommandPermissionsRequest
+     */
+    permissions?: Array<ApplicationCommandPermission>;
 }

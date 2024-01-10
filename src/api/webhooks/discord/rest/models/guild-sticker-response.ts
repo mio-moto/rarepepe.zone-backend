@@ -28,58 +28,58 @@ import { StickerTypes } from "./sticker-types";
  * @interface GuildStickerResponse
  */
 export interface GuildStickerResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildStickerResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildStickerResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildStickerResponse
-   */
-  tags: any;
-  /**
-   *
-   * @type {StickerTypes}
-   * @memberof GuildStickerResponse
-   */
-  type: StickerTypes;
-  /**
-   *
-   * @type {GuildStickerResponseFormatType}
-   * @memberof GuildStickerResponse
-   */
-  format_type?: GuildStickerResponseFormatType;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildStickerResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildStickerResponse
-   */
-  available: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildStickerResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof GuildStickerResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildStickerResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildStickerResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildStickerResponse
+     */
+    tags: any;
+    /**
+     *
+     * @type {StickerTypes}
+     * @memberof GuildStickerResponse
+     */
+    type: StickerTypes;
+    /**
+     *
+     * @type {GuildStickerResponseFormatType}
+     * @memberof GuildStickerResponse
+     */
+    format_type?: GuildStickerResponseFormatType;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildStickerResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildStickerResponse
+     */
+    available: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildStickerResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof GuildStickerResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
 }

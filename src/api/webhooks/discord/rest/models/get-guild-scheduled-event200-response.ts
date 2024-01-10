@@ -48,6 +48,6 @@ import { VoiceScheduledEventResponseEntityMetadata } from "./voice-scheduled-eve
  * @export
  */
 export type GetGuildScheduledEvent200Response =
-  | ExternalScheduledEventResponse
-  | StageScheduledEventResponse
-  | VoiceScheduledEventResponse;
+    | ExternalScheduledEventResponse
+    | StageScheduledEventResponse
+    | VoiceScheduledEventResponse;

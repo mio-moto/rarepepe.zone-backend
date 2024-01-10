@@ -37,82 +37,82 @@ import { RichEmbedVideo } from "./rich-embed-video";
  * @interface RichEmbed
  */
 export interface RichEmbed {
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  type?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  title?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  color?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  description?: any;
-  /**
-   *
-   * @type {RichEmbedAuthor}
-   * @memberof RichEmbed
-   */
-  author?: RichEmbedAuthor;
-  /**
-   *
-   * @type {RichEmbedImage}
-   * @memberof RichEmbed
-   */
-  image?: RichEmbedImage;
-  /**
-   *
-   * @type {RichEmbedThumbnail}
-   * @memberof RichEmbed
-   */
-  thumbnail?: RichEmbedThumbnail;
-  /**
-   *
-   * @type {RichEmbedFooter}
-   * @memberof RichEmbed
-   */
-  footer?: RichEmbedFooter;
-  /**
-   *
-   * @type {any}
-   * @memberof RichEmbed
-   */
-  fields?: any;
-  /**
-   *
-   * @type {RichEmbedProvider}
-   * @memberof RichEmbed
-   */
-  provider?: RichEmbedProvider;
-  /**
-   *
-   * @type {RichEmbedVideo}
-   * @memberof RichEmbed
-   */
-  video?: RichEmbedVideo;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    type?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    title?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    color?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    description?: any;
+    /**
+     *
+     * @type {RichEmbedAuthor}
+     * @memberof RichEmbed
+     */
+    author?: RichEmbedAuthor;
+    /**
+     *
+     * @type {RichEmbedImage}
+     * @memberof RichEmbed
+     */
+    image?: RichEmbedImage;
+    /**
+     *
+     * @type {RichEmbedThumbnail}
+     * @memberof RichEmbed
+     */
+    thumbnail?: RichEmbedThumbnail;
+    /**
+     *
+     * @type {RichEmbedFooter}
+     * @memberof RichEmbed
+     */
+    footer?: RichEmbedFooter;
+    /**
+     *
+     * @type {any}
+     * @memberof RichEmbed
+     */
+    fields?: any;
+    /**
+     *
+     * @type {RichEmbedProvider}
+     * @memberof RichEmbed
+     */
+    provider?: RichEmbedProvider;
+    /**
+     *
+     * @type {RichEmbedVideo}
+     * @memberof RichEmbed
+     */
+    video?: RichEmbedVideo;
 }

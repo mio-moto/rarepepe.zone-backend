@@ -22,16 +22,16 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface BulkUpdateGuildRolesRequestInner
  */
 export interface BulkUpdateGuildRolesRequestInner {
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof BulkUpdateGuildRolesRequestInner
-   */
-  id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {number}
-   * @memberof BulkUpdateGuildRolesRequestInner
-   */
-  position?: number | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof BulkUpdateGuildRolesRequestInner
+     */
+    id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {number}
+     * @memberof BulkUpdateGuildRolesRequestInner
+     */
+    position?: number | null;
 }

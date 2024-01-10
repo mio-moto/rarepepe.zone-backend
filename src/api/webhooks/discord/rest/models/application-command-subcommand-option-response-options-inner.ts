@@ -48,12 +48,12 @@ import { ApplicationCommandUserOptionResponse } from "./application-command-user
  * @export
  */
 export type ApplicationCommandSubcommandOptionResponseOptionsInner =
-  | ApplicationCommandAttachmentOptionResponse
-  | ApplicationCommandBooleanOptionResponse
-  | ApplicationCommandChannelOptionResponse
-  | ApplicationCommandIntegerOptionResponse
-  | ApplicationCommandMentionableOptionResponse
-  | ApplicationCommandNumberOptionResponse
-  | ApplicationCommandRoleOptionResponse
-  | ApplicationCommandStringOptionResponse
-  | ApplicationCommandUserOptionResponse;
+    | ApplicationCommandAttachmentOptionResponse
+    | ApplicationCommandBooleanOptionResponse
+    | ApplicationCommandChannelOptionResponse
+    | ApplicationCommandIntegerOptionResponse
+    | ApplicationCommandMentionableOptionResponse
+    | ApplicationCommandNumberOptionResponse
+    | ApplicationCommandRoleOptionResponse
+    | ApplicationCommandStringOptionResponse
+    | ApplicationCommandUserOptionResponse;

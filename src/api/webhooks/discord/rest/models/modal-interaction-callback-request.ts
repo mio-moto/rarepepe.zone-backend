@@ -25,16 +25,16 @@ import { ModalInteractionCallbackData } from "./modal-interaction-callback-data"
  * @interface ModalInteractionCallbackRequest
  */
 export interface ModalInteractionCallbackRequest {
-  /**
-   *
-   * @type {InteractionCallbackTypes}
-   * @memberof ModalInteractionCallbackRequest
-   */
-  type: InteractionCallbackTypes;
-  /**
-   *
-   * @type {ModalInteractionCallbackData}
-   * @memberof ModalInteractionCallbackRequest
-   */
-  data: ModalInteractionCallbackData;
+    /**
+     *
+     * @type {InteractionCallbackTypes}
+     * @memberof ModalInteractionCallbackRequest
+     */
+    type: InteractionCallbackTypes;
+    /**
+     *
+     * @type {ModalInteractionCallbackData}
+     * @memberof ModalInteractionCallbackRequest
+     */
+    data: ModalInteractionCallbackData;
 }

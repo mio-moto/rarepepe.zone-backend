@@ -22,22 +22,22 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface UpdateSelfVoiceStateRequest
  */
 export interface UpdateSelfVoiceStateRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateSelfVoiceStateRequest
-   */
-  request_to_speak_timestamp?: string | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof UpdateSelfVoiceStateRequest
-   */
-  suppress?: boolean | null;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof UpdateSelfVoiceStateRequest
-   */
-  channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateSelfVoiceStateRequest
+     */
+    request_to_speak_timestamp?: string | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof UpdateSelfVoiceStateRequest
+     */
+    suppress?: boolean | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof UpdateSelfVoiceStateRequest
+     */
+    channel_id?: UpdateSelfVoiceStateRequestChannelId | null;
 }

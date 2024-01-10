@@ -18,52 +18,52 @@
  * @interface GuildTemplateRoleResponse
  */
 export interface GuildTemplateRoleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  permissions: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  color: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  hoist: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  mentionable: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateRoleResponse
-   */
-  unicode_emoji?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    permissions: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    color: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    hoist: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    mentionable: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateRoleResponse
+     */
+    unicode_emoji?: any;
 }

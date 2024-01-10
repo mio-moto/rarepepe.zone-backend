@@ -18,22 +18,22 @@
  * @interface ApplicationCommandOptionIntegerChoice
  */
 export interface ApplicationCommandOptionIntegerChoice {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionIntegerChoice
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandOptionIntegerChoice
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandOptionIntegerChoice
-   */
-  value: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionIntegerChoice
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandOptionIntegerChoice
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandOptionIntegerChoice
+     */
+    value: any;
 }

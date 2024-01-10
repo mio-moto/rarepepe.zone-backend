@@ -22,22 +22,22 @@ import { StickerFormatTypes } from "./sticker-format-types";
  * @interface MessageStickerItemResponse
  */
 export interface MessageStickerItemResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageStickerItemResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageStickerItemResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {StickerFormatTypes}
-   * @memberof MessageStickerItemResponse
-   */
-  format_type: StickerFormatTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageStickerItemResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageStickerItemResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {StickerFormatTypes}
+     * @memberof MessageStickerItemResponse
+     */
+    format_type: StickerFormatTypes;
 }

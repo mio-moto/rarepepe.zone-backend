@@ -18,22 +18,22 @@
  * @interface ApplicationCommandOptionNumberChoice
  */
 export interface ApplicationCommandOptionNumberChoice {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionNumberChoice
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandOptionNumberChoice
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandOptionNumberChoice
-   */
-  value: number;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionNumberChoice
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandOptionNumberChoice
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandOptionNumberChoice
+     */
+    value: number;
 }

@@ -22,34 +22,34 @@ import { NewMemberActionResponseEmoji } from "./new-member-action-response-emoji
  * @interface ResourceChannelResponse
  */
 export interface ResourceChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ResourceChannelResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ResourceChannelResponse
-   */
-  title: any;
-  /**
-   *
-   * @type {NewMemberActionResponseEmoji}
-   * @memberof ResourceChannelResponse
-   */
-  emoji?: NewMemberActionResponseEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof ResourceChannelResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ResourceChannelResponse
-   */
-  description: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ResourceChannelResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ResourceChannelResponse
+     */
+    title: any;
+    /**
+     *
+     * @type {NewMemberActionResponseEmoji}
+     * @memberof ResourceChannelResponse
+     */
+    emoji?: NewMemberActionResponseEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof ResourceChannelResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ResourceChannelResponse
+     */
+    description: any;
 }

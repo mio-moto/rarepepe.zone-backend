@@ -18,40 +18,40 @@
  * @interface WidgetResponse
  */
 export interface WidgetResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetResponse
-   */
-  instant_invite?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetResponse
-   */
-  channels: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetResponse
-   */
-  members: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WidgetResponse
-   */
-  presence_count: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetResponse
+     */
+    instant_invite?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetResponse
+     */
+    channels: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetResponse
+     */
+    members: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WidgetResponse
+     */
+    presence_count: any;
 }

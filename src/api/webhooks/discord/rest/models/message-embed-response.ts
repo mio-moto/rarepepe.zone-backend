@@ -34,82 +34,82 @@ import { MessageEmbedResponseVideo } from "./message-embed-response-video";
  * @interface MessageEmbedResponse
  */
 export interface MessageEmbedResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  type: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  title?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  color?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedResponse
-   */
-  fields?: any;
-  /**
-   *
-   * @type {MessageEmbedResponseAuthor}
-   * @memberof MessageEmbedResponse
-   */
-  author?: MessageEmbedResponseAuthor;
-  /**
-   *
-   * @type {MessageEmbedResponseProvider}
-   * @memberof MessageEmbedResponse
-   */
-  provider?: MessageEmbedResponseProvider;
-  /**
-   *
-   * @type {MessageEmbedResponseImage}
-   * @memberof MessageEmbedResponse
-   */
-  image?: MessageEmbedResponseImage;
-  /**
-   *
-   * @type {MessageEmbedResponseImage}
-   * @memberof MessageEmbedResponse
-   */
-  thumbnail?: MessageEmbedResponseImage;
-  /**
-   *
-   * @type {MessageEmbedResponseVideo}
-   * @memberof MessageEmbedResponse
-   */
-  video?: MessageEmbedResponseVideo;
-  /**
-   *
-   * @type {MessageEmbedResponseFooter}
-   * @memberof MessageEmbedResponse
-   */
-  footer?: MessageEmbedResponseFooter;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    type: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    title?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    color?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedResponse
+     */
+    fields?: any;
+    /**
+     *
+     * @type {MessageEmbedResponseAuthor}
+     * @memberof MessageEmbedResponse
+     */
+    author?: MessageEmbedResponseAuthor;
+    /**
+     *
+     * @type {MessageEmbedResponseProvider}
+     * @memberof MessageEmbedResponse
+     */
+    provider?: MessageEmbedResponseProvider;
+    /**
+     *
+     * @type {MessageEmbedResponseImage}
+     * @memberof MessageEmbedResponse
+     */
+    image?: MessageEmbedResponseImage;
+    /**
+     *
+     * @type {MessageEmbedResponseImage}
+     * @memberof MessageEmbedResponse
+     */
+    thumbnail?: MessageEmbedResponseImage;
+    /**
+     *
+     * @type {MessageEmbedResponseVideo}
+     * @memberof MessageEmbedResponse
+     */
+    video?: MessageEmbedResponseVideo;
+    /**
+     *
+     * @type {MessageEmbedResponseFooter}
+     * @memberof MessageEmbedResponse
+     */
+    footer?: MessageEmbedResponseFooter;
 }

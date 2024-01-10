@@ -18,16 +18,16 @@
  * @interface AccountResponse
  */
 export interface AccountResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof AccountResponse
-   */
-  id: string;
-  /**
-   *
-   * @type {string}
-   * @memberof AccountResponse
-   */
-  name?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof AccountResponse
+     */
+    id: string;
+    /**
+     *
+     * @type {string}
+     * @memberof AccountResponse
+     */
+    name?: string | null;
 }

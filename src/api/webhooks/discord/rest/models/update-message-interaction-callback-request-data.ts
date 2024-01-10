@@ -24,5 +24,5 @@ import { IncomingWebhookUpdateForInteractionCallbackRequestPartial } from "./inc
  * @export
  */
 export type UpdateMessageInteractionCallbackRequestData =
-  | IncomingWebhookUpdateForInteractionCallbackRequestPartial
-  | any;
+    | IncomingWebhookUpdateForInteractionCallbackRequestPartial
+    | any;

@@ -18,28 +18,28 @@
  * @interface GithubUser
  */
 export interface GithubUser {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubUser
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubUser
-   */
-  login: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubUser
-   */
-  html_url: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubUser
-   */
-  avatar_url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubUser
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubUser
+     */
+    login: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubUser
+     */
+    html_url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubUser
+     */
+    avatar_url: any;
 }

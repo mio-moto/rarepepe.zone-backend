@@ -18,16 +18,16 @@
  * @interface DefaultKeywordListTriggerMetadataResponse
  */
 export interface DefaultKeywordListTriggerMetadataResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListTriggerMetadataResponse
-   */
-  allow_list: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListTriggerMetadataResponse
-   */
-  presets: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListTriggerMetadataResponse
+     */
+    allow_list: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListTriggerMetadataResponse
+     */
+    presets: any;
 }

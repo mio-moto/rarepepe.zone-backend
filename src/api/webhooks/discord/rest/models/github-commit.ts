@@ -22,28 +22,28 @@ import { GithubAuthor } from "./github-author";
  * @interface GithubCommit
  */
 export interface GithubCommit {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCommit
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCommit
-   */
-  url: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCommit
-   */
-  message: any;
-  /**
-   *
-   * @type {GithubAuthor}
-   * @memberof GithubCommit
-   */
-  author: GithubAuthor;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCommit
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCommit
+     */
+    url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCommit
+     */
+    message: any;
+    /**
+     *
+     * @type {GithubAuthor}
+     * @memberof GithubCommit
+     */
+    author: GithubAuthor;
 }

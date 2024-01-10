@@ -34,64 +34,64 @@ import { StageScheduledEventPatchRequestPartialEntityType } from "./stage-schedu
  * @interface StageScheduledEventPatchRequestPartial
  */
 export interface StageScheduledEventPatchRequestPartial {
-  /**
-   *
-   * @type {ExternalScheduledEventPatchRequestPartialStatus}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  status?: ExternalScheduledEventPatchRequestPartialStatus;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  scheduled_start_time?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {StageScheduledEventPatchRequestPartialEntityType}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  entity_type?: StageScheduledEventPatchRequestPartialEntityType;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  privacy_level?: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {StageScheduledEventCreateRequestEntityMetadata}
-   * @memberof StageScheduledEventPatchRequestPartial
-   */
-  entity_metadata?: StageScheduledEventCreateRequestEntityMetadata;
+    /**
+     *
+     * @type {ExternalScheduledEventPatchRequestPartialStatus}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    status?: ExternalScheduledEventPatchRequestPartialStatus;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    scheduled_start_time?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {StageScheduledEventPatchRequestPartialEntityType}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    entity_type?: StageScheduledEventPatchRequestPartialEntityType;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    privacy_level?: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {StageScheduledEventCreateRequestEntityMetadata}
+     * @memberof StageScheduledEventPatchRequestPartial
+     */
+    entity_metadata?: StageScheduledEventCreateRequestEntityMetadata;
 }

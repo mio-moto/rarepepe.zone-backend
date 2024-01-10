@@ -22,40 +22,40 @@ import { MetadataItemTypes } from "./metadata-item-types";
  * @interface ApplicationRoleConnectionsMetadataItemRequest
  */
 export interface ApplicationRoleConnectionsMetadataItemRequest {
-  /**
-   *
-   * @type {MetadataItemTypes}
-   * @memberof ApplicationRoleConnectionsMetadataItemRequest
-   */
-  type: MetadataItemTypes;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationRoleConnectionsMetadataItemRequest
-   */
-  key: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationRoleConnectionsMetadataItemRequest
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string | null; }}
-   * @memberof ApplicationRoleConnectionsMetadataItemRequest
-   */
-  name_localizations?: { [key: string]: string | null };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationRoleConnectionsMetadataItemRequest
-   */
-  description: string;
-  /**
-   *
-   * @type {{ [key: string]: string | null; }}
-   * @memberof ApplicationRoleConnectionsMetadataItemRequest
-   */
-  description_localizations?: { [key: string]: string | null };
+    /**
+     *
+     * @type {MetadataItemTypes}
+     * @memberof ApplicationRoleConnectionsMetadataItemRequest
+     */
+    type: MetadataItemTypes;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationRoleConnectionsMetadataItemRequest
+     */
+    key: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationRoleConnectionsMetadataItemRequest
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string | null; }}
+     * @memberof ApplicationRoleConnectionsMetadataItemRequest
+     */
+    name_localizations?: { [key: string]: string | null };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationRoleConnectionsMetadataItemRequest
+     */
+    description: string;
+    /**
+     *
+     * @type {{ [key: string]: string | null; }}
+     * @memberof ApplicationRoleConnectionsMetadataItemRequest
+     */
+    description_localizations?: { [key: string]: string | null };
 }

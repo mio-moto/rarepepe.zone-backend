@@ -25,52 +25,52 @@ import { StickerTypes } from "./sticker-types";
  * @interface StandardStickerResponse
  */
 export interface StandardStickerResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof StandardStickerResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StandardStickerResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StandardStickerResponse
-   */
-  tags: any;
-  /**
-   *
-   * @type {StickerTypes}
-   * @memberof StandardStickerResponse
-   */
-  type: StickerTypes;
-  /**
-   *
-   * @type {GuildStickerResponseFormatType}
-   * @memberof StandardStickerResponse
-   */
-  format_type?: GuildStickerResponseFormatType;
-  /**
-   *
-   * @type {any}
-   * @memberof StandardStickerResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StandardStickerResponse
-   */
-  pack_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StandardStickerResponse
-   */
-  sort_value: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StandardStickerResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StandardStickerResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StandardStickerResponse
+     */
+    tags: any;
+    /**
+     *
+     * @type {StickerTypes}
+     * @memberof StandardStickerResponse
+     */
+    type: StickerTypes;
+    /**
+     *
+     * @type {GuildStickerResponseFormatType}
+     * @memberof StandardStickerResponse
+     */
+    format_type?: GuildStickerResponseFormatType;
+    /**
+     *
+     * @type {any}
+     * @memberof StandardStickerResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StandardStickerResponse
+     */
+    pack_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StandardStickerResponse
+     */
+    sort_value: any;
 }

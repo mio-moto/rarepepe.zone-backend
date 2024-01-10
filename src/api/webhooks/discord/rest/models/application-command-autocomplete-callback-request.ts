@@ -25,16 +25,16 @@ import { InteractionCallbackTypes } from "./interaction-callback-types";
  * @interface ApplicationCommandAutocompleteCallbackRequest
  */
 export interface ApplicationCommandAutocompleteCallbackRequest {
-  /**
-   *
-   * @type {InteractionCallbackTypes}
-   * @memberof ApplicationCommandAutocompleteCallbackRequest
-   */
-  type: InteractionCallbackTypes;
-  /**
-   *
-   * @type {ApplicationCommandAutocompleteCallbackRequestData}
-   * @memberof ApplicationCommandAutocompleteCallbackRequest
-   */
-  data: ApplicationCommandAutocompleteCallbackRequestData;
+    /**
+     *
+     * @type {InteractionCallbackTypes}
+     * @memberof ApplicationCommandAutocompleteCallbackRequest
+     */
+    type: InteractionCallbackTypes;
+    /**
+     *
+     * @type {ApplicationCommandAutocompleteCallbackRequestData}
+     * @memberof ApplicationCommandAutocompleteCallbackRequest
+     */
+    data: ApplicationCommandAutocompleteCallbackRequestData;
 }

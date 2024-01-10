@@ -25,46 +25,46 @@ import { GithubCheckSuite } from "./github-check-suite";
  * @interface GithubCheckRun
  */
 export interface GithubCheckRun {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckRun
-   */
-  conclusion?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckRun
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckRun
-   */
-  html_url: any;
-  /**
-   *
-   * @type {GithubCheckSuite}
-   * @memberof GithubCheckRun
-   */
-  check_suite: GithubCheckSuite;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckRun
-   */
-  details_url?: any;
-  /**
-   *
-   * @type {GithubCheckRunOutput}
-   * @memberof GithubCheckRun
-   */
-  output?: GithubCheckRunOutput;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckRun
-   */
-  pull_requests?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckRun
+     */
+    conclusion?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckRun
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckRun
+     */
+    html_url: any;
+    /**
+     *
+     * @type {GithubCheckSuite}
+     * @memberof GithubCheckRun
+     */
+    check_suite: GithubCheckSuite;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckRun
+     */
+    details_url?: any;
+    /**
+     *
+     * @type {GithubCheckRunOutput}
+     * @memberof GithubCheckRun
+     */
+    output?: GithubCheckRunOutput;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckRun
+     */
+    pull_requests?: any;
 }

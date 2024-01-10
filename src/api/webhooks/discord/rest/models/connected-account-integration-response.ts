@@ -28,28 +28,28 @@ import { IntegrationTypes } from "./integration-types";
  * @interface ConnectedAccountIntegrationResponse
  */
 export interface ConnectedAccountIntegrationResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ConnectedAccountIntegrationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {IntegrationTypes}
-   * @memberof ConnectedAccountIntegrationResponse
-   */
-  type: IntegrationTypes;
-  /**
-   *
-   * @type {AccountResponse}
-   * @memberof ConnectedAccountIntegrationResponse
-   */
-  account: AccountResponse;
-  /**
-   *
-   * @type {ConnectedAccountGuildResponse}
-   * @memberof ConnectedAccountIntegrationResponse
-   */
-  guild: ConnectedAccountGuildResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof ConnectedAccountIntegrationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {IntegrationTypes}
+     * @memberof ConnectedAccountIntegrationResponse
+     */
+    type: IntegrationTypes;
+    /**
+     *
+     * @type {AccountResponse}
+     * @memberof ConnectedAccountIntegrationResponse
+     */
+    account: AccountResponse;
+    /**
+     *
+     * @type {ConnectedAccountGuildResponse}
+     * @memberof ConnectedAccountIntegrationResponse
+     */
+    guild: ConnectedAccountGuildResponse;
 }

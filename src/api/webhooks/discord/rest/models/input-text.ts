@@ -25,58 +25,58 @@ import { TextStyleTypes } from "./text-style-types";
  * @interface InputText
  */
 export interface InputText {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof InputText
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {TextStyleTypes}
-   * @memberof InputText
-   */
-  style: TextStyleTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  label: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  value?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  required?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  min_length?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InputText
-   */
-  max_length?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof InputText
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {TextStyleTypes}
+     * @memberof InputText
+     */
+    style: TextStyleTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    label: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    value?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    required?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    min_length?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InputText
+     */
+    max_length?: any;
 }

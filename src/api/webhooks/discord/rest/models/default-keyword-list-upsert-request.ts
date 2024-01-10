@@ -28,52 +28,52 @@ import { DefaultKeywordListTriggerMetadata } from "./default-keyword-list-trigge
  * @interface DefaultKeywordListUpsertRequest
  */
 export interface DefaultKeywordListUpsertRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {DefaultKeywordListTriggerMetadata}
-   * @memberof DefaultKeywordListUpsertRequest
-   */
-  trigger_metadata: DefaultKeywordListTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {DefaultKeywordListTriggerMetadata}
+     * @memberof DefaultKeywordListUpsertRequest
+     */
+    trigger_metadata: DefaultKeywordListTriggerMetadata;
 }

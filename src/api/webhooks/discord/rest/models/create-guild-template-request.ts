@@ -18,16 +18,16 @@
  * @interface CreateGuildTemplateRequest
  */
 export interface CreateGuildTemplateRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof CreateGuildTemplateRequest
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof CreateGuildTemplateRequest
-   */
-  description?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateGuildTemplateRequest
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof CreateGuildTemplateRequest
+     */
+    description?: string | null;
 }

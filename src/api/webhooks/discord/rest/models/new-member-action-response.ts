@@ -25,40 +25,40 @@ import { NewMemberActionType } from "./new-member-action-type";
  * @interface NewMemberActionResponse
  */
 export interface NewMemberActionResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof NewMemberActionResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {NewMemberActionType}
-   * @memberof NewMemberActionResponse
-   */
-  action_type: NewMemberActionType;
-  /**
-   *
-   * @type {any}
-   * @memberof NewMemberActionResponse
-   */
-  title: any;
-  /**
-   *
-   * @type {any}
-   * @memberof NewMemberActionResponse
-   */
-  description: any;
-  /**
-   *
-   * @type {NewMemberActionResponseEmoji}
-   * @memberof NewMemberActionResponse
-   */
-  emoji?: NewMemberActionResponseEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof NewMemberActionResponse
-   */
-  icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof NewMemberActionResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {NewMemberActionType}
+     * @memberof NewMemberActionResponse
+     */
+    action_type: NewMemberActionType;
+    /**
+     *
+     * @type {any}
+     * @memberof NewMemberActionResponse
+     */
+    title: any;
+    /**
+     *
+     * @type {any}
+     * @memberof NewMemberActionResponse
+     */
+    description: any;
+    /**
+     *
+     * @type {NewMemberActionResponseEmoji}
+     * @memberof NewMemberActionResponse
+     */
+    emoji?: NewMemberActionResponseEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof NewMemberActionResponse
+     */
+    icon?: any;
 }

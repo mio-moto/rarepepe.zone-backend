@@ -28,70 +28,70 @@ import { KeywordTriggerMetadataResponse } from "./keyword-trigger-metadata-respo
  * @interface KeywordRuleResponse
  */
 export interface KeywordRuleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  creator_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof KeywordRuleResponse
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  actions: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof KeywordRuleResponse
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordRuleResponse
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {KeywordTriggerMetadataResponse}
-   * @memberof KeywordRuleResponse
-   */
-  trigger_metadata: KeywordTriggerMetadataResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    creator_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof KeywordRuleResponse
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    actions: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof KeywordRuleResponse
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordRuleResponse
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {KeywordTriggerMetadataResponse}
+     * @memberof KeywordRuleResponse
+     */
+    trigger_metadata: KeywordTriggerMetadataResponse;
 }

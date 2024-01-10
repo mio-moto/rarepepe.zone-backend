@@ -25,40 +25,40 @@ import { MessageReactionEmojiResponse } from "./message-reaction-emoji-response"
  * @interface MessageReactionResponse
  */
 export interface MessageReactionResponse {
-  /**
-   *
-   * @type {MessageReactionEmojiResponse}
-   * @memberof MessageReactionResponse
-   */
-  emoji: MessageReactionEmojiResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReactionResponse
-   */
-  count: any;
-  /**
-   *
-   * @type {MessageReactionCountDetailsResponse}
-   * @memberof MessageReactionResponse
-   */
-  count_details: MessageReactionCountDetailsResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReactionResponse
-   */
-  burst_colors: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReactionResponse
-   */
-  me_burst: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReactionResponse
-   */
-  me: any;
+    /**
+     *
+     * @type {MessageReactionEmojiResponse}
+     * @memberof MessageReactionResponse
+     */
+    emoji: MessageReactionEmojiResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReactionResponse
+     */
+    count: any;
+    /**
+     *
+     * @type {MessageReactionCountDetailsResponse}
+     * @memberof MessageReactionResponse
+     */
+    count_details: MessageReactionCountDetailsResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReactionResponse
+     */
+    burst_colors: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReactionResponse
+     */
+    me_burst: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReactionResponse
+     */
+    me: any;
 }

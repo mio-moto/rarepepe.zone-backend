@@ -18,22 +18,22 @@
  * @interface UpdateGuildStickerRequest
  */
 export interface UpdateGuildStickerRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildStickerRequest
-   */
-  name?: string;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildStickerRequest
-   */
-  tags?: string;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateGuildStickerRequest
-   */
-  description?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildStickerRequest
+     */
+    name?: string;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildStickerRequest
+     */
+    tags?: string;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateGuildStickerRequest
+     */
+    description?: string | null;
 }

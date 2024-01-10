@@ -28,52 +28,52 @@ import { GroupDMInviteResponseType } from "./group-dminvite-response-type";
  * @interface GroupDMInviteResponse
  */
 export interface GroupDMInviteResponse {
-  /**
-   *
-   * @type {GroupDMInviteResponseType}
-   * @memberof GroupDMInviteResponse
-   */
-  type?: GroupDMInviteResponseType;
-  /**
-   *
-   * @type {any}
-   * @memberof GroupDMInviteResponse
-   */
-  code: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof GroupDMInviteResponse
-   */
-  inviter?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof GroupDMInviteResponse
-   */
-  max_age?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GroupDMInviteResponse
-   */
-  created_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GroupDMInviteResponse
-   */
-  expires_at?: any;
-  /**
-   *
-   * @type {FriendInviteResponseChannel}
-   * @memberof GroupDMInviteResponse
-   */
-  channel?: FriendInviteResponseChannel;
-  /**
-   *
-   * @type {any}
-   * @memberof GroupDMInviteResponse
-   */
-  approximate_member_count?: any;
+    /**
+     *
+     * @type {GroupDMInviteResponseType}
+     * @memberof GroupDMInviteResponse
+     */
+    type?: GroupDMInviteResponseType;
+    /**
+     *
+     * @type {any}
+     * @memberof GroupDMInviteResponse
+     */
+    code: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof GroupDMInviteResponse
+     */
+    inviter?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GroupDMInviteResponse
+     */
+    max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GroupDMInviteResponse
+     */
+    created_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GroupDMInviteResponse
+     */
+    expires_at?: any;
+    /**
+     *
+     * @type {FriendInviteResponseChannel}
+     * @memberof GroupDMInviteResponse
+     */
+    channel?: FriendInviteResponseChannel;
+    /**
+     *
+     * @type {any}
+     * @memberof GroupDMInviteResponse
+     */
+    approximate_member_count?: any;
 }

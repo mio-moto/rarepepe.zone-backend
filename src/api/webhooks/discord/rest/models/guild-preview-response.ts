@@ -18,76 +18,76 @@
  * @interface GuildPreviewResponse
  */
 export interface GuildPreviewResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  home_header?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  splash?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  discovery_splash?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  features: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  approximate_member_count: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  approximate_presence_count: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  emojis: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildPreviewResponse
-   */
-  stickers: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    home_header?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    splash?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    discovery_splash?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    features: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    approximate_member_count: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    approximate_presence_count: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    emojis: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildPreviewResponse
+     */
+    stickers: any;
 }

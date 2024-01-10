@@ -40,106 +40,106 @@ import { GuildScheduledEventStatuses } from "./guild-scheduled-event-statuses";
  * @interface ExternalScheduledEventResponse
  */
 export interface ExternalScheduledEventResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ExternalScheduledEventResponse
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ExternalScheduledEventResponse
-   */
-  creator_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof ExternalScheduledEventResponse
-   */
-  creator?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  scheduled_start_time: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {GuildScheduledEventStatuses}
-   * @memberof ExternalScheduledEventResponse
-   */
-  status: GuildScheduledEventStatuses;
-  /**
-   *
-   * @type {GuildScheduledEventEntityTypes}
-   * @memberof ExternalScheduledEventResponse
-   */
-  entity_type: GuildScheduledEventEntityTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ExternalScheduledEventResponse
-   */
-  entity_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ExternalScheduledEventResponse
-   */
-  user_count?: any;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof ExternalScheduledEventResponse
-   */
-  privacy_level: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {ExternalScheduledEventResponseUserRsvp}
-   * @memberof ExternalScheduledEventResponse
-   */
-  user_rsvp?: ExternalScheduledEventResponseUserRsvp;
-  /**
-   *
-   * @type {EntityMetadataExternalResponse}
-   * @memberof ExternalScheduledEventResponse
-   */
-  entity_metadata: EntityMetadataExternalResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ExternalScheduledEventResponse
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ExternalScheduledEventResponse
+     */
+    creator_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof ExternalScheduledEventResponse
+     */
+    creator?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    scheduled_start_time: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {GuildScheduledEventStatuses}
+     * @memberof ExternalScheduledEventResponse
+     */
+    status: GuildScheduledEventStatuses;
+    /**
+     *
+     * @type {GuildScheduledEventEntityTypes}
+     * @memberof ExternalScheduledEventResponse
+     */
+    entity_type: GuildScheduledEventEntityTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ExternalScheduledEventResponse
+     */
+    entity_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ExternalScheduledEventResponse
+     */
+    user_count?: any;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof ExternalScheduledEventResponse
+     */
+    privacy_level: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {ExternalScheduledEventResponseUserRsvp}
+     * @memberof ExternalScheduledEventResponse
+     */
+    user_rsvp?: ExternalScheduledEventResponseUserRsvp;
+    /**
+     *
+     * @type {EntityMetadataExternalResponse}
+     * @memberof ExternalScheduledEventResponse
+     */
+    entity_metadata: EntityMetadataExternalResponse;
 }

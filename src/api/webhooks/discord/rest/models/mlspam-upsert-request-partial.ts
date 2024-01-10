@@ -28,52 +28,52 @@ import { MLSpamUpsertRequestTriggerMetadata } from "./mlspam-upsert-request-trig
  * @interface MLSpamUpsertRequestPartial
  */
 export interface MLSpamUpsertRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  event_type?: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  trigger_type?: AutomodTriggerType;
-  /**
-   *
-   * @type {MLSpamUpsertRequestTriggerMetadata}
-   * @memberof MLSpamUpsertRequestPartial
-   */
-  trigger_metadata?: MLSpamUpsertRequestTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    event_type?: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    trigger_type?: AutomodTriggerType;
+    /**
+     *
+     * @type {MLSpamUpsertRequestTriggerMetadata}
+     * @memberof MLSpamUpsertRequestPartial
+     */
+    trigger_metadata?: MLSpamUpsertRequestTriggerMetadata;
 }

@@ -25,34 +25,34 @@ import { CreateTextThreadWithoutMessageRequestType } from "./create-text-thread-
  * @interface CreateTextThreadWithoutMessageRequest
  */
 export interface CreateTextThreadWithoutMessageRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateTextThreadWithoutMessageRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof CreateTextThreadWithoutMessageRequest
-   */
-  auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateTextThreadWithoutMessageRequest
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {CreateTextThreadWithoutMessageRequestType}
-   * @memberof CreateTextThreadWithoutMessageRequest
-   */
-  type?: CreateTextThreadWithoutMessageRequestType;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateTextThreadWithoutMessageRequest
-   */
-  invitable?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateTextThreadWithoutMessageRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof CreateTextThreadWithoutMessageRequest
+     */
+    auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateTextThreadWithoutMessageRequest
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {CreateTextThreadWithoutMessageRequestType}
+     * @memberof CreateTextThreadWithoutMessageRequest
+     */
+    type?: CreateTextThreadWithoutMessageRequestType;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateTextThreadWithoutMessageRequest
+     */
+    invitable?: any;
 }

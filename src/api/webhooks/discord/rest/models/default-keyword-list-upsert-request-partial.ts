@@ -28,52 +28,52 @@ import { DefaultKeywordListTriggerMetadata } from "./default-keyword-list-trigge
  * @interface DefaultKeywordListUpsertRequestPartial
  */
 export interface DefaultKeywordListUpsertRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  event_type?: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  trigger_type?: AutomodTriggerType;
-  /**
-   *
-   * @type {DefaultKeywordListTriggerMetadata}
-   * @memberof DefaultKeywordListUpsertRequestPartial
-   */
-  trigger_metadata?: DefaultKeywordListTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    event_type?: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    trigger_type?: AutomodTriggerType;
+    /**
+     *
+     * @type {DefaultKeywordListTriggerMetadata}
+     * @memberof DefaultKeywordListUpsertRequestPartial
+     */
+    trigger_metadata?: DefaultKeywordListTriggerMetadata;
 }

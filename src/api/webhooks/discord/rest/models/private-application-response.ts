@@ -37,166 +37,166 @@ import { UserResponse } from "./user-response";
  * @interface PrivateApplicationResponse
  */
 export interface PrivateApplicationResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  description: any;
-  /**
-   *
-   * @type {PrivateApplicationResponseType}
-   * @memberof PrivateApplicationResponse
-   */
-  type?: PrivateApplicationResponseType;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  cover_image?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof PrivateApplicationResponse
-   */
-  primary_sku_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof PrivateApplicationResponse
-   */
-  bot?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  slug?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof PrivateApplicationResponse
-   */
-  guild_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  rpc_origins?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  bot_public?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  bot_require_code_grant?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  terms_of_service_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  privacy_policy_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  custom_install_url?: any;
-  /**
-   *
-   * @type {PrivateApplicationResponseInstallParams}
-   * @memberof PrivateApplicationResponse
-   */
-  install_params?: PrivateApplicationResponseInstallParams;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  verify_key: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  max_participants?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  tags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  redirect_uris: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  interactions_endpoint_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  role_connections_verification_url?: any;
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof PrivateApplicationResponse
-   */
-  owner: UserResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateApplicationResponse
-   */
-  approximate_guild_count?: any;
-  /**
-   *
-   * @type {PrivateApplicationResponseTeam}
-   * @memberof PrivateApplicationResponse
-   */
-  team?: PrivateApplicationResponseTeam;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    description: any;
+    /**
+     *
+     * @type {PrivateApplicationResponseType}
+     * @memberof PrivateApplicationResponse
+     */
+    type?: PrivateApplicationResponseType;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    cover_image?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof PrivateApplicationResponse
+     */
+    primary_sku_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof PrivateApplicationResponse
+     */
+    bot?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    slug?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof PrivateApplicationResponse
+     */
+    guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    rpc_origins?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    bot_public?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    bot_require_code_grant?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    terms_of_service_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    privacy_policy_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    custom_install_url?: any;
+    /**
+     *
+     * @type {PrivateApplicationResponseInstallParams}
+     * @memberof PrivateApplicationResponse
+     */
+    install_params?: PrivateApplicationResponseInstallParams;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    verify_key: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    max_participants?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    tags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    redirect_uris: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    interactions_endpoint_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    role_connections_verification_url?: any;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof PrivateApplicationResponse
+     */
+    owner: UserResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateApplicationResponse
+     */
+    approximate_guild_count?: any;
+    /**
+     *
+     * @type {PrivateApplicationResponseTeam}
+     * @memberof PrivateApplicationResponse
+     */
+    team?: PrivateApplicationResponseTeam;
 }

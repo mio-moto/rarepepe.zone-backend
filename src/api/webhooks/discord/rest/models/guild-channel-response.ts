@@ -40,148 +40,148 @@ import { GuildChannelResponseDefaultReactionEmoji } from "./guild-channel-respon
  * @interface GuildChannelResponse
  */
 export interface GuildChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelTypes}
-   * @memberof GuildChannelResponse
-   */
-  type: ChannelTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildChannelResponse
-   */
-  last_message_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  last_pin_timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildChannelResponse
-   */
-  parent_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  bitrate?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  user_limit?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  rtc_region?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestVideoQualityMode}
-   * @memberof GuildChannelResponse
-   */
-  video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  permissions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  topic?: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof GuildChannelResponse
-   */
-  default_auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  default_thread_rate_limit_per_user?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  position: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  permission_overwrites?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  nsfw?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildChannelResponse
-   */
-  available_tags?: any;
-  /**
-   *
-   * @type {GuildChannelResponseDefaultReactionEmoji}
-   * @memberof GuildChannelResponse
-   */
-  default_reaction_emoji?: GuildChannelResponseDefaultReactionEmoji;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultSortOrder}
-   * @memberof GuildChannelResponse
-   */
-  default_sort_order?: CreateGuildChannelRequestDefaultSortOrder;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultForumLayout}
-   * @memberof GuildChannelResponse
-   */
-  default_forum_layout?: CreateGuildChannelRequestDefaultForumLayout;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelTypes}
+     * @memberof GuildChannelResponse
+     */
+    type: ChannelTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildChannelResponse
+     */
+    last_message_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    last_pin_timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildChannelResponse
+     */
+    parent_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    bitrate?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    user_limit?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    rtc_region?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestVideoQualityMode}
+     * @memberof GuildChannelResponse
+     */
+    video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    permissions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    topic?: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof GuildChannelResponse
+     */
+    default_auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    default_thread_rate_limit_per_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    position: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    permission_overwrites?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    nsfw?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildChannelResponse
+     */
+    available_tags?: any;
+    /**
+     *
+     * @type {GuildChannelResponseDefaultReactionEmoji}
+     * @memberof GuildChannelResponse
+     */
+    default_reaction_emoji?: GuildChannelResponseDefaultReactionEmoji;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultSortOrder}
+     * @memberof GuildChannelResponse
+     */
+    default_sort_order?: CreateGuildChannelRequestDefaultSortOrder;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultForumLayout}
+     * @memberof GuildChannelResponse
+     */
+    default_forum_layout?: CreateGuildChannelRequestDefaultForumLayout;
 }

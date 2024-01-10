@@ -22,34 +22,34 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface UpdateThreadTagRequest
  */
 export interface UpdateThreadTagRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadTagRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof UpdateThreadTagRequest
-   */
-  emoji_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadTagRequest
-   */
-  emoji_name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadTagRequest
-   */
-  moderated?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof UpdateThreadTagRequest
-   */
-  id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadTagRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof UpdateThreadTagRequest
+     */
+    emoji_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadTagRequest
+     */
+    emoji_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadTagRequest
+     */
+    moderated?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof UpdateThreadTagRequest
+     */
+    id?: BasicMessageResponseApplicationId;
 }

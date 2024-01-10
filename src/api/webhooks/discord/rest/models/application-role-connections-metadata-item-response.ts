@@ -22,40 +22,40 @@ import { MetadataItemTypes } from "./metadata-item-types";
  * @interface ApplicationRoleConnectionsMetadataItemResponse
  */
 export interface ApplicationRoleConnectionsMetadataItemResponse {
-  /**
-   *
-   * @type {MetadataItemTypes}
-   * @memberof ApplicationRoleConnectionsMetadataItemResponse
-   */
-  type: MetadataItemTypes;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationRoleConnectionsMetadataItemResponse
-   */
-  key: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationRoleConnectionsMetadataItemResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationRoleConnectionsMetadataItemResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationRoleConnectionsMetadataItemResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationRoleConnectionsMetadataItemResponse
-   */
-  description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {MetadataItemTypes}
+     * @memberof ApplicationRoleConnectionsMetadataItemResponse
+     */
+    type: MetadataItemTypes;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationRoleConnectionsMetadataItemResponse
+     */
+    key: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationRoleConnectionsMetadataItemResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationRoleConnectionsMetadataItemResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationRoleConnectionsMetadataItemResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationRoleConnectionsMetadataItemResponse
+     */
+    description_localizations?: { [key: string]: string };
 }

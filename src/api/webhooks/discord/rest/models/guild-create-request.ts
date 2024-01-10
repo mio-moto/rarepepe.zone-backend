@@ -37,88 +37,88 @@ import { GuildCreateRequestVerificationLevel } from "./guild-create-request-veri
  * @interface GuildCreateRequest
  */
 export interface GuildCreateRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  region?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  icon?: any;
-  /**
-   *
-   * @type {GuildCreateRequestVerificationLevel}
-   * @memberof GuildCreateRequest
-   */
-  verification_level?: GuildCreateRequestVerificationLevel;
-  /**
-   *
-   * @type {GuildCreateRequestDefaultMessageNotifications}
-   * @memberof GuildCreateRequest
-   */
-  default_message_notifications?: GuildCreateRequestDefaultMessageNotifications;
-  /**
-   *
-   * @type {GuildCreateRequestExplicitContentFilter}
-   * @memberof GuildCreateRequest
-   */
-  explicit_content_filter?: GuildCreateRequestExplicitContentFilter;
-  /**
-   *
-   * @type {GuildCreateRequestPreferredLocale}
-   * @memberof GuildCreateRequest
-   */
-  preferred_locale?: GuildCreateRequestPreferredLocale;
-  /**
-   *
-   * @type {GuildCreateRequestAfkTimeout}
-   * @memberof GuildCreateRequest
-   */
-  afk_timeout?: GuildCreateRequestAfkTimeout;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  channels?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildCreateRequest
-   */
-  afk_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildCreateRequest
-   */
-  system_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildCreateRequest
-   */
-  system_channel_flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    region?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    icon?: any;
+    /**
+     *
+     * @type {GuildCreateRequestVerificationLevel}
+     * @memberof GuildCreateRequest
+     */
+    verification_level?: GuildCreateRequestVerificationLevel;
+    /**
+     *
+     * @type {GuildCreateRequestDefaultMessageNotifications}
+     * @memberof GuildCreateRequest
+     */
+    default_message_notifications?: GuildCreateRequestDefaultMessageNotifications;
+    /**
+     *
+     * @type {GuildCreateRequestExplicitContentFilter}
+     * @memberof GuildCreateRequest
+     */
+    explicit_content_filter?: GuildCreateRequestExplicitContentFilter;
+    /**
+     *
+     * @type {GuildCreateRequestPreferredLocale}
+     * @memberof GuildCreateRequest
+     */
+    preferred_locale?: GuildCreateRequestPreferredLocale;
+    /**
+     *
+     * @type {GuildCreateRequestAfkTimeout}
+     * @memberof GuildCreateRequest
+     */
+    afk_timeout?: GuildCreateRequestAfkTimeout;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    channels?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildCreateRequest
+     */
+    afk_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildCreateRequest
+     */
+    system_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildCreateRequest
+     */
+    system_channel_flags?: any;
 }

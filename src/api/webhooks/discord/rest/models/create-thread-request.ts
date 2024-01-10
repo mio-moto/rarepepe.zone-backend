@@ -34,46 +34,46 @@ import { CreateTextThreadWithoutMessageRequestType } from "./create-text-thread-
  * @interface CreateThreadRequest
  */
 export interface CreateThreadRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateThreadRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof CreateThreadRequest
-   */
-  auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateThreadRequest
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateThreadRequest
-   */
-  applied_tags?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequest}
-   * @memberof CreateThreadRequest
-   */
-  message: BaseCreateMessageCreateRequest;
-  /**
-   *
-   * @type {CreateTextThreadWithoutMessageRequestType}
-   * @memberof CreateThreadRequest
-   */
-  type?: CreateTextThreadWithoutMessageRequestType;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateThreadRequest
-   */
-  invitable?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateThreadRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof CreateThreadRequest
+     */
+    auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateThreadRequest
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateThreadRequest
+     */
+    applied_tags?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequest}
+     * @memberof CreateThreadRequest
+     */
+    message: BaseCreateMessageCreateRequest;
+    /**
+     *
+     * @type {CreateTextThreadWithoutMessageRequestType}
+     * @memberof CreateThreadRequest
+     */
+    type?: CreateTextThreadWithoutMessageRequestType;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateThreadRequest
+     */
+    invitable?: any;
 }

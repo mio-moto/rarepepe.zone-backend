@@ -49,154 +49,154 @@ import { UpdateThreadRequestPartial } from "./update-thread-request-partial";
  * @interface UpdateChannelRequest
  */
 export interface UpdateChannelRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  icon?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestType}
-   * @memberof UpdateChannelRequest
-   */
-  type?: CreateGuildChannelRequestType;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  position?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  topic?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  bitrate?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  user_limit?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  nsfw?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof UpdateChannelRequest
-   */
-  parent_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  permission_overwrites?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  rtc_region?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestVideoQualityMode}
-   * @memberof UpdateChannelRequest
-   */
-  video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof UpdateChannelRequest
-   */
-  default_auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultReactionEmoji}
-   * @memberof UpdateChannelRequest
-   */
-  default_reaction_emoji?: CreateGuildChannelRequestDefaultReactionEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  default_thread_rate_limit_per_user?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultSortOrder}
-   * @memberof UpdateChannelRequest
-   */
-  default_sort_order?: CreateGuildChannelRequestDefaultSortOrder;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultForumLayout}
-   * @memberof UpdateChannelRequest
-   */
-  default_forum_layout?: CreateGuildChannelRequestDefaultForumLayout;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  available_tags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  archived?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  locked?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  invitable?: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof UpdateChannelRequest
-   */
-  auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateChannelRequest
-   */
-  applied_tags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    icon?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestType}
+     * @memberof UpdateChannelRequest
+     */
+    type?: CreateGuildChannelRequestType;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    position?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    topic?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    bitrate?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    user_limit?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    nsfw?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof UpdateChannelRequest
+     */
+    parent_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    permission_overwrites?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    rtc_region?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestVideoQualityMode}
+     * @memberof UpdateChannelRequest
+     */
+    video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof UpdateChannelRequest
+     */
+    default_auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultReactionEmoji}
+     * @memberof UpdateChannelRequest
+     */
+    default_reaction_emoji?: CreateGuildChannelRequestDefaultReactionEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    default_thread_rate_limit_per_user?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultSortOrder}
+     * @memberof UpdateChannelRequest
+     */
+    default_sort_order?: CreateGuildChannelRequestDefaultSortOrder;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultForumLayout}
+     * @memberof UpdateChannelRequest
+     */
+    default_forum_layout?: CreateGuildChannelRequestDefaultForumLayout;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    available_tags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    archived?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    locked?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    invitable?: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof UpdateChannelRequest
+     */
+    auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateChannelRequest
+     */
+    applied_tags?: any;
 }

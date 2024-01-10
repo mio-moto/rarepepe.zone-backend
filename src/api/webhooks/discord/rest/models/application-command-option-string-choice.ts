@@ -18,22 +18,22 @@
  * @interface ApplicationCommandOptionStringChoice
  */
 export interface ApplicationCommandOptionStringChoice {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionStringChoice
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandOptionStringChoice
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandOptionStringChoice
-   */
-  value: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionStringChoice
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandOptionStringChoice
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandOptionStringChoice
+     */
+    value: string;
 }

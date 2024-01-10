@@ -25,76 +25,76 @@ import { InviteGuildResponseNsfwLevel } from "./invite-guild-response-nsfw-level
  * @interface InviteGuildResponse
  */
 export interface InviteGuildResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  splash?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  banner?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  features: any;
-  /**
-   *
-   * @type {GuildCreateRequestVerificationLevel}
-   * @memberof InviteGuildResponse
-   */
-  verification_level?: GuildCreateRequestVerificationLevel;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  vanity_url_code?: any;
-  /**
-   *
-   * @type {InviteGuildResponseNsfwLevel}
-   * @memberof InviteGuildResponse
-   */
-  nsfw_level?: InviteGuildResponseNsfwLevel;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  nsfw?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof InviteGuildResponse
-   */
-  premium_subscription_count?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    splash?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    banner?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    features: any;
+    /**
+     *
+     * @type {GuildCreateRequestVerificationLevel}
+     * @memberof InviteGuildResponse
+     */
+    verification_level?: GuildCreateRequestVerificationLevel;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    vanity_url_code?: any;
+    /**
+     *
+     * @type {InviteGuildResponseNsfwLevel}
+     * @memberof InviteGuildResponse
+     */
+    nsfw_level?: InviteGuildResponseNsfwLevel;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    nsfw?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteGuildResponse
+     */
+    premium_subscription_count?: any;
 }

@@ -31,52 +31,52 @@ import { IntegrationTypes } from "./integration-types";
  * @interface DiscordIntegrationResponse
  */
 export interface DiscordIntegrationResponse {
-  /**
-   *
-   * @type {IntegrationTypes}
-   * @memberof DiscordIntegrationResponse
-   */
-  type: IntegrationTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof DiscordIntegrationResponse
-   */
-  name?: any;
-  /**
-   *
-   * @type {DiscordIntegrationResponseAccount}
-   * @memberof DiscordIntegrationResponse
-   */
-  account?: DiscordIntegrationResponseAccount;
-  /**
-   *
-   * @type {any}
-   * @memberof DiscordIntegrationResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof DiscordIntegrationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {IntegrationApplicationResponse}
-   * @memberof DiscordIntegrationResponse
-   */
-  application: IntegrationApplicationResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof DiscordIntegrationResponse
-   */
-  scopes: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof DiscordIntegrationResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {IntegrationTypes}
+     * @memberof DiscordIntegrationResponse
+     */
+    type: IntegrationTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof DiscordIntegrationResponse
+     */
+    name?: any;
+    /**
+     *
+     * @type {DiscordIntegrationResponseAccount}
+     * @memberof DiscordIntegrationResponse
+     */
+    account?: DiscordIntegrationResponseAccount;
+    /**
+     *
+     * @type {any}
+     * @memberof DiscordIntegrationResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof DiscordIntegrationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {IntegrationApplicationResponse}
+     * @memberof DiscordIntegrationResponse
+     */
+    application: IntegrationApplicationResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof DiscordIntegrationResponse
+     */
+    scopes: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof DiscordIntegrationResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
 }

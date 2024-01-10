@@ -18,16 +18,16 @@
  * @interface VanityURLErrorResponse
  */
 export interface VanityURLErrorResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof VanityURLErrorResponse
-   */
-  message: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VanityURLErrorResponse
-   */
-  code: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VanityURLErrorResponse
+     */
+    message: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VanityURLErrorResponse
+     */
+    code: any;
 }

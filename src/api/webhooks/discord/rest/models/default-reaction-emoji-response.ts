@@ -22,16 +22,16 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface DefaultReactionEmojiResponse
  */
 export interface DefaultReactionEmojiResponse {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof DefaultReactionEmojiResponse
-   */
-  emoji_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof DefaultReactionEmojiResponse
-   */
-  emoji_name?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof DefaultReactionEmojiResponse
+     */
+    emoji_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof DefaultReactionEmojiResponse
+     */
+    emoji_name?: any;
 }

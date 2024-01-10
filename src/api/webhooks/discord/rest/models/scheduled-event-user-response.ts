@@ -25,28 +25,28 @@ import { ScheduledEventUserResponseMember } from "./scheduled-event-user-respons
  * @interface ScheduledEventUserResponse
  */
 export interface ScheduledEventUserResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventUserResponse
-   */
-  guild_scheduled_event_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ScheduledEventUserResponse
-   */
-  user_id: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof ScheduledEventUserResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {ScheduledEventUserResponseMember}
-   * @memberof ScheduledEventUserResponse
-   */
-  member?: ScheduledEventUserResponseMember;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventUserResponse
+     */
+    guild_scheduled_event_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ScheduledEventUserResponse
+     */
+    user_id: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof ScheduledEventUserResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {ScheduledEventUserResponseMember}
+     * @memberof ScheduledEventUserResponse
+     */
+    member?: ScheduledEventUserResponseMember;
 }

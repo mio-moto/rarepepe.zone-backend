@@ -18,10 +18,10 @@
  * @interface UserCommunicationDisabledActionMetadata
  */
 export interface UserCommunicationDisabledActionMetadata {
-  /**
-   *
-   * @type {any}
-   * @memberof UserCommunicationDisabledActionMetadata
-   */
-  duration_seconds?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserCommunicationDisabledActionMetadata
+     */
+    duration_seconds?: any;
 }

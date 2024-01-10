@@ -39,6 +39,6 @@ import { VoiceScheduledEventCreateRequestEntityMetadata } from "./voice-schedule
  * @export
  */
 export type CreateGuildScheduledEventRequest =
-  | ExternalScheduledEventCreateRequest
-  | StageScheduledEventCreateRequest
-  | VoiceScheduledEventCreateRequest;
+    | ExternalScheduledEventCreateRequest
+    | StageScheduledEventCreateRequest
+    | VoiceScheduledEventCreateRequest;

@@ -18,10 +18,10 @@
  * @interface InviteChannelRecipientResponse
  */
 export interface InviteChannelRecipientResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof InviteChannelRecipientResponse
-   */
-  username: any;
+    /**
+     *
+     * @type {any}
+     * @memberof InviteChannelRecipientResponse
+     */
+    username: any;
 }

@@ -22,40 +22,40 @@ import { MessageEmbedImageResponseWidth } from "./message-embed-image-response-w
  * @interface MessageEmbedVideoResponse
  */
 export interface MessageEmbedVideoResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof MessageEmbedVideoResponse
-   */
-  url?: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof MessageEmbedVideoResponse
-   */
-  proxy_url?: string | null;
-  /**
-   *
-   * @type {MessageEmbedImageResponseWidth}
-   * @memberof MessageEmbedVideoResponse
-   */
-  width?: MessageEmbedImageResponseWidth;
-  /**
-   *
-   * @type {MessageEmbedImageResponseWidth}
-   * @memberof MessageEmbedVideoResponse
-   */
-  height?: MessageEmbedImageResponseWidth;
-  /**
-   *
-   * @type {string}
-   * @memberof MessageEmbedVideoResponse
-   */
-  placeholder?: string | null;
-  /**
-   *
-   * @type {MessageEmbedImageResponseWidth}
-   * @memberof MessageEmbedVideoResponse
-   */
-  placeholder_version?: MessageEmbedImageResponseWidth;
+    /**
+     *
+     * @type {string}
+     * @memberof MessageEmbedVideoResponse
+     */
+    url?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof MessageEmbedVideoResponse
+     */
+    proxy_url?: string | null;
+    /**
+     *
+     * @type {MessageEmbedImageResponseWidth}
+     * @memberof MessageEmbedVideoResponse
+     */
+    width?: MessageEmbedImageResponseWidth;
+    /**
+     *
+     * @type {MessageEmbedImageResponseWidth}
+     * @memberof MessageEmbedVideoResponse
+     */
+    height?: MessageEmbedImageResponseWidth;
+    /**
+     *
+     * @type {string}
+     * @memberof MessageEmbedVideoResponse
+     */
+    placeholder?: string | null;
+    /**
+     *
+     * @type {MessageEmbedImageResponseWidth}
+     * @memberof MessageEmbedVideoResponse
+     */
+    placeholder_version?: MessageEmbedImageResponseWidth;
 }

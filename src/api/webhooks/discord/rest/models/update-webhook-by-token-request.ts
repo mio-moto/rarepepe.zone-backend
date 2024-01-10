@@ -18,16 +18,16 @@
  * @interface UpdateWebhookByTokenRequest
  */
 export interface UpdateWebhookByTokenRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateWebhookByTokenRequest
-   */
-  name?: string;
-  /**
-   *
-   * @type {string}
-   * @memberof UpdateWebhookByTokenRequest
-   */
-  avatar?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateWebhookByTokenRequest
+     */
+    name?: string;
+    /**
+     *
+     * @type {string}
+     * @memberof UpdateWebhookByTokenRequest
+     */
+    avatar?: string | null;
 }

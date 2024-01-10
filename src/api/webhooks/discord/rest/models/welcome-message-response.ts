@@ -18,16 +18,16 @@
  * @interface WelcomeMessageResponse
  */
 export interface WelcomeMessageResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof WelcomeMessageResponse
-   */
-  author_ids: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WelcomeMessageResponse
-   */
-  message: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WelcomeMessageResponse
+     */
+    author_ids: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WelcomeMessageResponse
+     */
+    message: any;
 }

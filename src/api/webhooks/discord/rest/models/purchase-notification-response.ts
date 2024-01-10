@@ -22,16 +22,16 @@ import { PurchaseNotificationResponseGuildProductPurchase } from "./purchase-not
  * @interface PurchaseNotificationResponse
  */
 export interface PurchaseNotificationResponse {
-  /**
-   *
-   * @type {number}
-   * @memberof PurchaseNotificationResponse
-   */
-  type: number;
-  /**
-   *
-   * @type {PurchaseNotificationResponseGuildProductPurchase}
-   * @memberof PurchaseNotificationResponse
-   */
-  guild_product_purchase?: PurchaseNotificationResponseGuildProductPurchase;
+    /**
+     *
+     * @type {number}
+     * @memberof PurchaseNotificationResponse
+     */
+    type: number;
+    /**
+     *
+     * @type {PurchaseNotificationResponseGuildProductPurchase}
+     * @memberof PurchaseNotificationResponse
+     */
+    guild_product_purchase?: PurchaseNotificationResponseGuildProductPurchase;
 }

@@ -18,52 +18,52 @@
  * @interface GuildAuditLogResponse
  */
 export interface GuildAuditLogResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  audit_log_entries: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  users: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  integrations: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  webhooks: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  guild_scheduled_events: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  threads: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  application_commands: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildAuditLogResponse
-   */
-  auto_moderation_rules: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    audit_log_entries: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    users: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    integrations: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    webhooks: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    guild_scheduled_events: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    threads: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    application_commands: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildAuditLogResponse
+     */
+    auto_moderation_rules: any;
 }

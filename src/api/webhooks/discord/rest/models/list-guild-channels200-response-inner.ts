@@ -60,7 +60,7 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @export
  */
 export type ListGuildChannels200ResponseInner =
-  | GuildChannelResponse
-  | PrivateChannelResponse
-  | PrivateGroupChannelResponse
-  | ThreadResponse;
+    | GuildChannelResponse
+    | PrivateChannelResponse
+    | PrivateGroupChannelResponse
+    | ThreadResponse;

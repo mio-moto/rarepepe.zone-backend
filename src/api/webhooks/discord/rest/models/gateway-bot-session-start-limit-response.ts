@@ -18,28 +18,28 @@
  * @interface GatewayBotSessionStartLimitResponse
  */
 export interface GatewayBotSessionStartLimitResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayBotSessionStartLimitResponse
-   */
-  max_concurrency: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayBotSessionStartLimitResponse
-   */
-  remaining: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayBotSessionStartLimitResponse
-   */
-  reset_after: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GatewayBotSessionStartLimitResponse
-   */
-  total: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayBotSessionStartLimitResponse
+     */
+    max_concurrency: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayBotSessionStartLimitResponse
+     */
+    remaining: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayBotSessionStartLimitResponse
+     */
+    reset_after: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GatewayBotSessionStartLimitResponse
+     */
+    total: any;
 }

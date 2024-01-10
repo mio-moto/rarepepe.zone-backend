@@ -22,40 +22,40 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface MessageComponentMentionableSelectResponse
  */
 export interface MessageComponentMentionableSelectResponse {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof MessageComponentMentionableSelectResponse
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentMentionableSelectResponse
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentMentionableSelectResponse
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentMentionableSelectResponse
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentMentionableSelectResponse
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageComponentMentionableSelectResponse
-   */
-  disabled?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof MessageComponentMentionableSelectResponse
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentMentionableSelectResponse
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentMentionableSelectResponse
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentMentionableSelectResponse
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentMentionableSelectResponse
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageComponentMentionableSelectResponse
+     */
+    disabled?: any;
 }

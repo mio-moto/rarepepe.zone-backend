@@ -25,76 +25,76 @@ import { CreateGuildChannelRequestVideoQualityMode } from "./create-guild-channe
  * @interface UpdateThreadRequestPartial
  */
 export interface UpdateThreadRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  archived?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  locked?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  invitable?: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof UpdateThreadRequestPartial
-   */
-  auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  applied_tags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  bitrate?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  user_limit?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateThreadRequestPartial
-   */
-  rtc_region?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestVideoQualityMode}
-   * @memberof UpdateThreadRequestPartial
-   */
-  video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    archived?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    locked?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    invitable?: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof UpdateThreadRequestPartial
+     */
+    auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    applied_tags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    bitrate?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    user_limit?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateThreadRequestPartial
+     */
+    rtc_region?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestVideoQualityMode}
+     * @memberof UpdateThreadRequestPartial
+     */
+    video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
 }

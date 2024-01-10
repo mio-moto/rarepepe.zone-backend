@@ -31,58 +31,58 @@ import { VoiceScheduledEventCreateRequestEntityMetadata } from "./voice-schedule
  * @interface VoiceScheduledEventCreateRequest
  */
 export interface VoiceScheduledEventCreateRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  image?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  scheduled_start_time: any;
-  /**
-   *
-   * @type {any}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  scheduled_end_time?: any;
-  /**
-   *
-   * @type {GuildScheduledEventPrivacyLevels}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  privacy_level: GuildScheduledEventPrivacyLevels;
-  /**
-   *
-   * @type {GuildScheduledEventEntityTypes}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  entity_type: GuildScheduledEventEntityTypes;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {VoiceScheduledEventCreateRequestEntityMetadata}
-   * @memberof VoiceScheduledEventCreateRequest
-   */
-  entity_metadata?: VoiceScheduledEventCreateRequestEntityMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    image?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    scheduled_start_time: any;
+    /**
+     *
+     * @type {any}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    scheduled_end_time?: any;
+    /**
+     *
+     * @type {GuildScheduledEventPrivacyLevels}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    privacy_level: GuildScheduledEventPrivacyLevels;
+    /**
+     *
+     * @type {GuildScheduledEventEntityTypes}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    entity_type: GuildScheduledEventEntityTypes;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {VoiceScheduledEventCreateRequestEntityMetadata}
+     * @memberof VoiceScheduledEventCreateRequest
+     */
+    entity_metadata?: VoiceScheduledEventCreateRequestEntityMetadata;
 }

@@ -18,16 +18,16 @@
  * @interface GithubAuthor
  */
 export interface GithubAuthor {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubAuthor
-   */
-  username?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubAuthor
-   */
-  name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubAuthor
+     */
+    username?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubAuthor
+     */
+    name: any;
 }

@@ -18,22 +18,22 @@
  * @interface MessageEmbedFooterResponse
  */
 export interface MessageEmbedFooterResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedFooterResponse
-   */
-  text: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedFooterResponse
-   */
-  icon_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageEmbedFooterResponse
-   */
-  proxy_icon_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedFooterResponse
+     */
+    text: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedFooterResponse
+     */
+    icon_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageEmbedFooterResponse
+     */
+    proxy_icon_url?: any;
 }

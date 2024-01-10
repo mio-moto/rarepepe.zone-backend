@@ -18,22 +18,22 @@
  * @interface AuditLogObjectChangeResponse
  */
 export interface AuditLogObjectChangeResponse {
-  /**
-   *
-   * @type {string}
-   * @memberof AuditLogObjectChangeResponse
-   */
-  key?: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof AuditLogObjectChangeResponse
-   */
-  new_value?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof AuditLogObjectChangeResponse
-   */
-  old_value?: any;
+    /**
+     *
+     * @type {string}
+     * @memberof AuditLogObjectChangeResponse
+     */
+    key?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof AuditLogObjectChangeResponse
+     */
+    new_value?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof AuditLogObjectChangeResponse
+     */
+    old_value?: any;
 }

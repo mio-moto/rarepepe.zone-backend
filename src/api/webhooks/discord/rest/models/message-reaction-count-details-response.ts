@@ -18,16 +18,16 @@
  * @interface MessageReactionCountDetailsResponse
  */
 export interface MessageReactionCountDetailsResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReactionCountDetailsResponse
-   */
-  burst: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReactionCountDetailsResponse
-   */
-  normal: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReactionCountDetailsResponse
+     */
+    burst: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReactionCountDetailsResponse
+     */
+    normal: any;
 }

@@ -22,16 +22,16 @@ import { UserResponse } from "./user-response";
  * @interface GuildBanResponse
  */
 export interface GuildBanResponse {
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof GuildBanResponse
-   */
-  user: UserResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildBanResponse
-   */
-  reason?: any;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof GuildBanResponse
+     */
+    user: UserResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildBanResponse
+     */
+    reason?: any;
 }

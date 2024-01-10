@@ -22,28 +22,28 @@ import { UpdateGuildOnboardingRequestMode } from "./update-guild-onboarding-requ
  * @interface UpdateGuildOnboardingRequest
  */
 export interface UpdateGuildOnboardingRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildOnboardingRequest
-   */
-  prompts?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildOnboardingRequest
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UpdateGuildOnboardingRequest
-   */
-  default_channel_ids?: any;
-  /**
-   *
-   * @type {UpdateGuildOnboardingRequestMode}
-   * @memberof UpdateGuildOnboardingRequest
-   */
-  mode?: UpdateGuildOnboardingRequestMode;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildOnboardingRequest
+     */
+    prompts?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildOnboardingRequest
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UpdateGuildOnboardingRequest
+     */
+    default_channel_ids?: any;
+    /**
+     *
+     * @type {UpdateGuildOnboardingRequestMode}
+     * @memberof UpdateGuildOnboardingRequest
+     */
+    mode?: UpdateGuildOnboardingRequestMode;
 }

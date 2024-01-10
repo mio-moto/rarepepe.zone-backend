@@ -28,52 +28,52 @@ import { KeywordUpsertRequestTriggerMetadata } from "./keyword-upsert-request-tr
  * @interface KeywordUpsertRequest
  */
 export interface KeywordUpsertRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof KeywordUpsertRequest
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequest
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequest
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequest
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof KeywordUpsertRequest
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof KeywordUpsertRequest
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {KeywordUpsertRequestTriggerMetadata}
-   * @memberof KeywordUpsertRequest
-   */
-  trigger_metadata?: KeywordUpsertRequestTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof KeywordUpsertRequest
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequest
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequest
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequest
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof KeywordUpsertRequest
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof KeywordUpsertRequest
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {KeywordUpsertRequestTriggerMetadata}
+     * @memberof KeywordUpsertRequest
+     */
+    trigger_metadata?: KeywordUpsertRequestTriggerMetadata;
 }

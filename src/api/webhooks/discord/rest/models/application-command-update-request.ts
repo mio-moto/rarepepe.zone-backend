@@ -25,58 +25,58 @@ import { ApplicationCommandType } from "./application-command-type";
  * @interface ApplicationCommandUpdateRequest
  */
 export interface ApplicationCommandUpdateRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  description?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {Array<ApplicationCommandCreateRequestOptionsInner>}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  options?: Array<ApplicationCommandCreateRequestOptionsInner>;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  default_member_permissions?: number | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  dm_permission?: boolean | null;
-  /**
-   *
-   * @type {ApplicationCommandType}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  type?: ApplicationCommandType | null;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandUpdateRequest
-   */
-  id?: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    description?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {Array<ApplicationCommandCreateRequestOptionsInner>}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    options?: Array<ApplicationCommandCreateRequestOptionsInner>;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    default_member_permissions?: number | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    dm_permission?: boolean | null;
+    /**
+     *
+     * @type {ApplicationCommandType}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    type?: ApplicationCommandType | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandUpdateRequest
+     */
+    id?: any;
 }

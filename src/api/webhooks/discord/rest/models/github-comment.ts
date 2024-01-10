@@ -22,34 +22,34 @@ import { GithubUser } from "./github-user";
  * @interface GithubComment
  */
 export interface GithubComment {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubComment
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubComment
-   */
-  html_url: any;
-  /**
-   *
-   * @type {GithubUser}
-   * @memberof GithubComment
-   */
-  user: GithubUser;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubComment
-   */
-  commit_id?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubComment
-   */
-  body: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubComment
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubComment
+     */
+    html_url: any;
+    /**
+     *
+     * @type {GithubUser}
+     * @memberof GithubComment
+     */
+    user: GithubUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubComment
+     */
+    commit_id?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubComment
+     */
+    body: any;
 }

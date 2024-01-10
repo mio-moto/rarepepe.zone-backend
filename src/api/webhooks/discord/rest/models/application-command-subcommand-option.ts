@@ -25,46 +25,46 @@ import { ApplicationCommandSubcommandOptionOptionsInner } from "./application-co
  * @interface ApplicationCommandSubcommandOption
  */
 export interface ApplicationCommandSubcommandOption {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  description: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  required?: boolean | null;
-  /**
-   *
-   * @type {Array<ApplicationCommandSubcommandOptionOptionsInner>}
-   * @memberof ApplicationCommandSubcommandOption
-   */
-  options?: Array<ApplicationCommandSubcommandOptionOptionsInner>;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    description: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    required?: boolean | null;
+    /**
+     *
+     * @type {Array<ApplicationCommandSubcommandOptionOptionsInner>}
+     * @memberof ApplicationCommandSubcommandOption
+     */
+    options?: Array<ApplicationCommandSubcommandOptionOptionsInner>;
 }

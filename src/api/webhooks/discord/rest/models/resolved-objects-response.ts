@@ -31,28 +31,28 @@ import { UserResponse } from "./user-response";
  * @interface ResolvedObjectsResponse
  */
 export interface ResolvedObjectsResponse {
-  /**
-   *
-   * @type {{ [key: string]: UserResponse; }}
-   * @memberof ResolvedObjectsResponse
-   */
-  users: { [key: string]: UserResponse };
-  /**
-   *
-   * @type {{ [key: string]: GuildMemberResponse; }}
-   * @memberof ResolvedObjectsResponse
-   */
-  members: { [key: string]: GuildMemberResponse };
-  /**
-   *
-   * @type {{ [key: string]: ListGuildChannels200ResponseInner; }}
-   * @memberof ResolvedObjectsResponse
-   */
-  channels: { [key: string]: ListGuildChannels200ResponseInner };
-  /**
-   *
-   * @type {{ [key: string]: GuildRoleResponse; }}
-   * @memberof ResolvedObjectsResponse
-   */
-  roles: { [key: string]: GuildRoleResponse };
+    /**
+     *
+     * @type {{ [key: string]: UserResponse; }}
+     * @memberof ResolvedObjectsResponse
+     */
+    users: { [key: string]: UserResponse };
+    /**
+     *
+     * @type {{ [key: string]: GuildMemberResponse; }}
+     * @memberof ResolvedObjectsResponse
+     */
+    members: { [key: string]: GuildMemberResponse };
+    /**
+     *
+     * @type {{ [key: string]: ListGuildChannels200ResponseInner; }}
+     * @memberof ResolvedObjectsResponse
+     */
+    channels: { [key: string]: ListGuildChannels200ResponseInner };
+    /**
+     *
+     * @type {{ [key: string]: GuildRoleResponse; }}
+     * @memberof ResolvedObjectsResponse
+     */
+    roles: { [key: string]: GuildRoleResponse };
 }

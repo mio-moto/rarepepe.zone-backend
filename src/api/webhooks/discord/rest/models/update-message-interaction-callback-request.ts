@@ -25,16 +25,16 @@ import { UpdateMessageInteractionCallbackRequestData } from "./update-message-in
  * @interface UpdateMessageInteractionCallbackRequest
  */
 export interface UpdateMessageInteractionCallbackRequest {
-  /**
-   *
-   * @type {InteractionCallbackTypes}
-   * @memberof UpdateMessageInteractionCallbackRequest
-   */
-  type: InteractionCallbackTypes;
-  /**
-   *
-   * @type {UpdateMessageInteractionCallbackRequestData}
-   * @memberof UpdateMessageInteractionCallbackRequest
-   */
-  data?: UpdateMessageInteractionCallbackRequestData;
+    /**
+     *
+     * @type {InteractionCallbackTypes}
+     * @memberof UpdateMessageInteractionCallbackRequest
+     */
+    type: InteractionCallbackTypes;
+    /**
+     *
+     * @type {UpdateMessageInteractionCallbackRequestData}
+     * @memberof UpdateMessageInteractionCallbackRequest
+     */
+    data?: UpdateMessageInteractionCallbackRequestData;
 }

@@ -22,28 +22,28 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface GuildWelcomeScreenChannelResponse
  */
 export interface GuildWelcomeScreenChannelResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildWelcomeScreenChannelResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildWelcomeScreenChannelResponse
-   */
-  description: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildWelcomeScreenChannelResponse
-   */
-  emoji_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildWelcomeScreenChannelResponse
-   */
-  emoji_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildWelcomeScreenChannelResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildWelcomeScreenChannelResponse
+     */
+    description: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildWelcomeScreenChannelResponse
+     */
+    emoji_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildWelcomeScreenChannelResponse
+     */
+    emoji_name?: any;
 }

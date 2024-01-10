@@ -22,16 +22,16 @@ import { AutomodActionType } from "./automod-action-type";
  * @interface QuarantineUserActionResponse
  */
 export interface QuarantineUserActionResponse {
-  /**
-   *
-   * @type {AutomodActionType}
-   * @memberof QuarantineUserActionResponse
-   */
-  type: AutomodActionType;
-  /**
-   *
-   * @type {any}
-   * @memberof QuarantineUserActionResponse
-   */
-  metadata: any;
+    /**
+     *
+     * @type {AutomodActionType}
+     * @memberof QuarantineUserActionResponse
+     */
+    type: AutomodActionType;
+    /**
+     *
+     * @type {any}
+     * @memberof QuarantineUserActionResponse
+     */
+    metadata: any;
 }

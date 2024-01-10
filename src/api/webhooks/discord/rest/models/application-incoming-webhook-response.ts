@@ -25,52 +25,52 @@ import { WebhookTypes } from "./webhook-types";
  * @interface ApplicationIncomingWebhookResponse
  */
 export interface ApplicationIncomingWebhookResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  application_id?: any;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  avatar?: string | null;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  channel_id?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  guild_id?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {WebhookTypes}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  type: WebhookTypes;
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof ApplicationIncomingWebhookResponse
-   */
-  user?: UserResponse | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    application_id?: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    avatar?: string | null;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    channel_id?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    guild_id?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {WebhookTypes}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    type: WebhookTypes;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof ApplicationIncomingWebhookResponse
+     */
+    user?: UserResponse | null;
 }

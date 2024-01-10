@@ -22,46 +22,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface UserSelect
  */
 export interface UserSelect {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof UserSelect
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelect
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelect
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelect
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelect
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelect
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserSelect
-   */
-  default_values?: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof UserSelect
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelect
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelect
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelect
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelect
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelect
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserSelect
+     */
+    default_values?: any;
 }

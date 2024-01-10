@@ -22,52 +22,52 @@ import { ChannelFollowerWebhookResponseUser } from "./channel-follower-webhook-r
  * @interface EmojiResponse
  */
 export interface EmojiResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof EmojiResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  roles: any;
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  require_colons: any;
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  managed: any;
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  animated: any;
-  /**
-   *
-   * @type {any}
-   * @memberof EmojiResponse
-   */
-  available: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof EmojiResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    roles: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    require_colons: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    managed: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    animated: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EmojiResponse
+     */
+    available: any;
 }

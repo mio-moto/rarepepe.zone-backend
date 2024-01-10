@@ -18,10 +18,10 @@
  * @interface EntityMetadataExternal
  */
 export interface EntityMetadataExternal {
-  /**
-   *
-   * @type {any}
-   * @memberof EntityMetadataExternal
-   */
-  location: any;
+    /**
+     *
+     * @type {any}
+     * @memberof EntityMetadataExternal
+     */
+    location: any;
 }

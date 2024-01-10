@@ -22,34 +22,34 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface ForumTagResponse
  */
 export interface ForumTagResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ForumTagResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ForumTagResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ForumTagResponse
-   */
-  moderated: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ForumTagResponse
-   */
-  emoji_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ForumTagResponse
-   */
-  emoji_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ForumTagResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ForumTagResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ForumTagResponse
+     */
+    moderated: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ForumTagResponse
+     */
+    emoji_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ForumTagResponse
+     */
+    emoji_name?: any;
 }

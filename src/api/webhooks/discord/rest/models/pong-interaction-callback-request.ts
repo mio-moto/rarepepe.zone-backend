@@ -22,10 +22,10 @@ import { InteractionCallbackTypes } from "./interaction-callback-types";
  * @interface PongInteractionCallbackRequest
  */
 export interface PongInteractionCallbackRequest {
-  /**
-   *
-   * @type {InteractionCallbackTypes}
-   * @memberof PongInteractionCallbackRequest
-   */
-  type: InteractionCallbackTypes;
+    /**
+     *
+     * @type {InteractionCallbackTypes}
+     * @memberof PongInteractionCallbackRequest
+     */
+    type: InteractionCallbackTypes;
 }

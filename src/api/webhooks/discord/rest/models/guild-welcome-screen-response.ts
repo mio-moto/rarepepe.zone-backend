@@ -18,16 +18,16 @@
  * @interface GuildWelcomeScreenResponse
  */
 export interface GuildWelcomeScreenResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildWelcomeScreenResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildWelcomeScreenResponse
-   */
-  welcome_channels: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildWelcomeScreenResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildWelcomeScreenResponse
+     */
+    welcome_channels: any;
 }

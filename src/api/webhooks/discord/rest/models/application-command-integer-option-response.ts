@@ -25,76 +25,76 @@ import { ApplicationCommandOptionType } from "./application-command-option-type"
  * @interface ApplicationCommandIntegerOptionResponse
  */
 export interface ApplicationCommandIntegerOptionResponse {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  name: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  name_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  description: string;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  description_localized?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  required?: boolean | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  autocomplete?: boolean | null;
-  /**
-   *
-   * @type {Array<ApplicationCommandOptionIntegerChoiceResponse>}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  choices?: Array<ApplicationCommandOptionIntegerChoiceResponse>;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  min_value?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandIntegerOptionResponse
-   */
-  max_value?: any;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    name: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    name_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    description: string;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    description_localized?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    required?: boolean | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    autocomplete?: boolean | null;
+    /**
+     *
+     * @type {Array<ApplicationCommandOptionIntegerChoiceResponse>}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    choices?: Array<ApplicationCommandOptionIntegerChoiceResponse>;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    min_value?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandIntegerOptionResponse
+     */
+    max_value?: any;
 }

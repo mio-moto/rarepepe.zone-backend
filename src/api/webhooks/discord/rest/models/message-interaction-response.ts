@@ -25,34 +25,34 @@ import { InteractionTypes } from "./interaction-types";
  * @interface MessageInteractionResponse
  */
 export interface MessageInteractionResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageInteractionResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {InteractionTypes}
-   * @memberof MessageInteractionResponse
-   */
-  type: InteractionTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageInteractionResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof MessageInteractionResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageInteractionResponse
-   */
-  name_localized?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageInteractionResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {InteractionTypes}
+     * @memberof MessageInteractionResponse
+     */
+    type: InteractionTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageInteractionResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof MessageInteractionResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageInteractionResponse
+     */
+    name_localized?: any;
 }

@@ -46,130 +46,130 @@ import { GuildInviteResponseType } from "./guild-invite-response-type";
  * @interface GuildInviteResponse
  */
 export interface GuildInviteResponse {
-  /**
-   *
-   * @type {GuildInviteResponseType}
-   * @memberof GuildInviteResponse
-   */
-  type?: GuildInviteResponseType;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  code: any;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof GuildInviteResponse
-   */
-  inviter?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  max_age?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  created_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  expires_at?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  is_contact?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  flags?: any;
-  /**
-   *
-   * @type {GuildInviteResponseGuild}
-   * @memberof GuildInviteResponse
-   */
-  guild?: GuildInviteResponseGuild;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildInviteResponse
-   */
-  guild_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {FriendInviteResponseChannel}
-   * @memberof GuildInviteResponse
-   */
-  channel?: FriendInviteResponseChannel;
-  /**
-   *
-   * @type {GuildInviteResponseStageInstance}
-   * @memberof GuildInviteResponse
-   */
-  stage_instance?: GuildInviteResponseStageInstance;
-  /**
-   *
-   * @type {GuildInviteResponseTargetType}
-   * @memberof GuildInviteResponse
-   */
-  target_type?: GuildInviteResponseTargetType;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof GuildInviteResponse
-   */
-  target_user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {GuildInviteResponseTargetApplication}
-   * @memberof GuildInviteResponse
-   */
-  target_application?: GuildInviteResponseTargetApplication;
-  /**
-   *
-   * @type {GuildInviteResponseGuildScheduledEvent}
-   * @memberof GuildInviteResponse
-   */
-  guild_scheduled_event?: GuildInviteResponseGuildScheduledEvent;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  max_uses?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  temporary?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  approximate_member_count?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildInviteResponse
-   */
-  approximate_presence_count?: any;
+    /**
+     *
+     * @type {GuildInviteResponseType}
+     * @memberof GuildInviteResponse
+     */
+    type?: GuildInviteResponseType;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    code: any;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof GuildInviteResponse
+     */
+    inviter?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    max_age?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    created_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    expires_at?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    is_contact?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    flags?: any;
+    /**
+     *
+     * @type {GuildInviteResponseGuild}
+     * @memberof GuildInviteResponse
+     */
+    guild?: GuildInviteResponseGuild;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildInviteResponse
+     */
+    guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {FriendInviteResponseChannel}
+     * @memberof GuildInviteResponse
+     */
+    channel?: FriendInviteResponseChannel;
+    /**
+     *
+     * @type {GuildInviteResponseStageInstance}
+     * @memberof GuildInviteResponse
+     */
+    stage_instance?: GuildInviteResponseStageInstance;
+    /**
+     *
+     * @type {GuildInviteResponseTargetType}
+     * @memberof GuildInviteResponse
+     */
+    target_type?: GuildInviteResponseTargetType;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof GuildInviteResponse
+     */
+    target_user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {GuildInviteResponseTargetApplication}
+     * @memberof GuildInviteResponse
+     */
+    target_application?: GuildInviteResponseTargetApplication;
+    /**
+     *
+     * @type {GuildInviteResponseGuildScheduledEvent}
+     * @memberof GuildInviteResponse
+     */
+    guild_scheduled_event?: GuildInviteResponseGuildScheduledEvent;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    max_uses?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    temporary?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    approximate_member_count?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildInviteResponse
+     */
+    approximate_presence_count?: any;
 }

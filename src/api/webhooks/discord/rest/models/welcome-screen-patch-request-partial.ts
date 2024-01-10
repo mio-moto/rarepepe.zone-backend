@@ -18,22 +18,22 @@
  * @interface WelcomeScreenPatchRequestPartial
  */
 export interface WelcomeScreenPatchRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof WelcomeScreenPatchRequestPartial
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WelcomeScreenPatchRequestPartial
-   */
-  welcome_channels?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof WelcomeScreenPatchRequestPartial
-   */
-  enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WelcomeScreenPatchRequestPartial
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WelcomeScreenPatchRequestPartial
+     */
+    welcome_channels?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof WelcomeScreenPatchRequestPartial
+     */
+    enabled?: any;
 }

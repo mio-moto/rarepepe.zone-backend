@@ -22,46 +22,46 @@ import { MessageComponentTypes } from "./message-component-types";
  * @interface StringSelect
  */
 export interface StringSelect {
-  /**
-   *
-   * @type {MessageComponentTypes}
-   * @memberof StringSelect
-   */
-  type: MessageComponentTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof StringSelect
-   */
-  custom_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StringSelect
-   */
-  placeholder?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StringSelect
-   */
-  min_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StringSelect
-   */
-  max_values?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StringSelect
-   */
-  disabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof StringSelect
-   */
-  options: any;
+    /**
+     *
+     * @type {MessageComponentTypes}
+     * @memberof StringSelect
+     */
+    type: MessageComponentTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof StringSelect
+     */
+    custom_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StringSelect
+     */
+    placeholder?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StringSelect
+     */
+    min_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StringSelect
+     */
+    max_values?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StringSelect
+     */
+    disabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof StringSelect
+     */
+    options: any;
 }

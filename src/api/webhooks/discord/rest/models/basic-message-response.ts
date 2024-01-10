@@ -55,190 +55,190 @@ import { UserResponse } from "./user-response";
  * @interface BasicMessageResponse
  */
 export interface BasicMessageResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {MessageType}
-   * @memberof BasicMessageResponse
-   */
-  type: MessageType;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  content: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {UserResponse}
-   * @memberof BasicMessageResponse
-   */
-  author: UserResponse;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  attachments: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  embeds: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  mentions: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  mention_roles: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  pinned: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  mention_everyone: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  tts: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  timestamp: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  edited_timestamp?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  components: any;
-  /**
-   *
-   * @type {BasicMessageResponseActivity}
-   * @memberof BasicMessageResponse
-   */
-  activity?: BasicMessageResponseActivity;
-  /**
-   *
-   * @type {BasicMessageResponseApplication}
-   * @memberof BasicMessageResponse
-   */
-  application?: BasicMessageResponseApplication;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof BasicMessageResponse
-   */
-  application_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseInteraction}
-   * @memberof BasicMessageResponse
-   */
-  interaction?: BasicMessageResponseInteraction;
-  /**
-   *
-   * @type {BasicMessageResponseNonce}
-   * @memberof BasicMessageResponse
-   */
-  nonce?: BasicMessageResponseNonce;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof BasicMessageResponse
-   */
-  webhook_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseMessageReference}
-   * @memberof BasicMessageResponse
-   */
-  message_reference?: BasicMessageResponseMessageReference;
-  /**
-   *
-   * @type {BasicMessageResponseThread}
-   * @memberof BasicMessageResponse
-   */
-  thread?: BasicMessageResponseThread;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  mention_channels?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  stickers?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  sticker_items?: any;
-  /**
-   *
-   * @type {BasicMessageResponseRoleSubscriptionData}
-   * @memberof BasicMessageResponse
-   */
-  role_subscription_data?: BasicMessageResponseRoleSubscriptionData;
-  /**
-   *
-   * @type {BasicMessageResponsePurchaseNotification}
-   * @memberof BasicMessageResponse
-   */
-  purchase_notification?: BasicMessageResponsePurchaseNotification;
-  /**
-   *
-   * @type {any}
-   * @memberof BasicMessageResponse
-   */
-  position?: any;
-  /**
-   *
-   * @type {BasicMessageResponseResolved}
-   * @memberof BasicMessageResponse
-   */
-  resolved?: BasicMessageResponseResolved;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {MessageType}
+     * @memberof BasicMessageResponse
+     */
+    type: MessageType;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    content: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {UserResponse}
+     * @memberof BasicMessageResponse
+     */
+    author: UserResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    attachments: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    embeds: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    mentions: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    mention_roles: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    pinned: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    mention_everyone: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    tts: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    timestamp: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    edited_timestamp?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    components: any;
+    /**
+     *
+     * @type {BasicMessageResponseActivity}
+     * @memberof BasicMessageResponse
+     */
+    activity?: BasicMessageResponseActivity;
+    /**
+     *
+     * @type {BasicMessageResponseApplication}
+     * @memberof BasicMessageResponse
+     */
+    application?: BasicMessageResponseApplication;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof BasicMessageResponse
+     */
+    application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseInteraction}
+     * @memberof BasicMessageResponse
+     */
+    interaction?: BasicMessageResponseInteraction;
+    /**
+     *
+     * @type {BasicMessageResponseNonce}
+     * @memberof BasicMessageResponse
+     */
+    nonce?: BasicMessageResponseNonce;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof BasicMessageResponse
+     */
+    webhook_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseMessageReference}
+     * @memberof BasicMessageResponse
+     */
+    message_reference?: BasicMessageResponseMessageReference;
+    /**
+     *
+     * @type {BasicMessageResponseThread}
+     * @memberof BasicMessageResponse
+     */
+    thread?: BasicMessageResponseThread;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    mention_channels?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    stickers?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    sticker_items?: any;
+    /**
+     *
+     * @type {BasicMessageResponseRoleSubscriptionData}
+     * @memberof BasicMessageResponse
+     */
+    role_subscription_data?: BasicMessageResponseRoleSubscriptionData;
+    /**
+     *
+     * @type {BasicMessageResponsePurchaseNotification}
+     * @memberof BasicMessageResponse
+     */
+    purchase_notification?: BasicMessageResponsePurchaseNotification;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicMessageResponse
+     */
+    position?: any;
+    /**
+     *
+     * @type {BasicMessageResponseResolved}
+     * @memberof BasicMessageResponse
+     */
+    resolved?: BasicMessageResponseResolved;
 }

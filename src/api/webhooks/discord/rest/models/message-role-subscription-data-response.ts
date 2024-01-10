@@ -18,28 +18,28 @@
  * @interface MessageRoleSubscriptionDataResponse
  */
 export interface MessageRoleSubscriptionDataResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageRoleSubscriptionDataResponse
-   */
-  role_subscription_listing_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageRoleSubscriptionDataResponse
-   */
-  tier_name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageRoleSubscriptionDataResponse
-   */
-  total_months_subscribed: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageRoleSubscriptionDataResponse
-   */
-  is_renewal: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageRoleSubscriptionDataResponse
+     */
+    role_subscription_listing_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageRoleSubscriptionDataResponse
+     */
+    tier_name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageRoleSubscriptionDataResponse
+     */
+    total_months_subscribed: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageRoleSubscriptionDataResponse
+     */
+    is_renewal: any;
 }

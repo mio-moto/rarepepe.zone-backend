@@ -28,64 +28,64 @@ import { MessageCreateRequestMessageReference } from "./message-create-request-m
  * @interface MessageCreateRequest
  */
 export interface MessageCreateRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  content?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  embeds?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequestAllowedMentions}
-   * @memberof MessageCreateRequest
-   */
-  allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  sticker_ids?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  components?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  flags?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  attachments?: any;
-  /**
-   *
-   * @type {MessageCreateRequestMessageReference}
-   * @memberof MessageCreateRequest
-   */
-  message_reference?: MessageCreateRequestMessageReference;
-  /**
-   *
-   * @type {BasicMessageResponseNonce}
-   * @memberof MessageCreateRequest
-   */
-  nonce?: BasicMessageResponseNonce;
-  /**
-   *
-   * @type {any}
-   * @memberof MessageCreateRequest
-   */
-  tts?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    content?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    embeds?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequestAllowedMentions}
+     * @memberof MessageCreateRequest
+     */
+    allowed_mentions?: BaseCreateMessageCreateRequestAllowedMentions;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    sticker_ids?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    components?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    flags?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    attachments?: any;
+    /**
+     *
+     * @type {MessageCreateRequestMessageReference}
+     * @memberof MessageCreateRequest
+     */
+    message_reference?: MessageCreateRequestMessageReference;
+    /**
+     *
+     * @type {BasicMessageResponseNonce}
+     * @memberof MessageCreateRequest
+     */
+    nonce?: BasicMessageResponseNonce;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageCreateRequest
+     */
+    tts?: any;
 }

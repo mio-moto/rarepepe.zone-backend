@@ -28,70 +28,70 @@ import { MentionSpamTriggerMetadataResponse } from "./mention-spam-trigger-metad
  * @interface MentionSpamRuleResponse
  */
 export interface MentionSpamRuleResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  guild_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  creator_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof MentionSpamRuleResponse
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  actions: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof MentionSpamRuleResponse
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamRuleResponse
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {MentionSpamTriggerMetadataResponse}
-   * @memberof MentionSpamRuleResponse
-   */
-  trigger_metadata: MentionSpamTriggerMetadataResponse;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    guild_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    creator_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof MentionSpamRuleResponse
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    actions: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof MentionSpamRuleResponse
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamRuleResponse
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {MentionSpamTriggerMetadataResponse}
+     * @memberof MentionSpamRuleResponse
+     */
+    trigger_metadata: MentionSpamTriggerMetadataResponse;
 }

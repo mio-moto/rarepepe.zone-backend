@@ -28,64 +28,64 @@ import { WebhookTypes } from "./webhook-types";
  * @interface GuildIncomingWebhookResponse
  */
 export interface GuildIncomingWebhookResponse {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  application_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  avatar?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  guild_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {WebhookTypes}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  type: WebhookTypes;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  token?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildIncomingWebhookResponse
-   */
-  url?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    avatar?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {WebhookTypes}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    type: WebhookTypes;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    token?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildIncomingWebhookResponse
+     */
+    url?: any;
 }

@@ -18,16 +18,16 @@
  * @interface AddGroupDmUserRequest
  */
 export interface AddGroupDmUserRequest {
-  /**
-   *
-   * @type {string}
-   * @memberof AddGroupDmUserRequest
-   */
-  access_token?: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof AddGroupDmUserRequest
-   */
-  nick?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof AddGroupDmUserRequest
+     */
+    access_token?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof AddGroupDmUserRequest
+     */
+    nick?: string | null;
 }

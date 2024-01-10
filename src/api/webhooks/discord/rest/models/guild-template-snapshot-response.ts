@@ -37,82 +37,82 @@ import { VerificationLevels } from "./verification-levels";
  * @interface GuildTemplateSnapshotResponse
  */
 export interface GuildTemplateSnapshotResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  region?: any;
-  /**
-   *
-   * @type {VerificationLevels}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  verification_level: VerificationLevels;
-  /**
-   *
-   * @type {UserNotificationSettings}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  default_message_notifications: UserNotificationSettings;
-  /**
-   *
-   * @type {GuildExplicitContentFilterTypes}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  explicit_content_filter: GuildExplicitContentFilterTypes;
-  /**
-   *
-   * @type {AvailableLocalesEnum}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  preferred_locale: AvailableLocalesEnum;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  afk_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {AfkTimeouts}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  afk_timeout: AfkTimeouts | null;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  system_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  system_channel_flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  roles: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildTemplateSnapshotResponse
-   */
-  channels: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    region?: any;
+    /**
+     *
+     * @type {VerificationLevels}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    verification_level: VerificationLevels;
+    /**
+     *
+     * @type {UserNotificationSettings}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    default_message_notifications: UserNotificationSettings;
+    /**
+     *
+     * @type {GuildExplicitContentFilterTypes}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    explicit_content_filter: GuildExplicitContentFilterTypes;
+    /**
+     *
+     * @type {AvailableLocalesEnum}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    preferred_locale: AvailableLocalesEnum;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    afk_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {AfkTimeouts}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    afk_timeout: AfkTimeouts | null;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    system_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    system_channel_flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    roles: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildTemplateSnapshotResponse
+     */
+    channels: any;
 }

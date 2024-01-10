@@ -18,46 +18,46 @@
  * @interface CreateGuildRequestRoleItem
  */
 export interface CreateGuildRequestRoleItem {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  permissions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  color?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  hoist?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  mentionable?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildRequestRoleItem
-   */
-  unicode_emoji?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    permissions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    color?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    hoist?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    mentionable?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildRequestRoleItem
+     */
+    unicode_emoji?: any;
 }

@@ -25,64 +25,64 @@ import { ApplicationCommandOptionType } from "./application-command-option-type"
  * @interface ApplicationCommandIntegerOption
  */
 export interface ApplicationCommandIntegerOption {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  description: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  required?: boolean | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  autocomplete?: boolean | null;
-  /**
-   *
-   * @type {Array<ApplicationCommandOptionIntegerChoice>}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  choices?: Array<ApplicationCommandOptionIntegerChoice>;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  min_value?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ApplicationCommandIntegerOption
-   */
-  max_value?: any;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    description: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    required?: boolean | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    autocomplete?: boolean | null;
+    /**
+     *
+     * @type {Array<ApplicationCommandOptionIntegerChoice>}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    choices?: Array<ApplicationCommandOptionIntegerChoice>;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    min_value?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ApplicationCommandIntegerOption
+     */
+    max_value?: any;
 }

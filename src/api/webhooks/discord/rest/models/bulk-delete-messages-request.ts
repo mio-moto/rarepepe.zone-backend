@@ -18,10 +18,10 @@
  * @interface BulkDeleteMessagesRequest
  */
 export interface BulkDeleteMessagesRequest {
-  /**
-   *
-   * @type {Array<any>}
-   * @memberof BulkDeleteMessagesRequest
-   */
-  messages: Array<any>;
+    /**
+     *
+     * @type {Array<any>}
+     * @memberof BulkDeleteMessagesRequest
+     */
+    messages: Array<any>;
 }

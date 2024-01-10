@@ -18,16 +18,16 @@
  * @interface PrivateChannelRequestPartial
  */
 export interface PrivateChannelRequestPartial {
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateChannelRequestPartial
-   */
-  name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof PrivateChannelRequestPartial
-   */
-  icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateChannelRequestPartial
+     */
+    name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof PrivateChannelRequestPartial
+     */
+    icon?: any;
 }

@@ -18,34 +18,34 @@
  * @interface TeamResponse
  */
 export interface TeamResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof TeamResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof TeamResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof TeamResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof TeamResponse
-   */
-  owner_user_id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof TeamResponse
-   */
-  members: any;
+    /**
+     *
+     * @type {any}
+     * @memberof TeamResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof TeamResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof TeamResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof TeamResponse
+     */
+    owner_user_id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof TeamResponse
+     */
+    members: any;
 }

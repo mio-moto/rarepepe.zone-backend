@@ -25,16 +25,16 @@ import { BlockMessageActionMetadata } from "./block-message-action-metadata";
  * @interface BlockMessageAction
  */
 export interface BlockMessageAction {
-  /**
-   *
-   * @type {AutomodActionType}
-   * @memberof BlockMessageAction
-   */
-  type: AutomodActionType;
-  /**
-   *
-   * @type {BlockMessageActionMetadata}
-   * @memberof BlockMessageAction
-   */
-  metadata?: BlockMessageActionMetadata;
+    /**
+     *
+     * @type {AutomodActionType}
+     * @memberof BlockMessageAction
+     */
+    type: AutomodActionType;
+    /**
+     *
+     * @type {BlockMessageActionMetadata}
+     * @memberof BlockMessageAction
+     */
+    metadata?: BlockMessageActionMetadata;
 }

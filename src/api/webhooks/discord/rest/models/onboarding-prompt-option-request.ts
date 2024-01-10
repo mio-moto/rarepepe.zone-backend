@@ -22,52 +22,52 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface OnboardingPromptOptionRequest
  */
 export interface OnboardingPromptOptionRequest {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  title: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  description?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  emoji_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  emoji_name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  emoji_animated?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  role_ids?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof OnboardingPromptOptionRequest
-   */
-  channel_ids?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    title: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    description?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    emoji_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    emoji_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    emoji_animated?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    role_ids?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof OnboardingPromptOptionRequest
+     */
+    channel_ids?: any;
 }

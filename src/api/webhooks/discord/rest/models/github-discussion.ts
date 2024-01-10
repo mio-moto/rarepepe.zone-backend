@@ -22,40 +22,40 @@ import { GithubUser } from "./github-user";
  * @interface GithubDiscussion
  */
 export interface GithubDiscussion {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubDiscussion
-   */
-  title: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubDiscussion
-   */
-  number: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubDiscussion
-   */
-  html_url: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubDiscussion
-   */
-  answer_html_url?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubDiscussion
-   */
-  body?: any;
-  /**
-   *
-   * @type {GithubUser}
-   * @memberof GithubDiscussion
-   */
-  user: GithubUser;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubDiscussion
+     */
+    title: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubDiscussion
+     */
+    number: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubDiscussion
+     */
+    html_url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubDiscussion
+     */
+    answer_html_url?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubDiscussion
+     */
+    body?: any;
+    /**
+     *
+     * @type {GithubUser}
+     * @memberof GithubDiscussion
+     */
+    user: GithubUser;
 }

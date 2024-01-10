@@ -25,46 +25,46 @@ import { ChannelTypes } from "./channel-types";
  * @interface ApplicationCommandChannelOption
  */
 export interface ApplicationCommandChannelOption {
-  /**
-   *
-   * @type {ApplicationCommandOptionType}
-   * @memberof ApplicationCommandChannelOption
-   */
-  type: ApplicationCommandOptionType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandChannelOption
-   */
-  name: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandChannelOption
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandChannelOption
-   */
-  description: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandChannelOption
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandChannelOption
-   */
-  required?: boolean | null;
-  /**
-   *
-   * @type {Array<ChannelTypes>}
-   * @memberof ApplicationCommandChannelOption
-   */
-  channel_types?: Array<ChannelTypes>;
+    /**
+     *
+     * @type {ApplicationCommandOptionType}
+     * @memberof ApplicationCommandChannelOption
+     */
+    type: ApplicationCommandOptionType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandChannelOption
+     */
+    name: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandChannelOption
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandChannelOption
+     */
+    description: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandChannelOption
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandChannelOption
+     */
+    required?: boolean | null;
+    /**
+     *
+     * @type {Array<ChannelTypes>}
+     * @memberof ApplicationCommandChannelOption
+     */
+    channel_types?: Array<ChannelTypes>;
 }

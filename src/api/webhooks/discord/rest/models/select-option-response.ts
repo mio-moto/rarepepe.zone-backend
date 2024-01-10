@@ -22,34 +22,34 @@ import { MessageComponentButtonResponseEmoji } from "./message-component-button-
  * @interface SelectOptionResponse
  */
 export interface SelectOptionResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOptionResponse
-   */
-  label: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOptionResponse
-   */
-  value: any;
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOptionResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {MessageComponentButtonResponseEmoji}
-   * @memberof SelectOptionResponse
-   */
-  emoji?: MessageComponentButtonResponseEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof SelectOptionResponse
-   */
-  default?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOptionResponse
+     */
+    label: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOptionResponse
+     */
+    value: any;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOptionResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {MessageComponentButtonResponseEmoji}
+     * @memberof SelectOptionResponse
+     */
+    emoji?: MessageComponentButtonResponseEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof SelectOptionResponse
+     */
+    default?: any;
 }

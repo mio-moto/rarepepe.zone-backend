@@ -28,52 +28,52 @@ import { UpdateSelfVoiceStateRequestChannelId } from "./update-self-voice-state-
  * @interface BasicApplicationResponse
  */
 export interface BasicApplicationResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof BasicApplicationResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {string}
-   * @memberof BasicApplicationResponse
-   */
-  name: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof BasicApplicationResponse
-   */
-  icon?: string | null;
-  /**
-   *
-   * @type {string}
-   * @memberof BasicApplicationResponse
-   */
-  description: string | null;
-  /**
-   *
-   * @type {BasicApplicationResponseType}
-   * @memberof BasicApplicationResponse
-   */
-  type?: BasicApplicationResponseType | null;
-  /**
-   *
-   * @type {string}
-   * @memberof BasicApplicationResponse
-   */
-  cover_image?: string | null;
-  /**
-   *
-   * @type {UpdateSelfVoiceStateRequestChannelId}
-   * @memberof BasicApplicationResponse
-   */
-  primary_sku_id?: UpdateSelfVoiceStateRequestChannelId | null;
-  /**
-   *
-   * @type {BasicApplicationResponseBot}
-   * @memberof BasicApplicationResponse
-   */
-  bot?: BasicApplicationResponseBot | null;
+    /**
+     *
+     * @type {any}
+     * @memberof BasicApplicationResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {string}
+     * @memberof BasicApplicationResponse
+     */
+    name: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof BasicApplicationResponse
+     */
+    icon?: string | null;
+    /**
+     *
+     * @type {string}
+     * @memberof BasicApplicationResponse
+     */
+    description: string | null;
+    /**
+     *
+     * @type {BasicApplicationResponseType}
+     * @memberof BasicApplicationResponse
+     */
+    type?: BasicApplicationResponseType | null;
+    /**
+     *
+     * @type {string}
+     * @memberof BasicApplicationResponse
+     */
+    cover_image?: string | null;
+    /**
+     *
+     * @type {UpdateSelfVoiceStateRequestChannelId}
+     * @memberof BasicApplicationResponse
+     */
+    primary_sku_id?: UpdateSelfVoiceStateRequestChannelId | null;
+    /**
+     *
+     * @type {BasicApplicationResponseBot}
+     * @memberof BasicApplicationResponse
+     */
+    bot?: BasicApplicationResponseBot | null;
 }

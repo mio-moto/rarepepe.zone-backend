@@ -18,10 +18,10 @@
  * @interface GithubCheckApp
  */
 export interface GithubCheckApp {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubCheckApp
-   */
-  name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubCheckApp
+     */
+    name: any;
 }

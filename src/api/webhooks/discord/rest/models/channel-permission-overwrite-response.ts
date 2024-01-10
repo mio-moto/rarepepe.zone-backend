@@ -22,28 +22,28 @@ import { ChannelPermissionOverwrites } from "./channel-permission-overwrites";
  * @interface ChannelPermissionOverwriteResponse
  */
 export interface ChannelPermissionOverwriteResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelPermissionOverwriteResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {ChannelPermissionOverwrites}
-   * @memberof ChannelPermissionOverwriteResponse
-   */
-  type: ChannelPermissionOverwrites;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelPermissionOverwriteResponse
-   */
-  allow: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelPermissionOverwriteResponse
-   */
-  deny: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelPermissionOverwriteResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {ChannelPermissionOverwrites}
+     * @memberof ChannelPermissionOverwriteResponse
+     */
+    type: ChannelPermissionOverwrites;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelPermissionOverwriteResponse
+     */
+    allow: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelPermissionOverwriteResponse
+     */
+    deny: any;
 }

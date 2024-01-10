@@ -18,22 +18,22 @@
  * @interface ThreadsResponse
  */
 export interface ThreadsResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadsResponse
-   */
-  threads: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadsResponse
-   */
-  members: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ThreadsResponse
-   */
-  has_more?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadsResponse
+     */
+    threads: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadsResponse
+     */
+    members: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ThreadsResponse
+     */
+    has_more?: any;
 }

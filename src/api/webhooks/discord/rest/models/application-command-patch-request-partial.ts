@@ -22,46 +22,46 @@ import { ApplicationCommandCreateRequestOptionsInner } from "./application-comma
  * @interface ApplicationCommandPatchRequestPartial
  */
 export interface ApplicationCommandPatchRequestPartial {
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  name?: string;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  name_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {string}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  description?: string | null;
-  /**
-   *
-   * @type {{ [key: string]: string; }}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  description_localizations?: { [key: string]: string };
-  /**
-   *
-   * @type {Array<ApplicationCommandCreateRequestOptionsInner>}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  options?: Array<ApplicationCommandCreateRequestOptionsInner>;
-  /**
-   *
-   * @type {number}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  default_member_permissions?: number | null;
-  /**
-   *
-   * @type {boolean}
-   * @memberof ApplicationCommandPatchRequestPartial
-   */
-  dm_permission?: boolean | null;
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    name?: string;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    name_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {string}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    description?: string | null;
+    /**
+     *
+     * @type {{ [key: string]: string; }}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    description_localizations?: { [key: string]: string };
+    /**
+     *
+     * @type {Array<ApplicationCommandCreateRequestOptionsInner>}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    options?: Array<ApplicationCommandCreateRequestOptionsInner>;
+    /**
+     *
+     * @type {number}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    default_member_permissions?: number | null;
+    /**
+     *
+     * @type {boolean}
+     * @memberof ApplicationCommandPatchRequestPartial
+     */
+    dm_permission?: boolean | null;
 }

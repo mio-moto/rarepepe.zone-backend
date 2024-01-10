@@ -18,28 +18,28 @@
  * @interface GithubRepository
  */
 export interface GithubRepository {
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRepository
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRepository
-   */
-  html_url: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRepository
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GithubRepository
-   */
-  full_name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRepository
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRepository
+     */
+    html_url: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRepository
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GithubRepository
+     */
+    full_name: any;
 }

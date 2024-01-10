@@ -34,64 +34,64 @@ import { WebhookTypes } from "./webhook-types";
  * @interface ChannelFollowerWebhookResponse
  */
 export interface ChannelFollowerWebhookResponse {
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  application_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  avatar?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  guild_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {WebhookTypes}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  type: WebhookTypes;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseUser}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  user?: ChannelFollowerWebhookResponseUser;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseSourceGuild}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  source_guild?: ChannelFollowerWebhookResponseSourceGuild;
-  /**
-   *
-   * @type {ChannelFollowerWebhookResponseSourceChannel}
-   * @memberof ChannelFollowerWebhookResponse
-   */
-  source_channel?: ChannelFollowerWebhookResponseSourceChannel;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    avatar?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {WebhookTypes}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    type: WebhookTypes;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseUser}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    user?: ChannelFollowerWebhookResponseUser;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseSourceGuild}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    source_guild?: ChannelFollowerWebhookResponseSourceGuild;
+    /**
+     *
+     * @type {ChannelFollowerWebhookResponseSourceChannel}
+     * @memberof ChannelFollowerWebhookResponse
+     */
+    source_channel?: ChannelFollowerWebhookResponseSourceChannel;
 }

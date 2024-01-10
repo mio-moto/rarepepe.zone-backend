@@ -40,112 +40,112 @@ import { CreateGuildChannelRequestVideoQualityMode } from "./create-guild-channe
  * @interface CreateGuildChannelRequest
  */
 export interface CreateGuildChannelRequest {
-  /**
-   *
-   * @type {CreateGuildChannelRequestType}
-   * @memberof CreateGuildChannelRequest
-   */
-  type?: CreateGuildChannelRequestType;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  position?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  topic?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  bitrate?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  user_limit?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  nsfw?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof CreateGuildChannelRequest
-   */
-  parent_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  permission_overwrites?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  rtc_region?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestVideoQualityMode}
-   * @memberof CreateGuildChannelRequest
-   */
-  video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof CreateGuildChannelRequest
-   */
-  default_auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultReactionEmoji}
-   * @memberof CreateGuildChannelRequest
-   */
-  default_reaction_emoji?: CreateGuildChannelRequestDefaultReactionEmoji;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  default_thread_rate_limit_per_user?: any;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultSortOrder}
-   * @memberof CreateGuildChannelRequest
-   */
-  default_sort_order?: CreateGuildChannelRequestDefaultSortOrder;
-  /**
-   *
-   * @type {CreateGuildChannelRequestDefaultForumLayout}
-   * @memberof CreateGuildChannelRequest
-   */
-  default_forum_layout?: CreateGuildChannelRequestDefaultForumLayout;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateGuildChannelRequest
-   */
-  available_tags?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestType}
+     * @memberof CreateGuildChannelRequest
+     */
+    type?: CreateGuildChannelRequestType;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    position?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    topic?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    bitrate?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    user_limit?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    nsfw?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof CreateGuildChannelRequest
+     */
+    parent_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    permission_overwrites?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    rtc_region?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestVideoQualityMode}
+     * @memberof CreateGuildChannelRequest
+     */
+    video_quality_mode?: CreateGuildChannelRequestVideoQualityMode;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof CreateGuildChannelRequest
+     */
+    default_auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultReactionEmoji}
+     * @memberof CreateGuildChannelRequest
+     */
+    default_reaction_emoji?: CreateGuildChannelRequestDefaultReactionEmoji;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    default_thread_rate_limit_per_user?: any;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultSortOrder}
+     * @memberof CreateGuildChannelRequest
+     */
+    default_sort_order?: CreateGuildChannelRequestDefaultSortOrder;
+    /**
+     *
+     * @type {CreateGuildChannelRequestDefaultForumLayout}
+     * @memberof CreateGuildChannelRequest
+     */
+    default_forum_layout?: CreateGuildChannelRequestDefaultForumLayout;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateGuildChannelRequest
+     */
+    available_tags?: any;
 }

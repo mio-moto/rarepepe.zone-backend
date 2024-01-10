@@ -25,100 +25,100 @@ import { UserPIIResponsePremiumType } from "./user-piiresponse-premium-type";
  * @interface UserPIIResponse
  */
 export interface UserPIIResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  username: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  avatar?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  discriminator: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  public_flags: any;
-  /**
-   *
-   * @type {UserPIIResponsePremiumType}
-   * @memberof UserPIIResponse
-   */
-  premium_type?: UserPIIResponsePremiumType;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  bot?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  system?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  banner?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  accent_color?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  global_name?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  mfa_enabled: any;
-  /**
-   *
-   * @type {AvailableLocalesEnum}
-   * @memberof UserPIIResponse
-   */
-  locale: AvailableLocalesEnum;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  email?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof UserPIIResponse
-   */
-  verified?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    username: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    avatar?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    discriminator: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    public_flags: any;
+    /**
+     *
+     * @type {UserPIIResponsePremiumType}
+     * @memberof UserPIIResponse
+     */
+    premium_type?: UserPIIResponsePremiumType;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    bot?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    system?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    banner?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    accent_color?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    global_name?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    mfa_enabled: any;
+    /**
+     *
+     * @type {AvailableLocalesEnum}
+     * @memberof UserPIIResponse
+     */
+    locale: AvailableLocalesEnum;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    email?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof UserPIIResponse
+     */
+    verified?: any;
 }

@@ -46,238 +46,238 @@ import { VerificationLevels } from "./verification-levels";
  * @interface GuildResponse
  */
 export interface GuildResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  id: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  name: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  icon?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  description?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  home_header?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  splash?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  discovery_splash?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  features: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  banner?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  owner_id: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  application_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  region: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  afk_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {AfkTimeouts}
-   * @memberof GuildResponse
-   */
-  afk_timeout: AfkTimeouts | null;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  system_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  system_channel_flags: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  widget_enabled: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  widget_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {VerificationLevels}
-   * @memberof GuildResponse
-   */
-  verification_level: VerificationLevels;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  roles: any;
-  /**
-   *
-   * @type {UserNotificationSettings}
-   * @memberof GuildResponse
-   */
-  default_message_notifications: UserNotificationSettings;
-  /**
-   *
-   * @type {GuildMFALevel}
-   * @memberof GuildResponse
-   */
-  mfa_level: GuildMFALevel;
-  /**
-   *
-   * @type {GuildExplicitContentFilterTypes}
-   * @memberof GuildResponse
-   */
-  explicit_content_filter: GuildExplicitContentFilterTypes;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  max_presences?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  max_members?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  max_stage_video_channel_users?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  max_video_channel_users?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  vanity_url_code?: any;
-  /**
-   *
-   * @type {PremiumGuildTiers}
-   * @memberof GuildResponse
-   */
-  premium_tier: PremiumGuildTiers;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  premium_subscription_count: any;
-  /**
-   *
-   * @type {AvailableLocalesEnum}
-   * @memberof GuildResponse
-   */
-  preferred_locale: AvailableLocalesEnum;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  rules_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  safety_alerts_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof GuildResponse
-   */
-  public_updates_channel_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  premium_progress_bar_enabled: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  nsfw: any;
-  /**
-   *
-   * @type {GuildNSFWContentLevel}
-   * @memberof GuildResponse
-   */
-  nsfw_level: GuildNSFWContentLevel;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  emojis: any;
-  /**
-   *
-   * @type {any}
-   * @memberof GuildResponse
-   */
-  stickers: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    id: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    name: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    icon?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    description?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    home_header?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    splash?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    discovery_splash?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    features: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    banner?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    owner_id: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    application_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    region: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    afk_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {AfkTimeouts}
+     * @memberof GuildResponse
+     */
+    afk_timeout: AfkTimeouts | null;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    system_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    system_channel_flags: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    widget_enabled: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    widget_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {VerificationLevels}
+     * @memberof GuildResponse
+     */
+    verification_level: VerificationLevels;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    roles: any;
+    /**
+     *
+     * @type {UserNotificationSettings}
+     * @memberof GuildResponse
+     */
+    default_message_notifications: UserNotificationSettings;
+    /**
+     *
+     * @type {GuildMFALevel}
+     * @memberof GuildResponse
+     */
+    mfa_level: GuildMFALevel;
+    /**
+     *
+     * @type {GuildExplicitContentFilterTypes}
+     * @memberof GuildResponse
+     */
+    explicit_content_filter: GuildExplicitContentFilterTypes;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    max_presences?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    max_members?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    max_stage_video_channel_users?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    max_video_channel_users?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    vanity_url_code?: any;
+    /**
+     *
+     * @type {PremiumGuildTiers}
+     * @memberof GuildResponse
+     */
+    premium_tier: PremiumGuildTiers;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    premium_subscription_count: any;
+    /**
+     *
+     * @type {AvailableLocalesEnum}
+     * @memberof GuildResponse
+     */
+    preferred_locale: AvailableLocalesEnum;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    rules_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    safety_alerts_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof GuildResponse
+     */
+    public_updates_channel_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    premium_progress_bar_enabled: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    nsfw: any;
+    /**
+     *
+     * @type {GuildNSFWContentLevel}
+     * @memberof GuildResponse
+     */
+    nsfw_level: GuildNSFWContentLevel;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    emojis: any;
+    /**
+     *
+     * @type {any}
+     * @memberof GuildResponse
+     */
+    stickers: any;
 }

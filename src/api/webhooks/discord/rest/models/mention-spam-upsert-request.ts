@@ -28,52 +28,52 @@ import { MentionSpamUpsertRequestTriggerMetadata } from "./mention-spam-upsert-r
  * @interface MentionSpamUpsertRequest
  */
 export interface MentionSpamUpsertRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamUpsertRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {AutomodEventType}
-   * @memberof MentionSpamUpsertRequest
-   */
-  event_type: AutomodEventType;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamUpsertRequest
-   */
-  actions?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamUpsertRequest
-   */
-  enabled?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamUpsertRequest
-   */
-  exempt_roles?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof MentionSpamUpsertRequest
-   */
-  exempt_channels?: any;
-  /**
-   *
-   * @type {AutomodTriggerType}
-   * @memberof MentionSpamUpsertRequest
-   */
-  trigger_type: AutomodTriggerType;
-  /**
-   *
-   * @type {MentionSpamUpsertRequestTriggerMetadata}
-   * @memberof MentionSpamUpsertRequest
-   */
-  trigger_metadata?: MentionSpamUpsertRequestTriggerMetadata;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamUpsertRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {AutomodEventType}
+     * @memberof MentionSpamUpsertRequest
+     */
+    event_type: AutomodEventType;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamUpsertRequest
+     */
+    actions?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamUpsertRequest
+     */
+    enabled?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamUpsertRequest
+     */
+    exempt_roles?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof MentionSpamUpsertRequest
+     */
+    exempt_channels?: any;
+    /**
+     *
+     * @type {AutomodTriggerType}
+     * @memberof MentionSpamUpsertRequest
+     */
+    trigger_type: AutomodTriggerType;
+    /**
+     *
+     * @type {MentionSpamUpsertRequestTriggerMetadata}
+     * @memberof MentionSpamUpsertRequest
+     */
+    trigger_metadata?: MentionSpamUpsertRequestTriggerMetadata;
 }

@@ -22,22 +22,22 @@ import { BasicMessageResponseApplicationId } from "./basic-message-response-appl
  * @interface MessageReferenceResponse
  */
 export interface MessageReferenceResponse {
-  /**
-   *
-   * @type {any}
-   * @memberof MessageReferenceResponse
-   */
-  channel_id: any;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof MessageReferenceResponse
-   */
-  message_id?: BasicMessageResponseApplicationId;
-  /**
-   *
-   * @type {BasicMessageResponseApplicationId}
-   * @memberof MessageReferenceResponse
-   */
-  guild_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {any}
+     * @memberof MessageReferenceResponse
+     */
+    channel_id: any;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof MessageReferenceResponse
+     */
+    message_id?: BasicMessageResponseApplicationId;
+    /**
+     *
+     * @type {BasicMessageResponseApplicationId}
+     * @memberof MessageReferenceResponse
+     */
+    guild_id?: BasicMessageResponseApplicationId;
 }

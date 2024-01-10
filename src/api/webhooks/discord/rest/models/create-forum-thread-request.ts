@@ -25,34 +25,34 @@ import { CreateForumThreadRequestAutoArchiveDuration } from "./create-forum-thre
  * @interface CreateForumThreadRequest
  */
 export interface CreateForumThreadRequest {
-  /**
-   *
-   * @type {any}
-   * @memberof CreateForumThreadRequest
-   */
-  name: any;
-  /**
-   *
-   * @type {CreateForumThreadRequestAutoArchiveDuration}
-   * @memberof CreateForumThreadRequest
-   */
-  auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateForumThreadRequest
-   */
-  rate_limit_per_user?: any;
-  /**
-   *
-   * @type {any}
-   * @memberof CreateForumThreadRequest
-   */
-  applied_tags?: any;
-  /**
-   *
-   * @type {BaseCreateMessageCreateRequest}
-   * @memberof CreateForumThreadRequest
-   */
-  message: BaseCreateMessageCreateRequest;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateForumThreadRequest
+     */
+    name: any;
+    /**
+     *
+     * @type {CreateForumThreadRequestAutoArchiveDuration}
+     * @memberof CreateForumThreadRequest
+     */
+    auto_archive_duration?: CreateForumThreadRequestAutoArchiveDuration;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateForumThreadRequest
+     */
+    rate_limit_per_user?: any;
+    /**
+     *
+     * @type {any}
+     * @memberof CreateForumThreadRequest
+     */
+    applied_tags?: any;
+    /**
+     *
+     * @type {BaseCreateMessageCreateRequest}
+     * @memberof CreateForumThreadRequest
+     */
+    message: BaseCreateMessageCreateRequest;
 }
