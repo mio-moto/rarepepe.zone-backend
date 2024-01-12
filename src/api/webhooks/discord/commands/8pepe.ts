@@ -5,15 +5,18 @@ import {
     APIInteractionResponseCallbackData,
     APIMessageActionRowComponent,
     ApplicationCommandOptionType,
+    ApplicationCommandType,
     ButtonStyle,
     ComponentType,
+    MessageFlags,
 } from "discord-api-types/v10";
-import { ComponentPlugin, DiscordEnvironment, InteractionPlugin } from "../rabscuttle";
+import { ComponentPlugin, ContextMenuPlugin, DiscordEnvironment, InteractionPlugin } from "../rabscuttle";
 import { Environment } from "#/index";
 import { RareResult, SimpleResult, UltraResult } from "#contracts/generators";
-import { buildVoter } from "./pepeVoting";
+import { PepeVoting, buildVoter } from "../datastore/pepeVoting";
 import logger from "#/logging";
 import { BaseMetaResult } from "#database/datastore/meta-data";
+import { DiscordAPIClient } from "../apiClient";
 
 const randomInt = () => {
     const array = new Uint32Array(1);
@@ -77,6 +80,47 @@ const VoteWeight: Record<ButtonId, number> = {
     [ButtonId.Sentient]: 1,
     [ButtonId.Score]: 0,
     [ButtonId.Horrible]: -1,
+};
+
+const buildVotingResult = (counter: number): APIActionRowComponent<APIMessageActionRowComponent> => ({
+    type: ComponentType.ActionRow,
+    components: [
+        {
+            type: ComponentType.Button,
+            custom_id: "result",
+            emoji: { name: ":frog:" },
+            style: ButtonStyle.Secondary,
+            label: `Voting Result: ${counter}`,
+            disabled: true,
+        },
+    ],
+});
+
+const updateAllVotingComponents = async (client: DiscordAPIClient, voter: PepeVoting) => {
+    const closeVotingSession = async (
+        client: DiscordAPIClient,
+        voter: PepeVoting,
+        channelId: string,
+        messageId: string,
+    ) => {
+        try {
+            const message = await client.message.get(channelId, messageId);
+            const result = (await voter.getVotingResult(messageId)) ?? 0;
+            const components = result === 0 ? [] : [buildVotingResult(result)];
+            client.message.edit(channelId, messageId, { embeds: message.data.embeds, components: components });
+        } catch (e) {
+            logger.error(`Dicarding voting, error encountered: ${e}`);
+        }
+        await voter.closeVoting(messageId);
+    };
+
+    const messages = await voter.getOpenVotingsOlderThan(1);
+    if (messages.length > 0) {
+        logger.debug(`Closing ${messages.length} voting sessions`);
+    }
+    for (const message of messages) {
+        await closeVotingSession(client, voter, message.channel, message.message);
+    }
 };
 
 const buildGacha = (environment: Environment) => {
@@ -159,6 +203,10 @@ export const buildEightPepe = async (environment: DiscordEnvironment) => {
     const { rareIcon, ultraIcon } = environment.discord.config.extras["eightPepe"] as EightPepeConfig;
     const voter = await buildVoter(environment.dataStore.database);
 
+    setInterval(async () => {
+        updateAllVotingComponents(environment.discord.client, voter);
+    }, 60 * 1000);
+
     const EightPepe: InteractionPlugin & ComponentPlugin = {
         name: "PepeGPT",
         publishedComponentIds: [...InteractableButtonIds],
@@ -222,4 +270,26 @@ export const buildEightPepe = async (environment: DiscordEnvironment) => {
     };
 
     return EightPepe;
+};
+
+export const buildPepeThis = (_environment: DiscordEnvironment) => {
+    const PepeThis: ContextMenuPlugin = {
+        name: "Pepe This!",
+        descriptor: {
+            name: "Pepe this!",
+            type: ApplicationCommandType.Message,
+        },
+        onNewContextAction: (interaction, _environment) => {
+            if (interaction.interaction.data.type !== ApplicationCommandType.Message) {
+                interaction.reply({
+                    content: "This is not invoked via a context menu, that should not have happened.",
+                    flags: MessageFlags.Ephemeral,
+                });
+                return;
+            }
+
+            interaction.reply({ content: "I have nothing to tell you, yet." });
+        },
+    };
+    return PepeThis;
 };

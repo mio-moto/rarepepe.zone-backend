@@ -20,6 +20,8 @@ interface Database {
     [VotingOpeningTable]: ActivePepeVotingTable;
 }
 
+export type PepeVoting = Awaited<ReturnType<typeof buildVoter>>;
+
 export const buildVoter = async (flexibleDb: Kysely<unknown>) => {
     await flexibleDb.schema
         .createTable(VotingTable)
@@ -75,7 +77,7 @@ export const buildVoter = async (flexibleDb: Kysely<unknown>) => {
                 })
                 .execute();
         },
-        getVotingsOlderThan: async (minutes: number) => {
+        getOpenVotingsOlderThan: async (minutes: number) => {
             const time = new Date().getTime() - minutes * 60 * 1_000;
             const result = await db
                 .selectFrom(VotingOpeningTable)

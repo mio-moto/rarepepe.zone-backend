@@ -2,15 +2,12 @@ import { Environment } from "#/index";
 import { APIBaseInteraction, APIWebhook, InteractionType } from "discord-api-types/v10";
 import Elysia, { t } from "elysia";
 import { loadDiscordConfig } from "./config";
-
-// import nacl from "tweetnacl";
 import nacl from "tweetnacl";
 import { buildDiscordAPIClient } from "./apiClient";
 import { loggerFactory } from "#/logging";
 import { DiscordEnvironment, buildEventBus } from "./rabscuttle";
-import { buildEightPepe } from "./commands/8pepe";
+import { buildEightPepe, buildPepeThis } from "./commands/8pepe";
 import { buildCycleCommands } from "./commands/administration";
-import { waitFor, waitUntil } from "#/utils/waitFor";
 
 const logger = loggerFactory("WEBHK:Discord:Request");
 
@@ -32,6 +29,7 @@ const buildDiscordEventBus = async (environment: DiscordEnvironment) => {
     const eventBus = buildEventBus();
     eventBus.register(await buildEightPepe(environment));
     eventBus.register(await buildCycleCommands(() => eventBus.plugins, environment));
+    eventBus.register(await buildPepeThis(environment));
 
     const handleWebhookMessage = async (body: APIUnknownInteraction): Promise<GatewayMessageResult> => {
         return eventBus.onNewInteraction(body, environment);
