@@ -1,20 +1,19 @@
 import { Environment } from "#/index";
 import { loggerFactory } from "#/logging";
-import {
-    RESTPostAPIChatInputApplicationCommandsJSONBody,
-    RESTPostAPIContextMenuApplicationCommandsJSONBody,
-} from "discord-api-types/v10";
-import { APIUnknownInteraction, AnyGatewayResult } from ".";
-import { DiscordAPIClient } from "./apiClient";
-import {
-    ApplicationInteractionClient,
-    AutocompleteInteractionClient,
-    ComponentInteractionClient,
-    ContextMenuInteractionClient,
-    ModalInteractionClient,
-    dispatchInteractionResponseClient,
-} from "./pluginClient";
+import { AnyGatewayResult } from ".";
+import { DiscordAPIClient } from "./clients/apiClient";
+import { dispatchInteractionResponseClient } from "./clients/pluginClient";
 import { DiscordConfigFile } from "./config";
+import { DiscordMessageParser } from "./messageParser";
+import { ApplicationCommandTypes, CamelizedDiscordCreateApplicationCommand } from "@discordeno/types";
+import { Interaction } from "./types";
+import {
+    AutocompleteInteractionClient,
+    ChatInputApplicationCommandInteractionClient,
+    ContextMenuApplicationCommandInteractionClient,
+    MessageComponentInteractionClient,
+    ModalSubmitInteractionClient,
+} from "./clients/interactionClient";
 
 const logger = loggerFactory("WEBHK:Discord:Rabscuttle");
 
@@ -32,32 +31,41 @@ export type DiscordEnvironment = Environment & {
     discord: {
         client: DiscordAPIClient;
         config: DiscordConfigFile;
+        messageParser: DiscordMessageParser;
     };
 };
 
 export type InteractionPlugin = {
-    descriptor: RESTPostAPIChatInputApplicationCommandsJSONBody;
-    onNewInteraction: (interaction: ApplicationInteractionClient, environment: DiscordEnvironment) => unknown;
+    descriptor: CamelizedDiscordCreateApplicationCommand & { type: ApplicationCommandTypes.ChatInput };
+    onNewInteraction: (
+        interaction: ChatInputApplicationCommandInteractionClient,
+        environment: DiscordEnvironment,
+    ) => unknown;
 } & BasePlugin;
 
 export type AutocompletePlugin = {
-    descriptor: RESTPostAPIChatInputApplicationCommandsJSONBody;
+    descriptor: Omit<CamelizedDiscordCreateApplicationCommand, "options">;
     onAutoComplete: (interaction: AutocompleteInteractionClient, environment: DiscordEnvironment) => unknown;
 } & BasePlugin;
 
 export type ContextMenuPlugin = {
-    descriptor: RESTPostAPIContextMenuApplicationCommandsJSONBody;
-    onNewContextAction: (interaction: ContextMenuInteractionClient, environment: DiscordEnvironment) => unknown;
+    descriptor: Omit<CamelizedDiscordCreateApplicationCommand, "options"> & {
+        type: ApplicationCommandTypes.Message | ApplicationCommandTypes.User;
+    };
+    onNewContextAction: (
+        interaction: ContextMenuApplicationCommandInteractionClient,
+        environment: DiscordEnvironment,
+    ) => unknown;
 } & BasePlugin;
 
 export type ComponentPlugin = {
     publishedComponentIds: string[];
-    onNewButtonClick: (interaction: ComponentInteractionClient, environment: DiscordEnvironment) => unknown;
+    onNewButtonClick: (interaction: MessageComponentInteractionClient, environment: DiscordEnvironment) => unknown;
 } & BasePlugin;
 
 export type ModalPlugin = {
     publishedModalIds: string[];
-    onModalSubmit: (interaction: ModalInteractionClient, environment: DiscordEnvironment) => unknown;
+    onModalSubmit: (interaction: ModalSubmitInteractionClient, environment: DiscordEnvironment) => unknown;
 } & BasePlugin;
 
 export type UserInteractionPlugin = InteractionPlugin | ContextMenuPlugin;
@@ -180,7 +188,7 @@ export function buildEventBus() {
     };
 }
 
-const onNewInteraction = (interaction: APIUnknownInteraction, environment: DiscordEnvironment) => {
+const onNewInteraction = (interaction: Interaction, environment: DiscordEnvironment) => {
     const { promise, resolve } = Promise.withResolvers<AnyGatewayResult>();
     dispatchInteractionResponseClient(resolve, interaction, environment, plugins);
     return promise;

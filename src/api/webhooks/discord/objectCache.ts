@@ -1,19 +1,9 @@
-import { AxiosResponse, isAxiosError } from "axios";
-
-export interface ObjectCache<Identifier extends string | number | symbol, Payload> {
-    entries: Record<Identifier, Payload>;
-    get: (identifier: Identifier) => Payload;
-    getAll: () => Payload[];
-    [Symbol.iterator](): IterableIterator<Identifier>;
-    set: (identifier: Identifier) => Payload;
-}
-
 export const buildObjectCache = <
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    Func extends (...args: any) => Promise<AxiosResponse<Payload>>,
-    Payload = Awaited<ReturnType<Func>>["data"],
+    Func extends (...args: any) => Promise<Payload>,
+    Payload = Awaited<ReturnType<Func>>,
 >(
-    requestOne: Func,
+    fetchFn: Func,
     argumentIndex: number,
     selector: (object: Payload) => string,
 ) => {
@@ -29,18 +19,11 @@ export const buildObjectCache = <
             if (entry) {
                 return entry;
             }
-            try {
-                const result = await requestOne(args);
-                if (result) {
-                    entries[selector(result.data)] = result.data;
-                }
-                return result.data;
-            } catch (error) {
-                if (isAxiosError(error) && error.request?.status === 404) {
-                    return;
-                }
-                throw error;
+            const result = await fetchFn(args);
+            if (result) {
+                entries[selector(result)] = result;
             }
+            return result;
         },
         getAll: () => entries,
         set: (payload: Payload) => {

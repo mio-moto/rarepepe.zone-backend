@@ -1,22 +1,26 @@
-import {
-    APIActionRowComponent,
-    APIApplicationCommandInteractionDataStringOption,
-    APIChatInputApplicationCommandInteraction,
-    APIInteractionResponseCallbackData,
-    APIMessageActionRowComponent,
-    ApplicationCommandOptionType,
-    ApplicationCommandType,
-    ButtonStyle,
-    ComponentType,
-    MessageFlags,
-} from "discord-api-types/v10";
 import { ComponentPlugin, ContextMenuPlugin, DiscordEnvironment, InteractionPlugin } from "../rabscuttle";
 import { Environment } from "#/index";
-import { RareResult, SimpleResult, UltraResult } from "#contracts/generators";
+import { PepeResult, RareResult, SimpleResult, UltraResult } from "#contracts/generators";
 import { PepeVoting, buildVoter } from "../datastore/pepeVoting";
 import logger from "#/logging";
 import { BaseMetaResult } from "#database/datastore/meta-data";
-import { DiscordAPIClient } from "../apiClient";
+import { DiscordAPIClient } from "../clients/apiClient";
+import {
+    ActionRow,
+    ApplicationCommandOptionTypes,
+    ApplicationCommandTypes,
+    ButtonStyles,
+    CreateMessageOptions,
+    DiscordInteractionDataOption,
+    DiscordMessageFlag,
+    MessageComponentTypes,
+} from "@discordeno/types";
+import { UnknownInteraction } from "../types";
+import {
+    ChatInputApplicationCommandInteractionClient,
+    ContextMenuApplicationCommandInteractionClient,
+    MessageComponentInteractionClient,
+} from "../clients/interactionClient";
 
 const randomInt = () => {
     const array = new Uint32Array(1);
@@ -35,31 +39,31 @@ const ultraChance = 75;
 const rareChance = 32.5;
 
 enum ButtonId {
-    Sentient = "pepevote-sentient",
-    Horrible = "pepevote-horrible",
-    Score = "pepevote-score",
+    Sentient = "pp_sentient",
+    Horrible = "pp_horrible",
+    Score = "pp_score",
 }
 
-const buttonRow = (score: number): APIActionRowComponent<APIMessageActionRowComponent> => ({
-    type: ComponentType.ActionRow,
+const buttonRow = (score: number): ActionRow => ({
+    type: MessageComponentTypes.ActionRow,
     components: [
         {
-            custom_id: ButtonId.Horrible,
+            customId: ButtonId.Horrible,
             label: "💀",
-            type: ComponentType.Button,
-            style: ButtonStyle.Danger,
+            type: MessageComponentTypes.Button,
+            style: ButtonStyles.Danger,
         },
         {
-            custom_id: ButtonId.Score,
+            customId: ButtonId.Score,
             label: formatNumber(score),
-            type: ComponentType.Button,
-            style: ButtonStyle.Secondary,
+            type: MessageComponentTypes.Button,
+            style: ButtonStyles.Secondary,
         },
         {
-            custom_id: ButtonId.Sentient,
+            customId: ButtonId.Sentient,
             label: "🐸",
-            type: ComponentType.Button,
-            style: ButtonStyle.Success,
+            type: MessageComponentTypes.Button,
+            style: ButtonStyles.Success,
         },
     ],
 });
@@ -82,14 +86,14 @@ const VoteWeight: Record<ButtonId, number> = {
     [ButtonId.Horrible]: -1,
 };
 
-const buildVotingResult = (counter: number): APIActionRowComponent<APIMessageActionRowComponent> => ({
-    type: ComponentType.ActionRow,
+const buildVotingResult = (counter: number): ActionRow => ({
+    type: MessageComponentTypes.ActionRow,
     components: [
         {
-            type: ComponentType.Button,
-            custom_id: "result",
+            type: MessageComponentTypes.Button,
+            customId: "result",
             emoji: { name: ":frog:" },
-            style: ButtonStyle.Secondary,
+            style: ButtonStyles.Secondary,
             label: `Voting Result: ${counter}`,
             disabled: true,
         },
@@ -107,7 +111,7 @@ const updateAllVotingComponents = async (client: DiscordAPIClient, voter: PepeVo
             const message = await client.message.get(channelId, messageId);
             const result = (await voter.getVotingResult(messageId)) ?? 0;
             const components = result === 0 ? [] : [buildVotingResult(result)];
-            client.message.edit(channelId, messageId, { embeds: message.data.embeds, components: components });
+            client.message.edit(channelId, messageId, { embeds: message!.embeds, components: components });
         } catch (e) {
             logger.error(`Dicarding voting, error encountered: ${e}`);
         }
@@ -142,34 +146,30 @@ const embedUltra = (
     ultraIcon: string,
     pepe: UltraResult,
     meta: BaseMetaResult | null,
-    interaction: APIChatInputApplicationCommandInteraction,
-): APIInteractionResponseCallbackData => {
+    interaction: UnknownInteraction,
+): CreateMessageOptions => {
     return {
         embeds: [
             {
                 title: `${pepe.filename}`,
                 color: 0xdddddd,
-                image: { url: pepe.url, width: meta?.width, height: meta?.height },
-                author: { name: "ＵＬＴＲＡ ＲＡＲＥ", icon_url: ultraIcon },
-                footer: { text: `Unlocked by ${interaction.member?.user.global_name}` },
+                image: { url: pepe.url },
+                author: { name: "ＵＬＴＲＡ ＲＡＲＥ", iconUrl: ultraIcon },
+                footer: { text: `Unlocked by ${interaction.member?.user.globalName}` },
             },
         ],
     };
 };
 
-const embedRare = (
-    rareIcon: string,
-    pepe: RareResult,
-    meta: BaseMetaResult | null,
-): APIInteractionResponseCallbackData => {
+const embedRare = (rareIcon: string, pepe: RareResult, meta: BaseMetaResult | null): CreateMessageOptions => {
     return {
         embeds: [
             {
                 author: {
                     name: "A RARE PEPE",
-                    icon_url: rareIcon,
+                    iconUrl: rareIcon,
                 },
-                image: { url: pepe.url, width: meta?.width, height: meta?.height },
+                image: { url: pepe.url },
                 color: 0xf1c40f,
             },
         ],
@@ -181,11 +181,11 @@ const embedSimple = (
     message: string | null | undefined,
     pepe: SimpleResult,
     meta: BaseMetaResult | null,
-): APIInteractionResponseCallbackData => {
+): CreateMessageOptions => {
     return {
         embeds: [
             {
-                image: { url: pepe.url, width: meta?.width, height: meta?.height },
+                image: { url: pepe.url },
                 footer: message ? { text: message } : undefined,
             },
         ],
@@ -198,25 +198,58 @@ interface EightPepeConfig {
     ultraIcon: string;
 }
 
-export const buildEightPepe = async (environment: DiscordEnvironment) => {
+const buildMessageGenerator = async (environment: DiscordEnvironment) => {
     const gacha = buildGacha(environment);
     const { rareIcon, ultraIcon } = environment.discord.config.extras["eightPepe"] as EightPepeConfig;
-    const voter = await buildVoter(environment.dataStore.database);
 
+    const voter = await buildVoter(environment.dataStore.database);
     setInterval(async () => {
         updateAllVotingComponents(environment.discord.client, voter);
     }, 60 * 1000);
+
+    return {
+        createMessage: async (interaction: UnknownInteraction, phrase?: string | null) => {
+            const result = gacha.gachaPepe(phrase ? `${phrase}` : null);
+            const metaData = await environment.dataStore.metadata.get(result.type, result.filename);
+            switch (result.type) {
+                case "ultra":
+                    return [result, embedUltra(ultraIcon, result, metaData, interaction)] as const;
+                case "rare":
+                    return [result, embedRare(rareIcon, result, metaData)] as const;
+                case "simple":
+                    return [result, embedSimple(phrase ? `${phrase}` : null, result, metaData)] as const;
+            }
+        },
+        beginVoting: async (
+            result: PepeResult,
+            client:
+                | ChatInputApplicationCommandInteractionClient
+                | MessageComponentInteractionClient
+                | ContextMenuApplicationCommandInteractionClient,
+        ) => {
+            if (result.type === "rare" || result.type === "simple") {
+                const sentMessage = await client.fetchReply();
+                await voter.beginVoting(sentMessage.channelId, sentMessage.id);
+            }
+        },
+        submitVote: voter.submitVote,
+    };
+};
+
+export const buildEightPepe = async (environment: DiscordEnvironment) => {
+    const messageGenerator = await buildMessageGenerator(environment);
 
     const EightPepe: InteractionPlugin & ComponentPlugin = {
         name: "PepeGPT",
         publishedComponentIds: [...InteractableButtonIds],
         descriptor: {
+            type: ApplicationCommandTypes.ChatInput,
             name: "pepegpt",
             description:
                 "Rabscuttles technology of deep space singularity machine learning will bring up the best Pepe!",
             options: [
                 {
-                    type: ApplicationCommandOptionType.String,
+                    type: ApplicationCommandOptionTypes.String,
                     name: "phrase",
                     description: "Optional seed phrase",
                     required: false,
@@ -224,72 +257,65 @@ export const buildEightPepe = async (environment: DiscordEnvironment) => {
             ],
         },
         onNewInteraction: async (interaction, environment) => {
-            environment.logger.silly("Reached the universal eightpepe");
-            const phrase = interaction.interaction.data.options?.find(
+            const phrase = interaction.data.data.options?.find(
                 x => x.name === "phrase",
-            ) as APIApplicationCommandInteractionDataStringOption | null;
-            const result = gacha.gachaPepe(phrase?.value);
-            const metaData = await environment.dataStore.metadata.get(result.type, result.filename);
-            let message: APIInteractionResponseCallbackData = {};
-            switch (result.type) {
-                case "ultra":
-                    message = embedUltra(ultraIcon, result, metaData, interaction.interaction);
-                    break;
-                case "rare":
-                    message = embedRare(rareIcon, result, metaData);
-                    break;
-                case "simple":
-                    message = embedSimple(phrase?.value, result, metaData);
-                    break;
-                default:
-                    return;
-            }
+            ) as DiscordInteractionDataOption | null;
+            const content = phrase ? `${phrase?.value}` : undefined;
+            const cleanedUpMessage = content
+                ? await environment.discord.messageParser.cleanMessage(content, {
+                      guildSource: interaction.data.guildId ?? "",
+                  })
+                : undefined;
+
+            const [result, message] = await messageGenerator.createMessage(interaction.data, cleanedUpMessage);
             await interaction.reply(message);
-            if (result.type === "rare" || result.type === "simple") {
-                const sentMessage = await environment.discord.client.interactions.response.getOriginal(
-                    interaction.interaction.token,
-                );
-                await voter.beginVoting(sentMessage.data.channel_id, sentMessage.data.id);
-            }
+            messageGenerator.beginVoting(result, interaction);
         },
         onNewButtonClick: async (interaction, _environment) => {
-            logger.warn("reacher button interaction");
-
-            // const channel = interaction.interaction.channel.id;
-            const message = interaction.interaction.message.id;
-            const user = interaction.interaction.member?.user.id ?? interaction.interaction.user?.id;
+            const message = interaction.data.message.id;
+            const user = interaction.data.member?.user.id ?? interaction.data.user?.id;
             if (!user) {
                 logger.warn("could not find user id in this interaction");
                 return;
             }
-            const vote = interaction.interaction.data.custom_id as ButtonId;
+            const vote = interaction.data.data.customId as ButtonId;
             const weight = VoteWeight[vote];
-            const voteValue = await voter.submitVote(message, user, weight);
-            interaction.reply({ ...interaction.interaction.message, components: [buttonRow(voteValue)] });
+            const voteValue = await messageGenerator.submitVote(message, user, weight);
+            interaction.edit({ ...interaction.data.message, components: [buttonRow(voteValue)] });
         },
     };
 
-    return EightPepe;
-};
-
-export const buildPepeThis = (_environment: DiscordEnvironment) => {
     const PepeThis: ContextMenuPlugin = {
         name: "Pepe This!",
         descriptor: {
             name: "Pepe this!",
-            type: ApplicationCommandType.Message,
+            type: ApplicationCommandTypes.Message,
         },
-        onNewContextAction: (interaction, _environment) => {
-            if (interaction.interaction.data.type !== ApplicationCommandType.Message) {
+        onNewContextAction: async (interaction, environment) => {
+            if (interaction.data.data.type !== ApplicationCommandTypes.Message) {
                 interaction.reply({
                     content: "This is not invoked via a context menu, that should not have happened.",
-                    flags: MessageFlags.Ephemeral,
+                    flags: DiscordMessageFlag.Ephemeral,
                 });
                 return;
             }
 
-            interaction.reply({ content: "I have nothing to tell you, yet." });
+            // @todo: narrow types that resolved exists
+            const discordMessage = Object.values(interaction.data.data.resolved!.messages!)[0];
+            const content = discordMessage.content!;
+            const guild = interaction.data.guildId ?? "";
+            const cleanedUpMessage = await environment.discord.messageParser.cleanMessage(content, {
+                guildSource: guild,
+            });
+
+            const [result, message] = await messageGenerator.createMessage(interaction.data, cleanedUpMessage);
+            await interaction.reply(message);
+            messageGenerator.beginVoting(result, interaction);
         },
     };
-    return PepeThis;
+
+    return {
+        eightPepePlugin: EightPepe,
+        pepeThisPlugin: PepeThis,
+    };
 };

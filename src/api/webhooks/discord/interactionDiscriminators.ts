@@ -1,85 +1,65 @@
+import { ApplicationCommandTypes, InteractionTypes } from "@discordeno/types";
 import {
-    APIApplicationCommandAutocompleteInteraction,
-    InteractionType,
-    APIChatInputApplicationCommandInteraction,
-    ApplicationCommandType,
-    APIContextMenuInteraction,
-    APIModalSubmitInteraction,
-    APIMessageComponentInteraction,
-    APIApplicationCommandInteraction,
-    APIPingInteraction,
-} from "discord-api-types/v10";
-import { APIUnknownInteraction } from ".";
+    ApplicationCommandAutocompleteInteraction,
+    ApplicationCommandInteraction,
+    ChatInputApplicationCommandInteraction,
+    ContextMenuApplicationCommandInteraction,
+    MessageComponentInteraction,
+    MessageContextMenuApplicationCommandInteraction,
+    ModalSubmitInteraction,
+    PingInteraction,
+    UnknownInteraction,
+    UserContextMenuApplicationCommandInteraction,
+} from "./types";
 
-// export type InteractionTypes = APIPingInteraction | APIApplicationCommandAutocompleteInteraction |
-
-// @ts-expect-error APIPingInteraction is omitting a field, which typescript does not like
-export const isPingInteraction = (interaction: APIUnknownInteraction): interaction is APIPingInteraction =>
-    interaction.type === InteractionType.Ping;
+export const isPingInteraction = (interaction: UnknownInteraction): interaction is PingInteraction =>
+    interaction.type === InteractionTypes.Ping;
 
 export const isAutocompleteInteraction = (
-    interaction: APIUnknownInteraction,
-): interaction is APIApplicationCommandAutocompleteInteraction =>
-    interaction.type === InteractionType.ApplicationCommandAutocomplete;
+    interaction: UnknownInteraction,
+): interaction is ApplicationCommandAutocompleteInteraction =>
+    interaction.type === InteractionTypes.ApplicationCommandAutocomplete;
 
-export const isApplicationInteraction = (
-    interaction: APIUnknownInteraction,
-): interaction is APIChatInputApplicationCommandInteraction => {
-    if (interaction.type !== InteractionType.ApplicationCommand) {
-        return false;
-    }
-    const applicationCommand = interaction as APIApplicationCommandInteraction;
-    return applicationCommand.data.type === ApplicationCommandType.ChatInput;
-};
+export const isApplicationCommandInteraction = (
+    interaction: UnknownInteraction,
+): interaction is ApplicationCommandInteraction => interaction.type === InteractionTypes.ApplicationCommand;
+
+export const isChatInputApplicationCommandInteraction = (
+    interaction: UnknownInteraction,
+): interaction is ChatInputApplicationCommandInteraction =>
+    isApplicationCommandInteraction(interaction) && interaction.data.type === ApplicationCommandTypes.ChatInput;
 
 export const isContextMenuInteraction = (
-    interaction: APIUnknownInteraction,
-): interaction is APIContextMenuInteraction => {
-    if (interaction.type !== InteractionType.ApplicationCommand) {
-        return false;
-    }
-    const applicationCommand = interaction as APIApplicationCommandInteraction;
-    return (
-        applicationCommand.data.type === ApplicationCommandType.Message ||
-        applicationCommand.data.type === ApplicationCommandType.User
-    );
-};
+    interaction: UnknownInteraction,
+): interaction is ContextMenuApplicationCommandInteraction =>
+    isApplicationCommandInteraction(interaction) &&
+    (interaction.data.type === ApplicationCommandTypes.Message ||
+        interaction.data.type === ApplicationCommandTypes.User);
 
 export const isMessageContextMenuInteraction = (
-    interaction: APIUnknownInteraction,
-): interaction is APIContextMenuInteraction => {
-    if (interaction.type !== InteractionType.ApplicationCommand) {
-        return false;
-    }
-    const applicationCommand = interaction as APIApplicationCommandInteraction;
-    return applicationCommand.data.type === ApplicationCommandType.Message;
-};
+    interaction: UnknownInteraction,
+): interaction is MessageContextMenuApplicationCommandInteraction =>
+    isApplicationCommandInteraction(interaction) && interaction.data.type === ApplicationCommandTypes.Message;
 
 export const isUserContextMenuInteraction = (
-    interaction: APIUnknownInteraction,
-): interaction is APIContextMenuInteraction => {
-    if (interaction.type !== InteractionType.ApplicationCommand) {
-        return false;
-    }
-    const applicationCommand = interaction as APIApplicationCommandInteraction;
-    return applicationCommand.data.type === ApplicationCommandType.User;
-};
+    interaction: UnknownInteraction,
+): interaction is UserContextMenuApplicationCommandInteraction =>
+    isApplicationCommandInteraction(interaction) && interaction.data.type === ApplicationCommandTypes.User;
 
-export const isModalInteraction = (interaction: APIUnknownInteraction): interaction is APIModalSubmitInteraction =>
-    interaction.type === InteractionType.ModalSubmit;
+export const isModalInteraction = (interaction: UnknownInteraction): interaction is ModalSubmitInteraction =>
+    interaction.type === InteractionTypes.ModalSubmit;
 
-export const isComponentInteraction = (
-    interaction: APIUnknownInteraction,
-): interaction is APIMessageComponentInteraction => interaction.type === InteractionType.MessageComponent;
+export const isComponentInteraction = (interaction: UnknownInteraction): interaction is MessageComponentInteraction =>
+    interaction.type === InteractionTypes.MessageComponent;
 
-export const interactionTypeName = (interaction: APIUnknownInteraction) => {
+export const interactionTypeName = (interaction: UnknownInteraction) => {
     if (isPingInteraction(interaction)) {
         return "Ping";
     }
     if (isAutocompleteInteraction(interaction)) {
         return "Autocomplete";
     }
-    if (isApplicationInteraction(interaction)) {
+    if (isChatInputApplicationCommandInteraction(interaction)) {
         return "Slash Command";
     }
     if (isUserContextMenuInteraction(interaction)) {
@@ -97,16 +77,16 @@ export const interactionTypeName = (interaction: APIUnknownInteraction) => {
     return "UNKNOWN";
 };
 
-export const interactionName = (interaction: APIUnknownInteraction) => {
+export const interactionName = (interaction: UnknownInteraction) => {
     if (
         isAutocompleteInteraction(interaction) ||
-        isApplicationInteraction(interaction) ||
+        isChatInputApplicationCommandInteraction(interaction) ||
         isContextMenuInteraction(interaction)
     ) {
         return interaction.data.name;
     }
     if (isModalInteraction(interaction) || isComponentInteraction(interaction)) {
-        return interaction.data.custom_id;
+        return interaction.data.customId;
     }
 
     return interaction.id;

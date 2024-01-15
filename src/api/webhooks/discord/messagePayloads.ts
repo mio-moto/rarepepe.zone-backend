@@ -1,54 +1,51 @@
+import { DiscordMessageFlag, InteractionResponseTypes } from "@discordeno/types";
 import {
-    APIApplicationCommandAutocompleteResponse,
-    APIInteractionResponseCallbackData,
-    InteractionResponseType,
-    APIInteractionResponseChannelMessageWithSource,
-    APIInteractionResponseDeferredChannelMessageWithSource,
-    APIInteractionResponsePong,
-    APICommandAutocompleteInteractionResponseCallbackData,
-    APIModalInteractionResponseCallbackData,
-    APIModalInteractionResponse,
-    APIPremiumRequiredInteractionResponse,
-    APIInteractionResponseDeferredMessageUpdate,
-    APIInteractionResponseUpdateMessage,
-} from "discord-api-types/v10";
+    ApplicationCommandAutocompleteResultData,
+    ApplicationCommandAutocompleteResultResponse,
+    ChannelMessageWithSourceResponse,
+    ChannelMessageWithSourceResponseData,
+    DeferredChannelMessageWithSourceResponse,
+    DeferredUpdateMessageResponse,
+    ModalResponse,
+    ModalResponseData,
+    PongInteractionResponse,
+    PremiumRequiredResponse,
+    UpdateMessageResponse,
+    UpdateMessageResponseData,
+} from "./types";
 
-export const createInteractionResponse_Pong = (): APIInteractionResponsePong => ({
-    type: InteractionResponseType.Pong,
+export const createInteractionResponse_Pong = (): PongInteractionResponse => ({
+    type: InteractionResponseTypes.Pong,
 });
-export const createApplicationCommandResponse_Autocomplete = (
-    data: APICommandAutocompleteInteractionResponseCallbackData,
-): APIApplicationCommandAutocompleteResponse => ({
-    type: InteractionResponseType.ApplicationCommandAutocompleteResult,
+export const createInteractionResponse_Autocomplete = (
+    data: ApplicationCommandAutocompleteResultData,
+): ApplicationCommandAutocompleteResultResponse => ({
+    type: InteractionResponseTypes.ApplicationCommandAutocompleteResult,
     data: data,
 });
-export const createModalInteractionResponse = (
-    data: APIModalInteractionResponseCallbackData,
-): APIModalInteractionResponse => ({
-    type: InteractionResponseType.Modal,
+export const createInteractionResponse_Modal = (data: ModalResponseData): ModalResponse => ({
+    type: InteractionResponseTypes.Modal,
     data: data,
 });
-export const createInteractionResponse_PremiumRequired = (): APIPremiumRequiredInteractionResponse => ({
-    type: InteractionResponseType.PremiumRequired,
+export const createInteractionResponse_PremiumRequired = (): PremiumRequiredResponse => ({
+    type: InteractionResponseTypes.PremiumRequired,
 });
 export const createInteractionResponse_ChannelMessage = (
-    data: APIInteractionResponseCallbackData,
-): APIInteractionResponseChannelMessageWithSource => ({
-    type: InteractionResponseType.ChannelMessageWithSource,
+    data: ChannelMessageWithSourceResponseData,
+): ChannelMessageWithSourceResponse => ({
+    type: InteractionResponseTypes.ChannelMessageWithSource,
     data: data,
 });
 export const createInteractionResponse_DeferredChannelMessage = (
-    data?: Pick<APIInteractionResponseCallbackData, "flags">,
-): APIInteractionResponseDeferredChannelMessageWithSource => ({
-    type: InteractionResponseType.DeferredChannelMessageWithSource,
-    data: data,
+    flags?: DiscordMessageFlag.Ephemeral,
+): DeferredChannelMessageWithSourceResponse => ({
+    type: InteractionResponseTypes.DeferredChannelMessageWithSource,
+    data: { flags: flags },
 });
-export const createInteractionResponse_DeferredMessageUpdate = (): APIInteractionResponseDeferredMessageUpdate => ({
-    type: InteractionResponseType.DeferredMessageUpdate,
+export const createInteractionResponse_DeferredMessageUpdate = (): DeferredUpdateMessageResponse => ({
+    type: InteractionResponseTypes.DeferredUpdateMessage,
 });
-export const createInteractionResponse_UpdateMessage = (
-    data?: APIInteractionResponseCallbackData,
-): APIInteractionResponseUpdateMessage => ({
-    type: InteractionResponseType.UpdateMessage,
+export const createInteractionResponse_UpdateMessage = (data: UpdateMessageResponseData): UpdateMessageResponse => ({
+    type: InteractionResponseTypes.UpdateMessage,
     data: data,
 });

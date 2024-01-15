@@ -81,5 +81,15 @@ export const loggerFactory = (prefix: string) => {
         ],
     });
 };
+
+{
+    // capturing console and redirecting it into winston
+    const logger = loggerFactory("BASE:!Console");
+    console.log = (...args: Parameters<typeof console.log>) => logger.info(args);
+    console.warn = (...args: Parameters<typeof console.warn>) => logger.warn(args);
+    console.error = (...args: Parameters<typeof console.error>) => logger.error(args);
+    console.debug = (...args: Parameters<typeof console.debug>) => logger.debug(args);
+}
+
 const logger = loggerFactory("!Default");
 export default logger;

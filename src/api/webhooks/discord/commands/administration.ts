@@ -1,20 +1,14 @@
-import {
-    RESTPostAPIChatInputApplicationCommandsJSONBody,
-    RESTPostAPIContextMenuApplicationCommandsJSONBody,
-} from "discord-api-types/v10";
 import { DiscordEnvironment, InteractionPlugin, Plugin, Rabscuttle } from "../rabscuttle";
-import { ApplicationCommandUpdateRequest } from "../rest";
 import { loggerFactory } from "#/logging";
+import {
+    ApplicationCommandTypes,
+    CamelizedDiscordCreateApplicationCommand,
+    CreateApplicationCommand,
+} from "@discordeno/types";
 
 const collectPluginDescriptors = (plugins: Plugin[]) => {
-    const globalCommands: (
-        | RESTPostAPIChatInputApplicationCommandsJSONBody
-        | RESTPostAPIContextMenuApplicationCommandsJSONBody
-    )[] = [];
-    const localCommands: Record<
-        string,
-        (RESTPostAPIChatInputApplicationCommandsJSONBody | RESTPostAPIContextMenuApplicationCommandsJSONBody)[]
-    > = {};
+    const globalCommands: CamelizedDiscordCreateApplicationCommand[] = [];
+    const localCommands: Record<string, CamelizedDiscordCreateApplicationCommand[]> = {};
 
     Object.values(plugins).forEach(plugin => {
         if (!("descriptor" in plugin)) {
@@ -40,8 +34,8 @@ const collectPluginDescriptors = (plugins: Plugin[]) => {
     });
 
     return [
-        globalCommands as ApplicationCommandUpdateRequest[],
-        localCommands as Record<string, ApplicationCommandUpdateRequest[]>,
+        globalCommands as CreateApplicationCommand[],
+        localCommands as Record<string, CreateApplicationCommand[]>,
     ] as const;
 };
 
@@ -49,14 +43,15 @@ export const buildCycleCommands = async (getRabs: () => Rabscuttle, { discord }:
     const homeGuilds: string[] = [discord.config.homeGuild];
     const logger = loggerFactory("WEBHK:Discord:Admin");
     const descriptor = {
+        type: ApplicationCommandTypes.ChatInput,
         name: "reload",
         description: "Remove all commands everywhere and run the registering",
-    };
+    } as const;
 
     const response = await discord.client.commands.guild.listAll(discord.config.homeGuild);
-    if (!response.data.some(x => x.name === descriptor.name)) {
+    if (!response.some(x => x.name === descriptor.name)) {
         logger.warn("Reload mechanism is not in home guild, creating it now");
-        await discord.client.commands.guild.create(discord.config.homeGuild, descriptor);
+        await discord.client.commands.guild.create(descriptor, discord.config.homeGuild);
     }
 
     const cycleCommands: InteractionPlugin = {
@@ -64,8 +59,8 @@ export const buildCycleCommands = async (getRabs: () => Rabscuttle, { discord }:
         guilds: homeGuilds,
         name: "ADMIN: Reload Commands",
         descriptor: descriptor,
-        onNewInteraction: async ({ reply, interaction }, { discord }) => {
-            const member = interaction.member?.user ?? interaction.user;
+        onNewInteraction: async ({ reply, data }, { discord }) => {
+            const member = data.member?.user ?? data.user;
             if (
                 !member ||
                 !discord.config.administrators.some(
@@ -90,12 +85,12 @@ export const buildCycleCommands = async (getRabs: () => Rabscuttle, { discord }:
             logger.info(`Requested to overwrite all commands and re-register.`);
 
             const response = await client.commands.global.overwriteAll(gloablCommands);
-            const registeredGlobalCommands = response.data.map(x => x.name);
+            const registeredGlobalCommands = response.map(x => x.name);
             const registeredGuildCommands: Record<string, string[]> = {};
 
             for (const [guild, commands] of Object.entries(localCommands)) {
                 const response = await client.commands.guild.overwriteAll(guild, commands);
-                registeredGuildCommands[guild] = response.data.map(x => x.name);
+                registeredGuildCommands[guild] = response.map(x => x.name);
             }
 
             const report =

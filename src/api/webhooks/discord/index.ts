@@ -1,13 +1,15 @@
 import { Environment } from "#/index";
-import { APIBaseInteraction, APIWebhook, InteractionType } from "discord-api-types/v10";
 import Elysia, { t } from "elysia";
 import { loadDiscordConfig } from "./config";
 import nacl from "tweetnacl";
-import { buildDiscordAPIClient } from "./apiClient";
+import { buildDiscordAPIClient } from "./clients/apiClient";
 import { loggerFactory } from "#/logging";
 import { DiscordEnvironment, buildEventBus } from "./rabscuttle";
-import { buildEightPepe, buildPepeThis } from "./commands/8pepe";
+import { buildEightPepe } from "./commands/8pepe";
 import { buildCycleCommands } from "./commands/administration";
+import { buildMessageParser } from "./messageParser";
+import { camelize, snakelize } from "@discordeno/utils";
+import { Interaction } from "./types";
 
 const logger = loggerFactory("WEBHK:Discord:Request");
 
@@ -22,16 +24,15 @@ export interface GatewayError {
 
 export type AnyGatewayResult = GatewayError | GatewayResultWithBody;
 
-export type APIUnknownInteraction = APIBaseInteraction<InteractionType, unknown>;
-
 type GatewayMessageResult = GatewayResultWithBody | GatewayError;
 const buildDiscordEventBus = async (environment: DiscordEnvironment) => {
     const eventBus = buildEventBus();
-    eventBus.register(await buildEightPepe(environment));
+    const { eightPepePlugin, pepeThisPlugin } = await buildEightPepe(environment);
+    eventBus.register(eightPepePlugin);
+    eventBus.register(pepeThisPlugin);
     eventBus.register(await buildCycleCommands(() => eventBus.plugins, environment));
-    eventBus.register(await buildPepeThis(environment));
 
-    const handleWebhookMessage = async (body: APIUnknownInteraction): Promise<GatewayMessageResult> => {
+    const handleWebhookMessage = async (body: Interaction): Promise<GatewayMessageResult> => {
         return eventBus.onNewInteraction(body, environment);
     };
     return handleWebhookMessage;
@@ -47,25 +48,26 @@ export default async <const Prefix extends string | undefined>(
     const config = await loadDiscordConfig();
     const { allowedApplicationIds, publicKey, applicationId, token } = config;
     const discordClient = buildDiscordAPIClient(applicationId, token);
-    const discordEnvironment = {
-        client: discordClient,
+    const messageParser = buildMessageParser(discordClient);
+
+    const discordEnvironment: DiscordEnvironment = {
         ...environment,
-        discord: { client: discordClient, config: config },
+        discord: { client: discordClient, config: config, messageParser: messageParser },
     };
     const handleWebhookMessage = await buildDiscordEventBus(discordEnvironment);
 
     return new Elysia({ prefix }).post(
         "/",
         async ({ body, set }) => {
-            const probableBody = body as APIUnknownInteraction;
+            const probableBody = body as Interaction;
 
-            if (!("application_id" in probableBody) || !probableBody.application_id) {
+            if (!probableBody.applicationId) {
                 logger.silly("Rejecting request, no 'application_id' in body");
                 set.status = 401;
                 return;
             }
 
-            if (!allowedApplicationIds.includes(probableBody.application_id)) {
+            if (!allowedApplicationIds.includes(probableBody.applicationId)) {
                 logger.silly("Rejecting request, application_id is not in the list of allowed application ids");
                 set.status = 401;
                 return;
@@ -73,9 +75,13 @@ export default async <const Prefix extends string | undefined>(
 
             logger.debug(`Received message payload:\n${JSON.stringify(body)}`);
             const result = await handleWebhookMessage(probableBody);
-            logger.debug(`Responding with:\n${JSON.stringify(result)}`);
+            if (result.status === 400) {
+                return;
+            }
+            const snaked = snakelize(result.body);
+            logger.debug(`Responding with:\n${JSON.stringify(snaked)}`);
             set.status = result.status;
-            return "body" in result ? result.body : undefined;
+            return snaked;
         },
         {
             response: {
@@ -114,7 +120,7 @@ export default async <const Prefix extends string | undefined>(
                 }
 
                 logger.silly("Passed all request checks, parsing body and executing handler");
-                return JSON.parse(requestText) as APIWebhook;
+                return camelize(JSON.parse(requestText)) as Interaction;
             },
         },
     );
