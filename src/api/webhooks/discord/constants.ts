@@ -1,1 +1,1 @@
-export const EightPepeCommand = "pepegpt";
+export const EightPepeCommand = "pepegpt"

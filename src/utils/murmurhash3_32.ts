@@ -191,7 +191,7 @@ function _x64Fmix(h: any[]) {
 // PUBLIC FUNCTIONS
 // ----------------
 
-const hash32 = function (bytes: number[], seed: number) {
+const hash32 = (bytes: number[], seed: number) => {
     //
     // Given a string and an optional seed as an int, returns a 32 bit hash
     // using the x86 flavor of MurmurHash3, as an unsigned int.
@@ -245,7 +245,7 @@ const hash32 = function (bytes: number[], seed: number) {
     return h1 >>> 0;
 };
 
-export const hash128x86 = function (bytes: number[], seed: number) {
+export const hash128x86 = (bytes: number[], seed: number) => {
     //
     // Given a string and an optional seed as an int, returns a 128 bit
     // hash using the x86 flavor of MurmurHash3, as an unsigned hex.
@@ -403,7 +403,7 @@ export const hash128x86 = function (bytes: number[], seed: number) {
     );
 };
 
-export const hash128x64 = function (bytes: number[], seed: number) {
+export const hash128x64 = (bytes: number[], seed: number) => {
     //
     // Given a string and an optional seed as an int, returns a 128 bit
     // hash using the x64 flavor of MurmurHash3, as an unsigned hex.
